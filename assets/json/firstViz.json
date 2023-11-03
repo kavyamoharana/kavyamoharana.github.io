@@ -1,0 +1,19 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+      "url": "https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/building_inventory.csv"
+    },
+    "mark": {"type": "bar", "tooltip": true},
+    "width": "600",
+    "height": "400",
+    "encoding": {
+      "x": {
+        "aggregate": "count",
+        "type": "quantitative",
+        "title": "Number of Buildings"
+      },
+      "y": {"field": "Agency Name", "type": "ordinal", "title": "Agency Name"},
+      "color": {"value": "#9467bd"}
+    },
+    "config": {}
+  }
