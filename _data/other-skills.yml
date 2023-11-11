@@ -1,9 +1,9 @@
-- name: Adobe Photoshop
+- name: Adobe Creative Cloud
   percentage: 95
-  level: Expert
+  level: Proficient
   color: info
 
-- name: Adobe Illustrator
+- name: Google Office Suite
   percentage: 90
   level: Expert
   color: success

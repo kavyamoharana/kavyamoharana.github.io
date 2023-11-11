@@ -7,8 +7,9 @@ weight: 3
 
 # **About Me**
 
-Hi I am **{{ site.author.name }}**,<br>
-possibly a corgi, most definitely not!  Either way there are really neat things I am up to!
+Hello I am **{{ site.author.name }}**,<br>
+a third-year Information Sciences student on the data science and data analytics pathway at the University of Illinois Urbana-Champaign! With a data-oriented major and Computer Science minor, I am passionate about software development, natural language processing and machine learning, and data visualization.
+
 
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
