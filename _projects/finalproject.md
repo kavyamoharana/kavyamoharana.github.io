@@ -1,7 +1,7 @@
 ---
 name: IS 445 Final Project 3.1
 tools: [Python, Altair, vega-lite]
-image: assets/pngs/cars.png
+image: assets/pngs/3.1_cover.png
 description: This is a group final project for IS 445!
 custom_js:
   - vega.min
@@ -16,9 +16,34 @@ custom_js:
 ---
 ### 'City of Urbana Police Arrests' Dataset:
 We are exploring data from the [state of Illinois data portal](https://data.illinois.gov/dataset/police-arrests) which contains records of all arrests by the Urbana Police Department since 1988.
+<!-- 
+Direct [CSV link](https://data.illinois.gov/dataset/1d18ecc0-3c7e-4507-b8cc-7a5e30359d44/resource/ca1dceb3-01f8-4a56-935b-7e3035ff60a4/download/police-arrests-upload_20191226.csv) to dataset -->
 
-Direct [CSV link](https://data.illinois.gov/dataset/1d18ecc0-3c7e-4507-b8cc-7a5e30359d44/resource/ca1dceb3-01f8-4a56-935b-7e3035ff60a4/download/police-arrests-upload_20191226.csv) to dataset
+<!-- <div class="left">
+{% include elements/button.html link="https://data.illinois.gov/dataset/1d18ecc0-3c7e-4507-b8cc-7a5e30359d44/resource/ca1dceb3-01f8-4a56-935b-7e3035ff60a4/download/police-arrests-upload_20191226.csv" text="The Dataset" %}
+</div>
+<div class="left">
+{% include elements/button.html link="https://github.com/jnaiman/online_cv_public/blob/main/python_notebooks/test_generate_plots.ipynb" text="The Analysis (Jupyter Notebook)" %}
+</div> -->
+<style>
+  .left {
+    display: inline-block;
+    margin-right: 10px; /* Adjust the margin as needed for spacing */
+  }
+</style>
 
+<div class="left">
+  {% include elements/button.html link="https://data.illinois.gov/dataset/1d18ecc0-3c7e-4507-b8cc-7a5e30359d44/resource/ca1dceb3-01f8-4a56-935b-7e3035ff60a4/download/police-arrests-upload_20191226.csv" text="The Dataset" %}
+</div>
+<div class="left">
+  {% include elements/button.html link="https://github.com/jnaiman/online_cv_public/blob/main/python_notebooks/test_generate_plots.ipynb" text="The Analysis (Jupyter Notebook)" %}
+</div>
+<br>
+
+
+<br>
+<br>
+<br>
 
 #### Chart 1:
 *bar chart visualizing types of arrests made*
