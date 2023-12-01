@@ -1,5 +1,5 @@
-- name: Adobe Creative Cloud
-  percentage: 95
+- name: Canva Design
+  percentage: 70
   level: Proficient
   color: info
 
@@ -7,3 +7,8 @@
   percentage: 90
   level: Expert
   color: success
+
+- name: Adobe Creative Cloud
+  percentage: 50
+  level: Proficient
+  color: secondary
