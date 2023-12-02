@@ -23,11 +23,11 @@
 
   <meta property="og:type" content="website">
   <meta property="og:title" content="IS 445 Final Project 3.1">
-  <meta property="og:description" content="This is a group final project for IS 445!">
+  <meta property="og:description" content="This is a interactive data visualization article for the general public, as a part of the group final project for IS 445!">
   <meta property="og:image" content="assets/pngs/3.1_cover.png">
 
   <title>IS 445 Final Project 3.1</title>
-  <meta name="description" content="This is a group final project for IS 445!">
+  <meta name="description" content="This is a interactive data visualization article for the general public, as a part of the group final project for IS 445!">
 
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
 
@@ -74,13 +74,15 @@
 
 </nav>
     <div class="col-lg-10 mx-auto mt-5 markdown-body">
-  <h1 id="final-project-part-31">Final Project Part 3.1</h1>
-<h5 id="team-members-kavya-moharana-sanjana-pai-ridah-shaikh-shreshika-bommana">Team Members: Kavya Moharana, Sanjana Pai, Ridah Shaikh, Shreshika Bommana</h5>
+  <h2 id="inside-urbanas-arrests-data-a-visual-narrative">Inside Urbana’s Arrests Data: A Visual Narrative</h2>
+<p>Authors: Kavya Moharana, Sanjana Pai, Ridah Shaikh, Shreshika Bommana</p>
+
 <hr />
-<h3 id="city-of-urbana-police-arrests-dataset">‘City of Urbana Police Arrests’ Dataset:</h3>
-<p>We are exploring data from the <a href="https://data.illinois.gov/dataset/police-arrests">state of Illinois data portal</a> which contains records of all arrests by the Urbana Police Department since 1988.
+
+<!-- ### 'City of Urbana Police Arrests' Dataset:
+We are exploring data from the [state of Illinois data portal](https://data.illinois.gov/dataset/police-arrests) which contains records of all arrests by the Urbana Police Department since 1988. -->
 <!-- 
-Direct [CSV link](https://data.illinois.gov/dataset/1d18ecc0-3c7e-4507-b8cc-7a5e30359d44/resource/ca1dceb3-01f8-4a56-935b-7e3035ff60a4/download/police-arrests-upload_20191226.csv) to dataset --></p>
+Direct [CSV link](https://data.illinois.gov/dataset/1d18ecc0-3c7e-4507-b8cc-7a5e30359d44/resource/ca1dceb3-01f8-4a56-935b-7e3035ff60a4/download/police-arrests-upload_20191226.csv) to dataset -->
 
 <!-- <div class="left">
 <a class="m-1 btn btn-outline-primary btn-2 " href="https://data.illinois.gov/dataset/1d18ecc0-3c7e-4507-b8cc-7a5e30359d44/resource/ca1dceb3-01f8-4a56-935b-7e3035ff60a4/download/police-arrests-upload_20191226.csv">
@@ -92,6 +94,7 @@ Direct [CSV link](https://data.illinois.gov/dataset/1d18ecc0-3c7e-4507-b8cc-7a5e
   The Analysis (Jupyter Notebook)
 </a>
 </div> -->
+
 <style>
   .left {
     display: inline-block;
@@ -112,49 +115,60 @@ Direct [CSV link](https://data.illinois.gov/dataset/1d18ecc0-3c7e-4507-b8cc-7a5e
 <p><br /></p>
 
 <p><br />
-<br />
 <br /></p>
 
-<h4 id="chart-1">Chart 1:</h4>
-<p><em>bar chart visualizing types of arrests made</em></p>
+<style>
+  .image-caption {
+    font-size: 14px; /* Adjust the font size as needed */
+  }
+</style>
 
-<vegachart schema-url="/assets/json/3.1_chart1.v3.json" style="width: 100%"></vegachart>
+<p><img src="/assets/pngs/contextviz1.png" alt="image tooltip here" /></p>
 
-<h4 id="chart-2">Chart 2:</h4>
-<p><em>bar chart visualizing the residency distribution of arrestees</em></p>
-
-<vegachart schema-url="/assets/json/3.1_chart2.v3.json" style="width: 100%"></vegachart>
-
-<h4 id="interactive-plot">Interactive Plot:</h4>
-<p><em>interactive charts visualizing average age and arrest resolution alongside employment, from 1993 to 2019</em></p>
-
-<vegachart schema-url="/assets/json/3.1_interactive_v2.json" style="width: 100%"></vegachart>
-<hr />
-<h4 id="contextual-visualizations">Contextual Visualizations:</h4>
-<p><img src="/assets/pngs/contextviz1.png" alt="image tooltip here" />
-Urbana, Illinois (IL 61802) Profile. https://www.city-data.com/city/Urbana-Illinois.html. Accessed 1 Dec. 2023.</p>
-
-<!-- <iframe width="720px" height="480px" src="https://datausa.io/profile/geo/urbana-il/demographics/race_and_ethnicity?viz=true" frameborder="0" ></iframe> -->
-<p><img src="/assets/pngs/contextviz2.png" alt="image tooltip here" />
-Urbana, IL | Data USA. https://datausa.io/profile/geo/urbana-il#race_and_ethnicity. Accessed 1 Dec. 2023.</p>
-
-<p><br /></p>
-<h4 id="data-visualization-for-the-public-write-up"><em>Data Visualization for the Public</em> Write-Up</h4>
-<p><br /></p>
-
-<!-- these are written in a combo of html and liquid -->
-
-<div class="left">
-<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/vega/vega/blob/main/docs/data/cars.json">
-  The Data
-</a>
+<div class="image-caption">
+  Source: Urbana, Illinois Profile. <a href="https://www.city-data.com/city/Urbana-Illinois.html" target="_blank">city-data.com/city/Urbana-Illinois.html</a>. Accessed 1 Dec. 2023.
 </div>
 
-<div class="right">
-<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/jnaiman/online_cv_public/blob/main/python_notebooks/test_generate_plots.ipynb">
-  The Analysis
-</a>
-</div>
+<p><br />
+The University of Illinois Urbana-Champaign, as its name indicates, is located in both Urbana, Illinois and Champaign, Illinois. As a safety measure, students on campus tend to receive alert emails and/or text messages related to crimes occurring in the campus area in an effort to keep students informed about any possible safety concerns. As such, we thought it would be interesting to explore the arrest records of Urbana, which is generally considered the safer town of the campus. Our <a href="https://data.illinois.gov/dataset/1d18ecc0-3c7e-4507-b8cc-7a5e30359d44/resource/ca1dceb3-01f8-4a56-935b-7e3035ff60a4/download/police-arrests-upload_20191226.csv">dataset</a> contains all of the arrests made by the Urbana police since 1988. The dataset includes the demographics of each of the arrestees, including their age, race, employment status, arrest resolution, etc. The aforementioned variables were of particular interest to us. As the map above shows, Urbana is located in east-central Illinois.</p>
+
+<h5 id="visualizing-average-age-and-arrest-resolution-alongside-employment-status">Visualizing Average Age and Arrest Resolution alongside Employment Status</h5>
+
+<p>We have created a visualization that displays some of the important descriptors of those arrested in Urbana. Our graphs feature a dropdown menu allowing you to choose which year’s data will be shown, ranging from 1993 to 2019. Upon selecting a year, both the bar graph and the pie chart will update to display the information specific to that year. The bar graph on the left shows the average age of arrestees depending on the resolution of their arrest. These resolutions are whether the arrestee was bonded out (either individually or through another party), given a notice to appear in either municipal or state court, issued a “Promise to Comply,” or taken to jail. The pie chart on the right shows the distribution of the employment status for everyone who was arrested during the selected year. The statuses include employed, unemployed, full-time student, and military for certain years. Hovering over the graphs displays a tooltip that contains their specific information. The color of the bar graph was chosen to be maroon, since a red color scheme is typically associated with crime. The pie chart has similar color patterns as well. Explore the visualization below!</p>
+
+<p><em>Select a year from 1993 to 2019</em></p>
+
+<vegachart schema-url="/assets/json/3.1.interactive.final.json" style="width: 100%"></vegachart>
+<p><br />
+During our own exploration of the dataset, one of the interesting things we discovered was regarding the employment status of those arrested. During the earlier years, the majority of the arrestees had an employment status of employed. However, as the years progressed closer to present, the majority shifted to unemployed. This is a change would be fascinating to explore further.</p>
+
+<p>Another variable we wanted to explore from our dataset was the race of the arrestees. However, we deemed it necessary to emphasize the complicated nature of discussing race in such datasets. Throughout the years, the definition of race has changed as it is a subjective categorization of people in a society. As such, it is important to preface our visualization with this information. The following infographic shows the composition of races and ethinicities in Urbana, Illinois by year from 2013 to 2021, allowing us to get a general sense of the distribution of races for our dataset.</p>
+
+<iframe width="720px" height="480px" src="https://datausa.io/profile/geo/urbana-il/demographics/race_and_ethnicity?viz=true" frameborder="0"></iframe>
+<p>Urbana, IL | Data USA. <a href="https://datausa.io/profile/geo/urbana-il#race_and_ethnicity">datausa.io/profile/geo/urbana-il#race_and_ethnicity</a>. Accessed 1 Dec. 2023.</p>
+
+<p>Based on this infographic, we can see that the race most dominant in the population of Urbana is white (non-Hispanic), with over 50% every year displayed. The distribution of Black or African American (non-Hispanic) and Asian (non-Hispanic) individuals tended to be between 16% and 20% each.</p>
+
+<p>Taking a closer look at the race distribution for our dataset, we noticed that the arrestees were predominantly Black or white. These races account for about 41.8% and 49.9% of the people arrested, respectively. The breakdown of races displays a majority-white population in Urbana with Black people and Asian people making up a third of the population combined. These are important contextual statistics to consider when analyzing arrestee data.</p>
+
+<h5 id="arrests-in-urbana-by-race">Arrests in Urbana by Race:</h5>
+
+<vegachart schema-url="/assets/json/race_finalversion.json" style="width: 100%"></vegachart>
+
+<!-- ##### Residency Distribution of Arrestees:
+
+<vegachart schema-url="/assets/json/3.1_chart2.v3.json" style="width: 100%"></vegachart> -->
+
+<p>The arrest data for Urbana, Illinois reveals several interesting trends over time. The employment status of arrestees has shifted from predominantly employed to unemployed in recent years. Additionally, the age distribution of arrestees has shifted towards younger individuals. This data highlights the need for further exploration of the factors contributing to these trends.</p>
+
+<!-- #### Contextual Visualizations:
+
+
+<iframe width="720px" height="480px" src="https://datausa.io/profile/geo/urbana-il/demographics/race_and_ethnicity?viz=true" frameborder="0" ></iframe>
+![image tooltip here](/assets/pngs/contextviz2.png)
+Urbana, IL | Data USA. https://datausa.io/profile/geo/urbana-il#race_and_ethnicity. Accessed 1 Dec. 2023. -->
+
+<p><br /></p>
 
 
 </div>
