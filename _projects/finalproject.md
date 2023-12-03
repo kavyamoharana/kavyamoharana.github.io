@@ -1,8 +1,8 @@
 ---
-name: IS 445 Final Project 3.1
+name: Inside Urbana's Arrests Data, A Visual Narrative
 tools: [Python, Altair, vega-lite]
-image: assets/pngs/3.1_cover.png
-description: This is a interactive data visualization article for the general public, as a part of the group final project for IS 445!
+image: assets/pngs/contextviz1.png
+description: This is an interactive data visualization project exploring police arrests data in Urbana, Illinois!
 custom_js:
   - vega.min
   - vega-lite.min
