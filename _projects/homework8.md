@@ -13,7 +13,7 @@ custom_js:
 ## Homework 8
 
 
-**using the Bigfoot dataset**: https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/bfro_reports_fall2022.csv
+**This homework assignment uses the [Bigfoot dataset](https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/bfro_reports_fall2022.csv) !**
 
 ------
 
@@ -39,3 +39,11 @@ The first plot highlights the relationship between lowest temperature readings a
 
 The second plot displays the correlation between highest temperature readings and dewpoint categorized by the four seasons and the 10 states with the most bigfoot observations in the dataset. This interactive plot was more challenging to implement because I had to spend more time figuring out which selection tool to use and how to input element binding. Since I was dealing with categorical variables like 'state' and 'season', I decided to follow one of the examples on the vega-lite documentation but I changed the range slider to a dropdown menu. The resulting plot allows users to view all the points by color-coded seasons and then select a specific state and season combination, which greys out all other points.  
 
+<div class="left">
+{% include elements/button.html link="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/bfro_reports_fall2022.csv" text="The Data" %}
+</div>
+
+<div class="right">
+{% include elements/button.html link="https://github.com/jnaiman/online_cv_public/blob/main/python_notebooks/test_generate_plots.ipynb" text="The Analysis" %}
+</div>
+ 
