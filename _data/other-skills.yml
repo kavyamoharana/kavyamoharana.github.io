@@ -1,14 +1,14 @@
+- name: Google & Microsoft Office Suites
+  percentage: 90
+  level: Expert
+  color: success
+
 - name: Canva Design
   percentage: 70
   level: Proficient
   color: info
 
-- name: Google Office Suite
-  percentage: 90
-  level: Expert
-  color: success
-
-- name: Adobe Creative Cloud
-  percentage: 50
-  level: Proficient
-  color: secondary
+# - name: Adobe Creative Cloud
+#   percentage: 50
+#   level: Proficient
+#   color: secondary

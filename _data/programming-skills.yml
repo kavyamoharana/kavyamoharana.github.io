@@ -1,12 +1,12 @@
+- name: Python
+  percentage: 75
+  level: Intermediate
+  color: success
+
 - name: C++
   percentage: 60
   level: Proficient
   color: info
-
-- name: Python
-  percentage: 70
-  level: Intermediate
-  color: success
 
 - name: Java
   percentage: 50
@@ -14,6 +14,6 @@
   color: secondary
 
 - name: SQL
-  percentage: 30
+  percentage: 40
   level: Beginner
   color: secondary
