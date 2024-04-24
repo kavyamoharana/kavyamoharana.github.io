@@ -1,5 +1,5 @@
 ---
-name: IS 445 - Visualization with Altair and Vega-lite
+name: Exploring Altair and Vega-lite (IS 445)
 tools: [Python, Altair, HTML, vega-lite]
 image: assets/pngs/hw8-cover.png
 description: This is an assignment which uses Python, Altair, and vega-lite for interactive viz!
