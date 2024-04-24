@@ -1,8 +1,8 @@
 ---
-name: IS 445 Homework 8
+name: IS 445 - Visualization with Altair and Vega-lite
 tools: [Python, Altair, HTML, vega-lite]
 image: assets/pngs/hw8-cover.png
-description: This is a homework assignment which uses Python, Altair, and vega-lite for interactive viz!
+description: This is an assignment which uses Python, Altair, and vega-lite for interactive viz!
 custom_js:
   - vega.min
   - vega-lite.min
@@ -17,16 +17,14 @@ custom_js:
 
 ------
 
-#### Plot 1:
-*scatterplot visualizing the relationship between low temperatures and dew point with humidity*
+##### Plot 1: Scatterplot visualizing the relationship between low temperatures and dew point with humidity
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/chart2_final2.json" style="width: 100%"></vegachart>
 
 
 ------
 
-#### Plot 2 (with interactivity):
-*scatterplot visualizing the relationship between high temperatures and dew point by season and state*
+##### Plot 2: Scatterplot visualizing the relationship between high temperatures and dew point by season and state
 
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/chart3.json" style="width: 100%"></vegachart>

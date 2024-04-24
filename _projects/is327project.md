@@ -1,5 +1,5 @@
 ---
-name: Global Temperature Trends Over Time
+name: Project - Global Temperature Trends Over Time
 tools: [Python, Scikit-Learn, Pandas]
 image: assets/pngs/cars.png
 description: This is a machine learning project that uses Python's scikit-learn library for linear regression modeling and clustering analysis on climate change trends.
