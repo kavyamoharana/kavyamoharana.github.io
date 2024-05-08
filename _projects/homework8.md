@@ -1,7 +1,7 @@
 ---
 name: Exploring Altair and Vega-lite (IS 445)
 tools: [Python, Altair, HTML, vega-lite]
-image: assets/pngs/hw8-cover.png
+image: assets/pngs/hw8.png
 description: This is an assignment which uses Python, Altair, and vega-lite for interactive viz!
 custom_js:
   - vega.min

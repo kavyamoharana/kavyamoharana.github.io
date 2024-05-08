@@ -22,12 +22,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Kavya Moharana Portfolio">
-  <meta property="og:description" content="">
-  <meta property="og:image" content="/assets/jpegs/quadpfp.jpg">
+  <meta property="og:title" content="The Heart of CampusTown - Analyzing Green Street’s Most Popular Restaurants">
+  <meta property="og:description" content="CS 410 project using Python's NLTK library for text sentiment analysis of Yelp reviews for popular UIUC restaurants">
+  <meta property="og:image" content="assets/jpegs/campustown-2.jpg">
 
-  <title>Kavya Moharana Portfolio</title>
-  <meta name="description" content="">
+  <title>The Heart of CampusTown - Analyzing Green Street’s Most Popular Restaurants</title>
+  <meta name="description" content="CS 410 project using Python's NLTK library for text sentiment analysis of Yelp reviews for popular UIUC restaurants">
 
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
 
@@ -60,7 +60,7 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/projects/">Projects</a>
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link active" href="/projects/">Projects</a>
 
       <a class="nav-item nav-link " href="/about/">About</a>
 
@@ -71,22 +71,25 @@
   </div>
 
 </nav>
-    <div class="row justify-content-center align-items-center p-4">
-  <div class="col-lg-4 col-md-6 text-center mt-4">
+    <div class="col-lg-10 mx-auto mt-5 markdown-body">
+  <h2 id="the-heart-of-campustown-analyzing-green-streets-most-popular-restaurants">The Heart of CampusTown: Analyzing Green Street’s Most Popular Restaurants</h2>
+<p><em>Final project for <a href="https://cs.illinois.edu/academics/courses/cs410">CS 410</a>: Text Information Systems at UIUC</em></p>
 
-    <!-- Fine Circle Responsive Image -->
-    <div id="container" class="my-2">
-      <div id="dummy"></div>
-      <div id="element">
-        <img src="/assets/jpegs/quadpfp.jpg" alt="Kavya Moharana Portfolio" class="circle-image wow animated zoomIn" data-wow-delay=".1s" />
-      </div>
-    </div>
+<p>Group Members: Pranav Chandra, Kavya Moharana, Sriya Mikkilineni, Aryan Vaswani</p>
 
-    <p class="text-muted wow animated slideInUp" data-wow-delay=".15s"></p>
+<h4 id="abstract">Abstract</h4>
+<p>Green Street’s wide variety of restaurants and cafes is an integral part of student life at the University of Illinois at Urbana-Champaign. Known as the “Heart of Campustown”, these establishments provide an important cultural and social hub for students, faculty, and residents. We intend to conduct sentiment analysis of the Yelp reviews for multiple major restaurants on this historical street. We will analyze online reviews over time periods to determine how students and food enthusiasts perceive these restaurants. Through this evaluation, we can see how the reception of these popular food spots has changed over the past decade.</p>
 
-  </div>
+<h4 id="the-data">The Data</h4>
+<p>We utilized two different datasets during this project: the first from <a href="https://www.kaggle.com/datasets/hhalalwi/yelp-light">Kaggle</a> for the testing of five different models and one for the evaluation of our actual project. To understand why we needed two  models, we need to look at <a href="https://docs.developer.yelp.com/docs/graphql-basic-usage">Yelp’s GraphQL API</a> documentation. For this project, we have identified 12 restaurants on Green Street for which we were interested in understanding peoples’ sentiments towards them over time, as shown in Figure 1. However, because Yelp API is still in its beta stage, we are limited to only the first three reviews on each restaurant’s Yelp page. While severely limits our ability in trying to understand Champaign’s preferences, our code still shows sentiments over a couple of months. When the API limits increase, we would only have to re-run the code as is to get all the data.</p>
+
+<vegachart schema-url="/assets/json/chart2_410.json" style="width: 100%"></vegachart>
+<p>Figure 1</p>
+
+<vegachart schema-url="/assets/json/chart1_410.json" style="width: 100%"></vegachart>
+<p>Figure 2</p>
+
 </div>
-
   </main>
   <footer class="mt-auto py-3 text-center">
 
@@ -124,6 +127,17 @@
 
 </footer>
 
+
+<!-- Custom page specific js files -->
+  
+    <script src='/assets/js/vega.min.js' type="text/javascript"></script>
+  
+    <script src='/assets/js/vega-lite.min.js' type="text/javascript"></script>
+  
+    <script src='/assets/js/vega-embed.min.js' type="text/javascript"></script>
+  
+    <script src='/assets/js/justcharts.js' type="text/javascript"></script>
+  
 
 
 

@@ -2,7 +2,7 @@
 name: Project - Inside Urbana's Arrests Data, A Visual Narrative
 tools: [Python, Altair, vega-lite]
 image: assets/pngs/contextviz1.png
-description: This is an interactive data visualization project exploring police arrests data in Urbana, Illinois!
+description: interactive data visualization project exploring police arrests data in Urbana, Illinois
 custom_js:
   - vega.min
   - vega-lite.min
