@@ -8,7 +8,7 @@
   level: Proficient
   color: info
 
-# - name: Adobe Creative Cloud
-#   percentage: 50
-#   level: Proficient
-#   color: secondary
+- name: Figma Design
+  percentage: 63
+  level: Proficient
+  color: info

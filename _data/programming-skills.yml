@@ -4,16 +4,16 @@
   color: success
 
 - name: C++
-  percentage: 60
+  percentage: 65
   level: Proficient
   color: info
 
-- name: Java
+- name: SQL
   percentage: 50
   level: Proficient
   color: secondary
 
-- name: SQL
-  percentage: 40
-  level: Beginner
+- name: Java
+  percentage: 45
+  level: Competent
   color: secondary
