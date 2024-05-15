@@ -1,7 +1,7 @@
 ---
 name: The Heart of CampusTown - Analyzing Green Street’s Most Popular Restaurants
 tools: [Python, NLTK, Scikit-Learn]
-image: assets/jpegs/campustown-2.jpg
+image: assets/pngs/campustown-3.png
 description: Project using Python's NLTK library for text sentiment analysis of Yelp reviews for popular UIUC restaurants
 custom_js:
   - vega.min
