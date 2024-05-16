@@ -1,0 +1,4211 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "background": "white",
+  "padding": 5,
+  "width": 600,
+  "height": 400,
+  "title": {
+    "text": "Linear Regression for Summer Temperatures in Major US Cities",
+    "frame": "group"
+  },
+  "style": "cell",
+  "data": [
+    {"name": "param_8_store"},
+    {
+      "name": "data-272edbfdf5cb87d1117990ef301f8645",
+      "values": [
+        {
+          "Date": "1850-06-01T00:00:00",
+          "AverageTemperature": 18.399,
+          "AverageTemperatureUncertainty": 1.006,
+          "Country": "United States",
+          "Year": 1850,
+          "Month": 6
+        },
+        {
+          "Date": "1850-07-01T00:00:00",
+          "AverageTemperature": 21.577,
+          "AverageTemperatureUncertainty": 1.143,
+          "Country": "United States",
+          "Year": 1850,
+          "Month": 7
+        },
+        {
+          "Date": "1850-08-01T00:00:00",
+          "AverageTemperature": 21.305,
+          "AverageTemperatureUncertainty": 1.172,
+          "Country": "United States",
+          "Year": 1850,
+          "Month": 8
+        },
+        {
+          "Date": "1851-06-01T00:00:00",
+          "AverageTemperature": 18.762,
+          "AverageTemperatureUncertainty": 0.84,
+          "Country": "United States",
+          "Year": 1851,
+          "Month": 6
+        },
+        {
+          "Date": "1851-07-01T00:00:00",
+          "AverageTemperature": 21.42,
+          "AverageTemperatureUncertainty": 1.889,
+          "Country": "United States",
+          "Year": 1851,
+          "Month": 7
+        },
+        {
+          "Date": "1851-08-01T00:00:00",
+          "AverageTemperature": 20.416,
+          "AverageTemperatureUncertainty": 1.711,
+          "Country": "United States",
+          "Year": 1851,
+          "Month": 8
+        },
+        {
+          "Date": "1852-06-01T00:00:00",
+          "AverageTemperature": 18.787,
+          "AverageTemperatureUncertainty": 0.83,
+          "Country": "United States",
+          "Year": 1852,
+          "Month": 6
+        },
+        {
+          "Date": "1852-07-01T00:00:00",
+          "AverageTemperature": 21.327,
+          "AverageTemperatureUncertainty": 1.539,
+          "Country": "United States",
+          "Year": 1852,
+          "Month": 7
+        },
+        {
+          "Date": "1852-08-01T00:00:00",
+          "AverageTemperature": 19.911,
+          "AverageTemperatureUncertainty": 0.982,
+          "Country": "United States",
+          "Year": 1852,
+          "Month": 8
+        },
+        {
+          "Date": "1853-06-01T00:00:00",
+          "AverageTemperature": 19.101,
+          "AverageTemperatureUncertainty": 1.021,
+          "Country": "United States",
+          "Year": 1853,
+          "Month": 6
+        },
+        {
+          "Date": "1853-07-01T00:00:00",
+          "AverageTemperature": 20.894,
+          "AverageTemperatureUncertainty": 0.93,
+          "Country": "United States",
+          "Year": 1853,
+          "Month": 7
+        },
+        {
+          "Date": "1853-08-01T00:00:00",
+          "AverageTemperature": 19.869,
+          "AverageTemperatureUncertainty": 1.196,
+          "Country": "United States",
+          "Year": 1853,
+          "Month": 8
+        },
+        {
+          "Date": "1854-06-01T00:00:00",
+          "AverageTemperature": 18.509,
+          "AverageTemperatureUncertainty": 1.367,
+          "Country": "United States",
+          "Year": 1854,
+          "Month": 6
+        },
+        {
+          "Date": "1854-07-01T00:00:00",
+          "AverageTemperature": 22.205,
+          "AverageTemperatureUncertainty": 1.421,
+          "Country": "United States",
+          "Year": 1854,
+          "Month": 7
+        },
+        {
+          "Date": "1854-08-01T00:00:00",
+          "AverageTemperature": 20.667,
+          "AverageTemperatureUncertainty": 1.916,
+          "Country": "United States",
+          "Year": 1854,
+          "Month": 8
+        },
+        {
+          "Date": "1855-06-01T00:00:00",
+          "AverageTemperature": 18.57,
+          "AverageTemperatureUncertainty": 1.239,
+          "Country": "United States",
+          "Year": 1855,
+          "Month": 6
+        },
+        {
+          "Date": "1855-07-01T00:00:00",
+          "AverageTemperature": 21.358,
+          "AverageTemperatureUncertainty": 1.106,
+          "Country": "United States",
+          "Year": 1855,
+          "Month": 7
+        },
+        {
+          "Date": "1855-08-01T00:00:00",
+          "AverageTemperature": 20.053,
+          "AverageTemperatureUncertainty": 1.087,
+          "Country": "United States",
+          "Year": 1855,
+          "Month": 8
+        },
+        {
+          "Date": "1856-06-01T00:00:00",
+          "AverageTemperature": 19.978,
+          "AverageTemperatureUncertainty": 1.4169999999999998,
+          "Country": "United States",
+          "Year": 1856,
+          "Month": 6
+        },
+        {
+          "Date": "1856-07-01T00:00:00",
+          "AverageTemperature": 22.019,
+          "AverageTemperatureUncertainty": 0.82,
+          "Country": "United States",
+          "Year": 1856,
+          "Month": 7
+        },
+        {
+          "Date": "1856-08-01T00:00:00",
+          "AverageTemperature": 19.801,
+          "AverageTemperatureUncertainty": 1.755,
+          "Country": "United States",
+          "Year": 1856,
+          "Month": 8
+        },
+        {
+          "Date": "1857-06-01T00:00:00",
+          "AverageTemperature": 18.802,
+          "AverageTemperatureUncertainty": 0.902,
+          "Country": "United States",
+          "Year": 1857,
+          "Month": 6
+        },
+        {
+          "Date": "1857-07-01T00:00:00",
+          "AverageTemperature": 21.27,
+          "AverageTemperatureUncertainty": 1.031,
+          "Country": "United States",
+          "Year": 1857,
+          "Month": 7
+        },
+        {
+          "Date": "1857-08-01T00:00:00",
+          "AverageTemperature": 19.998,
+          "AverageTemperatureUncertainty": 1.258,
+          "Country": "United States",
+          "Year": 1857,
+          "Month": 8
+        },
+        {
+          "Date": "1858-06-01T00:00:00",
+          "AverageTemperature": 18.995,
+          "AverageTemperatureUncertainty": 1.3730000000000002,
+          "Country": "United States",
+          "Year": 1858,
+          "Month": 6
+        },
+        {
+          "Date": "1858-07-01T00:00:00",
+          "AverageTemperature": 21.112,
+          "AverageTemperatureUncertainty": 1.257,
+          "Country": "United States",
+          "Year": 1858,
+          "Month": 7
+        },
+        {
+          "Date": "1858-08-01T00:00:00",
+          "AverageTemperature": 19.787,
+          "AverageTemperatureUncertainty": 1.315,
+          "Country": "United States",
+          "Year": 1858,
+          "Month": 8
+        },
+        {
+          "Date": "1859-06-01T00:00:00",
+          "AverageTemperature": 18.836,
+          "AverageTemperatureUncertainty": 1.078,
+          "Country": "United States",
+          "Year": 1859,
+          "Month": 6
+        },
+        {
+          "Date": "1859-07-01T00:00:00",
+          "AverageTemperature": 20.808000000000003,
+          "AverageTemperatureUncertainty": 1.35,
+          "Country": "United States",
+          "Year": 1859,
+          "Month": 7
+        },
+        {
+          "Date": "1859-08-01T00:00:00",
+          "AverageTemperature": 19.616,
+          "AverageTemperatureUncertainty": 1.304,
+          "Country": "United States",
+          "Year": 1859,
+          "Month": 8
+        },
+        {
+          "Date": "1860-06-01T00:00:00",
+          "AverageTemperature": 18.693,
+          "AverageTemperatureUncertainty": 0.942,
+          "Country": "United States",
+          "Year": 1860,
+          "Month": 6
+        },
+        {
+          "Date": "1860-07-01T00:00:00",
+          "AverageTemperature": 21.548,
+          "AverageTemperatureUncertainty": 0.713,
+          "Country": "United States",
+          "Year": 1860,
+          "Month": 7
+        },
+        {
+          "Date": "1860-08-01T00:00:00",
+          "AverageTemperature": 20.256,
+          "AverageTemperatureUncertainty": 0.899,
+          "Country": "United States",
+          "Year": 1860,
+          "Month": 8
+        },
+        {
+          "Date": "1861-06-01T00:00:00",
+          "AverageTemperature": 19.429,
+          "AverageTemperatureUncertainty": 1.423,
+          "Country": "United States",
+          "Year": 1861,
+          "Month": 6
+        },
+        {
+          "Date": "1861-07-01T00:00:00",
+          "AverageTemperature": 21.232,
+          "AverageTemperatureUncertainty": 1.109,
+          "Country": "United States",
+          "Year": 1861,
+          "Month": 7
+        },
+        {
+          "Date": "1861-08-01T00:00:00",
+          "AverageTemperature": 19.954,
+          "AverageTemperatureUncertainty": 0.921,
+          "Country": "United States",
+          "Year": 1861,
+          "Month": 8
+        },
+        {
+          "Date": "1862-06-01T00:00:00",
+          "AverageTemperature": 18.554,
+          "AverageTemperatureUncertainty": 1.096,
+          "Country": "United States",
+          "Year": 1862,
+          "Month": 6
+        },
+        {
+          "Date": "1862-07-01T00:00:00",
+          "AverageTemperature": 21.368,
+          "AverageTemperatureUncertainty": 1.109,
+          "Country": "United States",
+          "Year": 1862,
+          "Month": 7
+        },
+        {
+          "Date": "1862-08-01T00:00:00",
+          "AverageTemperature": 20.505,
+          "AverageTemperatureUncertainty": 1.071,
+          "Country": "United States",
+          "Year": 1862,
+          "Month": 8
+        },
+        {
+          "Date": "1863-06-01T00:00:00",
+          "AverageTemperature": 18.404,
+          "AverageTemperatureUncertainty": 0.8809999999999999,
+          "Country": "United States",
+          "Year": 1863,
+          "Month": 6
+        },
+        {
+          "Date": "1863-07-01T00:00:00",
+          "AverageTemperature": 21.136,
+          "AverageTemperatureUncertainty": 0.936,
+          "Country": "United States",
+          "Year": 1863,
+          "Month": 7
+        },
+        {
+          "Date": "1863-08-01T00:00:00",
+          "AverageTemperature": 19.922,
+          "AverageTemperatureUncertainty": 0.972,
+          "Country": "United States",
+          "Year": 1863,
+          "Month": 8
+        },
+        {
+          "Date": "1864-06-01T00:00:00",
+          "AverageTemperature": 19.062,
+          "AverageTemperatureUncertainty": 1.308,
+          "Country": "United States",
+          "Year": 1864,
+          "Month": 6
+        },
+        {
+          "Date": "1864-07-01T00:00:00",
+          "AverageTemperature": 21.837,
+          "AverageTemperatureUncertainty": 1.151,
+          "Country": "United States",
+          "Year": 1864,
+          "Month": 7
+        },
+        {
+          "Date": "1864-08-01T00:00:00",
+          "AverageTemperature": 20.748,
+          "AverageTemperatureUncertainty": 1.366,
+          "Country": "United States",
+          "Year": 1864,
+          "Month": 8
+        },
+        {
+          "Date": "1865-06-01T00:00:00",
+          "AverageTemperature": 19.625,
+          "AverageTemperatureUncertainty": 0.976,
+          "Country": "United States",
+          "Year": 1865,
+          "Month": 6
+        },
+        {
+          "Date": "1865-07-01T00:00:00",
+          "AverageTemperature": 20.81,
+          "AverageTemperatureUncertainty": 1.311,
+          "Country": "United States",
+          "Year": 1865,
+          "Month": 7
+        },
+        {
+          "Date": "1865-08-01T00:00:00",
+          "AverageTemperature": 20.363,
+          "AverageTemperatureUncertainty": 1.111,
+          "Country": "United States",
+          "Year": 1865,
+          "Month": 8
+        },
+        {
+          "Date": "1866-06-01T00:00:00",
+          "AverageTemperature": 18.236,
+          "AverageTemperatureUncertainty": 0.877,
+          "Country": "United States",
+          "Year": 1866,
+          "Month": 6
+        },
+        {
+          "Date": "1866-07-01T00:00:00",
+          "AverageTemperature": 21.679,
+          "AverageTemperatureUncertainty": 0.913,
+          "Country": "United States",
+          "Year": 1866,
+          "Month": 7
+        },
+        {
+          "Date": "1866-08-01T00:00:00",
+          "AverageTemperature": 19.507,
+          "AverageTemperatureUncertainty": 1.031,
+          "Country": "United States",
+          "Year": 1866,
+          "Month": 8
+        },
+        {
+          "Date": "1867-06-01T00:00:00",
+          "AverageTemperature": 19.347,
+          "AverageTemperatureUncertainty": 1.182,
+          "Country": "United States",
+          "Year": 1867,
+          "Month": 6
+        },
+        {
+          "Date": "1867-07-01T00:00:00",
+          "AverageTemperature": 21.011,
+          "AverageTemperatureUncertainty": 1.139,
+          "Country": "United States",
+          "Year": 1867,
+          "Month": 7
+        },
+        {
+          "Date": "1867-08-01T00:00:00",
+          "AverageTemperature": 20.424,
+          "AverageTemperatureUncertainty": 0.943,
+          "Country": "United States",
+          "Year": 1867,
+          "Month": 8
+        },
+        {
+          "Date": "1868-06-01T00:00:00",
+          "AverageTemperature": 18.911,
+          "AverageTemperatureUncertainty": 0.8190000000000001,
+          "Country": "United States",
+          "Year": 1868,
+          "Month": 6
+        },
+        {
+          "Date": "1868-07-01T00:00:00",
+          "AverageTemperature": 22.241999999999997,
+          "AverageTemperatureUncertainty": 0.856,
+          "Country": "United States",
+          "Year": 1868,
+          "Month": 7
+        },
+        {
+          "Date": "1868-08-01T00:00:00",
+          "AverageTemperature": 19.646,
+          "AverageTemperatureUncertainty": 1.072,
+          "Country": "United States",
+          "Year": 1868,
+          "Month": 8
+        },
+        {
+          "Date": "1869-06-01T00:00:00",
+          "AverageTemperature": 18.377,
+          "AverageTemperatureUncertainty": 0.642,
+          "Country": "United States",
+          "Year": 1869,
+          "Month": 6
+        },
+        {
+          "Date": "1869-07-01T00:00:00",
+          "AverageTemperature": 21.268,
+          "AverageTemperatureUncertainty": 0.748,
+          "Country": "United States",
+          "Year": 1869,
+          "Month": 7
+        },
+        {
+          "Date": "1869-08-01T00:00:00",
+          "AverageTemperature": 20.645,
+          "AverageTemperatureUncertainty": 0.606,
+          "Country": "United States",
+          "Year": 1869,
+          "Month": 8
+        },
+        {
+          "Date": "1870-06-01T00:00:00",
+          "AverageTemperature": 19.418,
+          "AverageTemperatureUncertainty": 1.236,
+          "Country": "United States",
+          "Year": 1870,
+          "Month": 6
+        },
+        {
+          "Date": "1870-07-01T00:00:00",
+          "AverageTemperature": 22.188,
+          "AverageTemperatureUncertainty": 1.016,
+          "Country": "United States",
+          "Year": 1870,
+          "Month": 7
+        },
+        {
+          "Date": "1870-08-01T00:00:00",
+          "AverageTemperature": 19.771,
+          "AverageTemperatureUncertainty": 0.696,
+          "Country": "United States",
+          "Year": 1870,
+          "Month": 8
+        },
+        {
+          "Date": "1871-06-01T00:00:00",
+          "AverageTemperature": 19.791,
+          "AverageTemperatureUncertainty": 0.537,
+          "Country": "United States",
+          "Year": 1871,
+          "Month": 6
+        },
+        {
+          "Date": "1871-07-01T00:00:00",
+          "AverageTemperature": 21.366999999999997,
+          "AverageTemperatureUncertainty": 0.946,
+          "Country": "United States",
+          "Year": 1871,
+          "Month": 7
+        },
+        {
+          "Date": "1871-08-01T00:00:00",
+          "AverageTemperature": 20.67,
+          "AverageTemperatureUncertainty": 0.805,
+          "Country": "United States",
+          "Year": 1871,
+          "Month": 8
+        },
+        {
+          "Date": "1872-06-01T00:00:00",
+          "AverageTemperature": 19.09,
+          "AverageTemperatureUncertainty": 0.998,
+          "Country": "United States",
+          "Year": 1872,
+          "Month": 6
+        },
+        {
+          "Date": "1872-07-01T00:00:00",
+          "AverageTemperature": 21.065,
+          "AverageTemperatureUncertainty": 0.994,
+          "Country": "United States",
+          "Year": 1872,
+          "Month": 7
+        },
+        {
+          "Date": "1872-08-01T00:00:00",
+          "AverageTemperature": 20.442,
+          "AverageTemperatureUncertainty": 1.304,
+          "Country": "United States",
+          "Year": 1872,
+          "Month": 8
+        },
+        {
+          "Date": "1873-06-01T00:00:00",
+          "AverageTemperature": 19.304,
+          "AverageTemperatureUncertainty": 0.6629999999999999,
+          "Country": "United States",
+          "Year": 1873,
+          "Month": 6
+        },
+        {
+          "Date": "1873-07-01T00:00:00",
+          "AverageTemperature": 21.429,
+          "AverageTemperatureUncertainty": 0.836,
+          "Country": "United States",
+          "Year": 1873,
+          "Month": 7
+        },
+        {
+          "Date": "1873-08-01T00:00:00",
+          "AverageTemperature": 20.443,
+          "AverageTemperatureUncertainty": 0.693,
+          "Country": "United States",
+          "Year": 1873,
+          "Month": 8
+        },
+        {
+          "Date": "1874-06-01T00:00:00",
+          "AverageTemperature": 19.671,
+          "AverageTemperatureUncertainty": 0.978,
+          "Country": "United States",
+          "Year": 1874,
+          "Month": 6
+        },
+        {
+          "Date": "1874-07-01T00:00:00",
+          "AverageTemperature": 22.079,
+          "AverageTemperatureUncertainty": 0.591,
+          "Country": "United States",
+          "Year": 1874,
+          "Month": 7
+        },
+        {
+          "Date": "1874-08-01T00:00:00",
+          "AverageTemperature": 21.06,
+          "AverageTemperatureUncertainty": 0.762,
+          "Country": "United States",
+          "Year": 1874,
+          "Month": 8
+        },
+        {
+          "Date": "1875-06-01T00:00:00",
+          "AverageTemperature": 18.848,
+          "AverageTemperatureUncertainty": 1.005,
+          "Country": "United States",
+          "Year": 1875,
+          "Month": 6
+        },
+        {
+          "Date": "1875-07-01T00:00:00",
+          "AverageTemperature": 21.284,
+          "AverageTemperatureUncertainty": 0.742,
+          "Country": "United States",
+          "Year": 1875,
+          "Month": 7
+        },
+        {
+          "Date": "1875-08-01T00:00:00",
+          "AverageTemperature": 19.652,
+          "AverageTemperatureUncertainty": 0.5529999999999999,
+          "Country": "United States",
+          "Year": 1875,
+          "Month": 8
+        },
+        {
+          "Date": "1876-06-01T00:00:00",
+          "AverageTemperature": 18.837,
+          "AverageTemperatureUncertainty": 0.7509999999999999,
+          "Country": "United States",
+          "Year": 1876,
+          "Month": 6
+        },
+        {
+          "Date": "1876-07-01T00:00:00",
+          "AverageTemperature": 21.524,
+          "AverageTemperatureUncertainty": 0.915,
+          "Country": "United States",
+          "Year": 1876,
+          "Month": 7
+        },
+        {
+          "Date": "1876-08-01T00:00:00",
+          "AverageTemperature": 20.152,
+          "AverageTemperatureUncertainty": 0.81,
+          "Country": "United States",
+          "Year": 1876,
+          "Month": 8
+        },
+        {
+          "Date": "1877-06-01T00:00:00",
+          "AverageTemperature": 18.373,
+          "AverageTemperatureUncertainty": 1.809,
+          "Country": "United States",
+          "Year": 1877,
+          "Month": 6
+        },
+        {
+          "Date": "1877-07-01T00:00:00",
+          "AverageTemperature": 21.461,
+          "AverageTemperatureUncertainty": 0.764,
+          "Country": "United States",
+          "Year": 1877,
+          "Month": 7
+        },
+        {
+          "Date": "1877-08-01T00:00:00",
+          "AverageTemperature": 20.481,
+          "AverageTemperatureUncertainty": 0.8340000000000001,
+          "Country": "United States",
+          "Year": 1877,
+          "Month": 8
+        },
+        {
+          "Date": "1878-06-01T00:00:00",
+          "AverageTemperature": 18.674,
+          "AverageTemperatureUncertainty": 0.917,
+          "Country": "United States",
+          "Year": 1878,
+          "Month": 6
+        },
+        {
+          "Date": "1878-07-01T00:00:00",
+          "AverageTemperature": 22.029,
+          "AverageTemperatureUncertainty": 0.843,
+          "Country": "United States",
+          "Year": 1878,
+          "Month": 7
+        },
+        {
+          "Date": "1878-08-01T00:00:00",
+          "AverageTemperature": 21.151999999999997,
+          "AverageTemperatureUncertainty": 0.861,
+          "Country": "United States",
+          "Year": 1878,
+          "Month": 8
+        },
+        {
+          "Date": "1879-06-01T00:00:00",
+          "AverageTemperature": 18.569000000000003,
+          "AverageTemperatureUncertainty": 0.887,
+          "Country": "United States",
+          "Year": 1879,
+          "Month": 6
+        },
+        {
+          "Date": "1879-07-01T00:00:00",
+          "AverageTemperature": 21.696,
+          "AverageTemperatureUncertainty": 1.132,
+          "Country": "United States",
+          "Year": 1879,
+          "Month": 7
+        },
+        {
+          "Date": "1879-08-01T00:00:00",
+          "AverageTemperature": 19.854,
+          "AverageTemperatureUncertainty": 0.945,
+          "Country": "United States",
+          "Year": 1879,
+          "Month": 8
+        },
+        {
+          "Date": "1880-06-01T00:00:00",
+          "AverageTemperature": 18.939,
+          "AverageTemperatureUncertainty": 0.812,
+          "Country": "United States",
+          "Year": 1880,
+          "Month": 6
+        },
+        {
+          "Date": "1880-07-01T00:00:00",
+          "AverageTemperature": 20.85,
+          "AverageTemperatureUncertainty": 0.789,
+          "Country": "United States",
+          "Year": 1880,
+          "Month": 7
+        },
+        {
+          "Date": "1880-08-01T00:00:00",
+          "AverageTemperature": 19.773,
+          "AverageTemperatureUncertainty": 0.87,
+          "Country": "United States",
+          "Year": 1880,
+          "Month": 8
+        },
+        {
+          "Date": "1881-06-01T00:00:00",
+          "AverageTemperature": 19.178,
+          "AverageTemperatureUncertainty": 0.925,
+          "Country": "United States",
+          "Year": 1881,
+          "Month": 6
+        },
+        {
+          "Date": "1881-07-01T00:00:00",
+          "AverageTemperature": 21.669,
+          "AverageTemperatureUncertainty": 0.483,
+          "Country": "United States",
+          "Year": 1881,
+          "Month": 7
+        },
+        {
+          "Date": "1881-08-01T00:00:00",
+          "AverageTemperature": 21.06,
+          "AverageTemperatureUncertainty": 0.59,
+          "Country": "United States",
+          "Year": 1881,
+          "Month": 8
+        },
+        {
+          "Date": "1882-06-01T00:00:00",
+          "AverageTemperature": 18.541,
+          "AverageTemperatureUncertainty": 0.565,
+          "Country": "United States",
+          "Year": 1882,
+          "Month": 6
+        },
+        {
+          "Date": "1882-07-01T00:00:00",
+          "AverageTemperature": 20.368,
+          "AverageTemperatureUncertainty": 0.445,
+          "Country": "United States",
+          "Year": 1882,
+          "Month": 7
+        },
+        {
+          "Date": "1882-08-01T00:00:00",
+          "AverageTemperature": 20.066,
+          "AverageTemperatureUncertainty": 0.535,
+          "Country": "United States",
+          "Year": 1882,
+          "Month": 8
+        },
+        {
+          "Date": "1883-06-01T00:00:00",
+          "AverageTemperature": 19.05,
+          "AverageTemperatureUncertainty": 0.507,
+          "Country": "United States",
+          "Year": 1883,
+          "Month": 6
+        },
+        {
+          "Date": "1883-07-01T00:00:00",
+          "AverageTemperature": 20.921999999999997,
+          "AverageTemperatureUncertainty": 0.8270000000000001,
+          "Country": "United States",
+          "Year": 1883,
+          "Month": 7
+        },
+        {
+          "Date": "1883-08-01T00:00:00",
+          "AverageTemperature": 19.683,
+          "AverageTemperatureUncertainty": 0.539,
+          "Country": "United States",
+          "Year": 1883,
+          "Month": 8
+        },
+        {
+          "Date": "1884-06-01T00:00:00",
+          "AverageTemperature": 18.677,
+          "AverageTemperatureUncertainty": 0.508,
+          "Country": "United States",
+          "Year": 1884,
+          "Month": 6
+        },
+        {
+          "Date": "1884-07-01T00:00:00",
+          "AverageTemperature": 20.645,
+          "AverageTemperatureUncertainty": 0.481,
+          "Country": "United States",
+          "Year": 1884,
+          "Month": 7
+        },
+        {
+          "Date": "1884-08-01T00:00:00",
+          "AverageTemperature": 19.639,
+          "AverageTemperatureUncertainty": 0.639,
+          "Country": "United States",
+          "Year": 1884,
+          "Month": 8
+        },
+        {
+          "Date": "1885-06-01T00:00:00",
+          "AverageTemperature": 18.295,
+          "AverageTemperatureUncertainty": 0.426,
+          "Country": "United States",
+          "Year": 1885,
+          "Month": 6
+        },
+        {
+          "Date": "1885-07-01T00:00:00",
+          "AverageTemperature": 21.241,
+          "AverageTemperatureUncertainty": 0.593,
+          "Country": "United States",
+          "Year": 1885,
+          "Month": 7
+        },
+        {
+          "Date": "1885-08-01T00:00:00",
+          "AverageTemperature": 19.644,
+          "AverageTemperatureUncertainty": 0.65,
+          "Country": "United States",
+          "Year": 1885,
+          "Month": 8
+        },
+        {
+          "Date": "1886-06-01T00:00:00",
+          "AverageTemperature": 18.672,
+          "AverageTemperatureUncertainty": 0.447,
+          "Country": "United States",
+          "Year": 1886,
+          "Month": 6
+        },
+        {
+          "Date": "1886-07-01T00:00:00",
+          "AverageTemperature": 21.862,
+          "AverageTemperatureUncertainty": 0.562,
+          "Country": "United States",
+          "Year": 1886,
+          "Month": 7
+        },
+        {
+          "Date": "1886-08-01T00:00:00",
+          "AverageTemperature": 20.64,
+          "AverageTemperatureUncertainty": 0.489,
+          "Country": "United States",
+          "Year": 1886,
+          "Month": 8
+        },
+        {
+          "Date": "1887-06-01T00:00:00",
+          "AverageTemperature": 18.888,
+          "AverageTemperatureUncertainty": 0.47,
+          "Country": "United States",
+          "Year": 1887,
+          "Month": 6
+        },
+        {
+          "Date": "1887-07-01T00:00:00",
+          "AverageTemperature": 21.419,
+          "AverageTemperatureUncertainty": 0.785,
+          "Country": "United States",
+          "Year": 1887,
+          "Month": 7
+        },
+        {
+          "Date": "1887-08-01T00:00:00",
+          "AverageTemperature": 19.511,
+          "AverageTemperatureUncertainty": 0.617,
+          "Country": "United States",
+          "Year": 1887,
+          "Month": 8
+        },
+        {
+          "Date": "1888-06-01T00:00:00",
+          "AverageTemperature": 18.356,
+          "AverageTemperatureUncertainty": 0.6559999999999999,
+          "Country": "United States",
+          "Year": 1888,
+          "Month": 6
+        },
+        {
+          "Date": "1888-07-01T00:00:00",
+          "AverageTemperature": 21.189,
+          "AverageTemperatureUncertainty": 0.552,
+          "Country": "United States",
+          "Year": 1888,
+          "Month": 7
+        },
+        {
+          "Date": "1888-08-01T00:00:00",
+          "AverageTemperature": 19.89,
+          "AverageTemperatureUncertainty": 0.593,
+          "Country": "United States",
+          "Year": 1888,
+          "Month": 8
+        },
+        {
+          "Date": "1889-06-01T00:00:00",
+          "AverageTemperature": 18.335,
+          "AverageTemperatureUncertainty": 0.5379999999999999,
+          "Country": "United States",
+          "Year": 1889,
+          "Month": 6
+        },
+        {
+          "Date": "1889-07-01T00:00:00",
+          "AverageTemperature": 21.122,
+          "AverageTemperatureUncertainty": 0.516,
+          "Country": "United States",
+          "Year": 1889,
+          "Month": 7
+        },
+        {
+          "Date": "1889-08-01T00:00:00",
+          "AverageTemperature": 20.037,
+          "AverageTemperatureUncertainty": 0.589,
+          "Country": "United States",
+          "Year": 1889,
+          "Month": 8
+        },
+        {
+          "Date": "1890-06-01T00:00:00",
+          "AverageTemperature": 18.823,
+          "AverageTemperatureUncertainty": 0.555,
+          "Country": "United States",
+          "Year": 1890,
+          "Month": 6
+        },
+        {
+          "Date": "1890-07-01T00:00:00",
+          "AverageTemperature": 21.513,
+          "AverageTemperatureUncertainty": 0.523,
+          "Country": "United States",
+          "Year": 1890,
+          "Month": 7
+        },
+        {
+          "Date": "1890-08-01T00:00:00",
+          "AverageTemperature": 19.4,
+          "AverageTemperatureUncertainty": 0.5489999999999999,
+          "Country": "United States",
+          "Year": 1890,
+          "Month": 8
+        },
+        {
+          "Date": "1891-06-01T00:00:00",
+          "AverageTemperature": 18.06,
+          "AverageTemperatureUncertainty": 0.588,
+          "Country": "United States",
+          "Year": 1891,
+          "Month": 6
+        },
+        {
+          "Date": "1891-07-01T00:00:00",
+          "AverageTemperature": 20.225,
+          "AverageTemperatureUncertainty": 0.606,
+          "Country": "United States",
+          "Year": 1891,
+          "Month": 7
+        },
+        {
+          "Date": "1891-08-01T00:00:00",
+          "AverageTemperature": 19.923,
+          "AverageTemperatureUncertainty": 0.631,
+          "Country": "United States",
+          "Year": 1891,
+          "Month": 8
+        },
+        {
+          "Date": "1892-06-01T00:00:00",
+          "AverageTemperature": 18.433,
+          "AverageTemperatureUncertainty": 0.718,
+          "Country": "United States",
+          "Year": 1892,
+          "Month": 6
+        },
+        {
+          "Date": "1892-07-01T00:00:00",
+          "AverageTemperature": 20.737,
+          "AverageTemperatureUncertainty": 0.672,
+          "Country": "United States",
+          "Year": 1892,
+          "Month": 7
+        },
+        {
+          "Date": "1892-08-01T00:00:00",
+          "AverageTemperature": 20.024,
+          "AverageTemperatureUncertainty": 0.685,
+          "Country": "United States",
+          "Year": 1892,
+          "Month": 8
+        },
+        {
+          "Date": "1893-06-01T00:00:00",
+          "AverageTemperature": 18.767,
+          "AverageTemperatureUncertainty": 0.48,
+          "Country": "United States",
+          "Year": 1893,
+          "Month": 6
+        },
+        {
+          "Date": "1893-07-01T00:00:00",
+          "AverageTemperature": 21.334,
+          "AverageTemperatureUncertainty": 0.444,
+          "Country": "United States",
+          "Year": 1893,
+          "Month": 7
+        },
+        {
+          "Date": "1893-08-01T00:00:00",
+          "AverageTemperature": 19.772,
+          "AverageTemperatureUncertainty": 0.465,
+          "Country": "United States",
+          "Year": 1893,
+          "Month": 8
+        },
+        {
+          "Date": "1894-06-01T00:00:00",
+          "AverageTemperature": 18.301,
+          "AverageTemperatureUncertainty": 0.302,
+          "Country": "United States",
+          "Year": 1894,
+          "Month": 6
+        },
+        {
+          "Date": "1894-07-01T00:00:00",
+          "AverageTemperature": 21.031,
+          "AverageTemperatureUncertainty": 0.288,
+          "Country": "United States",
+          "Year": 1894,
+          "Month": 7
+        },
+        {
+          "Date": "1894-08-01T00:00:00",
+          "AverageTemperature": 20.264,
+          "AverageTemperatureUncertainty": 0.496,
+          "Country": "United States",
+          "Year": 1894,
+          "Month": 8
+        },
+        {
+          "Date": "1895-06-01T00:00:00",
+          "AverageTemperature": 18.158,
+          "AverageTemperatureUncertainty": 0.369,
+          "Country": "United States",
+          "Year": 1895,
+          "Month": 6
+        },
+        {
+          "Date": "1895-07-01T00:00:00",
+          "AverageTemperature": 20.119,
+          "AverageTemperatureUncertainty": 0.251,
+          "Country": "United States",
+          "Year": 1895,
+          "Month": 7
+        },
+        {
+          "Date": "1895-08-01T00:00:00",
+          "AverageTemperature": 19.95,
+          "AverageTemperatureUncertainty": 0.317,
+          "Country": "United States",
+          "Year": 1895,
+          "Month": 8
+        },
+        {
+          "Date": "1896-06-01T00:00:00",
+          "AverageTemperature": 19.081,
+          "AverageTemperatureUncertainty": 0.358,
+          "Country": "United States",
+          "Year": 1896,
+          "Month": 6
+        },
+        {
+          "Date": "1896-07-01T00:00:00",
+          "AverageTemperature": 21.129,
+          "AverageTemperatureUncertainty": 0.311,
+          "Country": "United States",
+          "Year": 1896,
+          "Month": 7
+        },
+        {
+          "Date": "1896-08-01T00:00:00",
+          "AverageTemperature": 20.261,
+          "AverageTemperatureUncertainty": 0.448,
+          "Country": "United States",
+          "Year": 1896,
+          "Month": 8
+        },
+        {
+          "Date": "1897-06-01T00:00:00",
+          "AverageTemperature": 18.58,
+          "AverageTemperatureUncertainty": 0.507,
+          "Country": "United States",
+          "Year": 1897,
+          "Month": 6
+        },
+        {
+          "Date": "1897-07-01T00:00:00",
+          "AverageTemperature": 20.935,
+          "AverageTemperatureUncertainty": 0.285,
+          "Country": "United States",
+          "Year": 1897,
+          "Month": 7
+        },
+        {
+          "Date": "1897-08-01T00:00:00",
+          "AverageTemperature": 19.989,
+          "AverageTemperatureUncertainty": 0.332,
+          "Country": "United States",
+          "Year": 1897,
+          "Month": 8
+        },
+        {
+          "Date": "1898-06-01T00:00:00",
+          "AverageTemperature": 18.922,
+          "AverageTemperatureUncertainty": 0.441,
+          "Country": "United States",
+          "Year": 1898,
+          "Month": 6
+        },
+        {
+          "Date": "1898-07-01T00:00:00",
+          "AverageTemperature": 21.191999999999997,
+          "AverageTemperatureUncertainty": 0.56,
+          "Country": "United States",
+          "Year": 1898,
+          "Month": 7
+        },
+        {
+          "Date": "1898-08-01T00:00:00",
+          "AverageTemperature": 20.678,
+          "AverageTemperatureUncertainty": 0.56,
+          "Country": "United States",
+          "Year": 1898,
+          "Month": 8
+        },
+        {
+          "Date": "1899-06-01T00:00:00",
+          "AverageTemperature": 18.397,
+          "AverageTemperatureUncertainty": 0.326,
+          "Country": "United States",
+          "Year": 1899,
+          "Month": 6
+        },
+        {
+          "Date": "1899-07-01T00:00:00",
+          "AverageTemperature": 21.057,
+          "AverageTemperatureUncertainty": 0.327,
+          "Country": "United States",
+          "Year": 1899,
+          "Month": 7
+        },
+        {
+          "Date": "1899-08-01T00:00:00",
+          "AverageTemperature": 20.204,
+          "AverageTemperatureUncertainty": 0.39,
+          "Country": "United States",
+          "Year": 1899,
+          "Month": 8
+        },
+        {
+          "Date": "1900-06-01T00:00:00",
+          "AverageTemperature": 19.28,
+          "AverageTemperatureUncertainty": 0.379,
+          "Country": "United States",
+          "Year": 1900,
+          "Month": 6
+        },
+        {
+          "Date": "1900-07-01T00:00:00",
+          "AverageTemperature": 21.134,
+          "AverageTemperatureUncertainty": 0.478,
+          "Country": "United States",
+          "Year": 1900,
+          "Month": 7
+        },
+        {
+          "Date": "1900-08-01T00:00:00",
+          "AverageTemperature": 20.62,
+          "AverageTemperatureUncertainty": 0.353,
+          "Country": "United States",
+          "Year": 1900,
+          "Month": 8
+        },
+        {
+          "Date": "1901-06-01T00:00:00",
+          "AverageTemperature": 18.365,
+          "AverageTemperatureUncertainty": 0.456,
+          "Country": "United States",
+          "Year": 1901,
+          "Month": 6
+        },
+        {
+          "Date": "1901-07-01T00:00:00",
+          "AverageTemperature": 22.418000000000003,
+          "AverageTemperatureUncertainty": 0.401,
+          "Country": "United States",
+          "Year": 1901,
+          "Month": 7
+        },
+        {
+          "Date": "1901-08-01T00:00:00",
+          "AverageTemperature": 20.647,
+          "AverageTemperatureUncertainty": 0.383,
+          "Country": "United States",
+          "Year": 1901,
+          "Month": 8
+        },
+        {
+          "Date": "1902-06-01T00:00:00",
+          "AverageTemperature": 18.638,
+          "AverageTemperatureUncertainty": 0.491,
+          "Country": "United States",
+          "Year": 1902,
+          "Month": 6
+        },
+        {
+          "Date": "1902-07-01T00:00:00",
+          "AverageTemperature": 20.688,
+          "AverageTemperatureUncertainty": 0.361,
+          "Country": "United States",
+          "Year": 1902,
+          "Month": 7
+        },
+        {
+          "Date": "1902-08-01T00:00:00",
+          "AverageTemperature": 19.962,
+          "AverageTemperatureUncertainty": 0.33,
+          "Country": "United States",
+          "Year": 1902,
+          "Month": 8
+        },
+        {
+          "Date": "1903-06-01T00:00:00",
+          "AverageTemperature": 17.403,
+          "AverageTemperatureUncertainty": 0.435,
+          "Country": "United States",
+          "Year": 1903,
+          "Month": 6
+        },
+        {
+          "Date": "1903-07-01T00:00:00",
+          "AverageTemperature": 20.549,
+          "AverageTemperatureUncertainty": 0.446,
+          "Country": "United States",
+          "Year": 1903,
+          "Month": 7
+        },
+        {
+          "Date": "1903-08-01T00:00:00",
+          "AverageTemperature": 19.818,
+          "AverageTemperatureUncertainty": 0.341,
+          "Country": "United States",
+          "Year": 1903,
+          "Month": 8
+        },
+        {
+          "Date": "1904-06-01T00:00:00",
+          "AverageTemperature": 17.948999999999995,
+          "AverageTemperatureUncertainty": 0.443,
+          "Country": "United States",
+          "Year": 1904,
+          "Month": 6
+        },
+        {
+          "Date": "1904-07-01T00:00:00",
+          "AverageTemperature": 20.264,
+          "AverageTemperatureUncertainty": 0.438,
+          "Country": "United States",
+          "Year": 1904,
+          "Month": 7
+        },
+        {
+          "Date": "1904-08-01T00:00:00",
+          "AverageTemperature": 19.482,
+          "AverageTemperatureUncertainty": 0.3670000000000001,
+          "Country": "United States",
+          "Year": 1904,
+          "Month": 8
+        },
+        {
+          "Date": "1905-06-01T00:00:00",
+          "AverageTemperature": 18.337,
+          "AverageTemperatureUncertainty": 0.283,
+          "Country": "United States",
+          "Year": 1905,
+          "Month": 6
+        },
+        {
+          "Date": "1905-07-01T00:00:00",
+          "AverageTemperature": 20.432,
+          "AverageTemperatureUncertainty": 0.23,
+          "Country": "United States",
+          "Year": 1905,
+          "Month": 7
+        },
+        {
+          "Date": "1905-08-01T00:00:00",
+          "AverageTemperature": 20.473,
+          "AverageTemperatureUncertainty": 0.267,
+          "Country": "United States",
+          "Year": 1905,
+          "Month": 8
+        },
+        {
+          "Date": "1906-06-01T00:00:00",
+          "AverageTemperature": 18.219,
+          "AverageTemperatureUncertainty": 0.478,
+          "Country": "United States",
+          "Year": 1906,
+          "Month": 6
+        },
+        {
+          "Date": "1906-07-01T00:00:00",
+          "AverageTemperature": 20.545,
+          "AverageTemperatureUncertainty": 0.28,
+          "Country": "United States",
+          "Year": 1906,
+          "Month": 7
+        },
+        {
+          "Date": "1906-08-01T00:00:00",
+          "AverageTemperature": 20.239,
+          "AverageTemperatureUncertainty": 0.269,
+          "Country": "United States",
+          "Year": 1906,
+          "Month": 8
+        },
+        {
+          "Date": "1907-06-01T00:00:00",
+          "AverageTemperature": 17.256999999999998,
+          "AverageTemperatureUncertainty": 0.231,
+          "Country": "United States",
+          "Year": 1907,
+          "Month": 6
+        },
+        {
+          "Date": "1907-07-01T00:00:00",
+          "AverageTemperature": 20.662,
+          "AverageTemperatureUncertainty": 0.295,
+          "Country": "United States",
+          "Year": 1907,
+          "Month": 7
+        },
+        {
+          "Date": "1907-08-01T00:00:00",
+          "AverageTemperature": 19.741,
+          "AverageTemperatureUncertainty": 0.322,
+          "Country": "United States",
+          "Year": 1907,
+          "Month": 8
+        },
+        {
+          "Date": "1908-06-01T00:00:00",
+          "AverageTemperature": 17.895,
+          "AverageTemperatureUncertainty": 0.256,
+          "Country": "United States",
+          "Year": 1908,
+          "Month": 6
+        },
+        {
+          "Date": "1908-07-01T00:00:00",
+          "AverageTemperature": 21.004,
+          "AverageTemperatureUncertainty": 0.279,
+          "Country": "United States",
+          "Year": 1908,
+          "Month": 7
+        },
+        {
+          "Date": "1908-08-01T00:00:00",
+          "AverageTemperature": 19.591,
+          "AverageTemperatureUncertainty": 0.295,
+          "Country": "United States",
+          "Year": 1908,
+          "Month": 8
+        },
+        {
+          "Date": "1909-06-01T00:00:00",
+          "AverageTemperature": 18.643,
+          "AverageTemperatureUncertainty": 0.181,
+          "Country": "United States",
+          "Year": 1909,
+          "Month": 6
+        },
+        {
+          "Date": "1909-07-01T00:00:00",
+          "AverageTemperature": 20.885,
+          "AverageTemperatureUncertainty": 0.23,
+          "Country": "United States",
+          "Year": 1909,
+          "Month": 7
+        },
+        {
+          "Date": "1909-08-01T00:00:00",
+          "AverageTemperature": 20.72,
+          "AverageTemperatureUncertainty": 0.201,
+          "Country": "United States",
+          "Year": 1909,
+          "Month": 8
+        },
+        {
+          "Date": "1910-06-01T00:00:00",
+          "AverageTemperature": 18.243,
+          "AverageTemperatureUncertainty": 0.162,
+          "Country": "United States",
+          "Year": 1910,
+          "Month": 6
+        },
+        {
+          "Date": "1910-07-01T00:00:00",
+          "AverageTemperature": 21.38,
+          "AverageTemperatureUncertainty": 0.155,
+          "Country": "United States",
+          "Year": 1910,
+          "Month": 7
+        },
+        {
+          "Date": "1910-08-01T00:00:00",
+          "AverageTemperature": 19.847,
+          "AverageTemperatureUncertainty": 0.219,
+          "Country": "United States",
+          "Year": 1910,
+          "Month": 8
+        },
+        {
+          "Date": "1911-06-01T00:00:00",
+          "AverageTemperature": 19.57,
+          "AverageTemperatureUncertainty": 0.247,
+          "Country": "United States",
+          "Year": 1911,
+          "Month": 6
+        },
+        {
+          "Date": "1911-07-01T00:00:00",
+          "AverageTemperature": 20.892,
+          "AverageTemperatureUncertainty": 0.256,
+          "Country": "United States",
+          "Year": 1911,
+          "Month": 7
+        },
+        {
+          "Date": "1911-08-01T00:00:00",
+          "AverageTemperature": 19.886,
+          "AverageTemperatureUncertainty": 0.154,
+          "Country": "United States",
+          "Year": 1911,
+          "Month": 8
+        },
+        {
+          "Date": "1912-06-01T00:00:00",
+          "AverageTemperature": 17.551,
+          "AverageTemperatureUncertainty": 0.23,
+          "Country": "United States",
+          "Year": 1912,
+          "Month": 6
+        },
+        {
+          "Date": "1912-07-01T00:00:00",
+          "AverageTemperature": 20.578000000000003,
+          "AverageTemperatureUncertainty": 0.202,
+          "Country": "United States",
+          "Year": 1912,
+          "Month": 7
+        },
+        {
+          "Date": "1912-08-01T00:00:00",
+          "AverageTemperature": 19.307,
+          "AverageTemperatureUncertainty": 0.213,
+          "Country": "United States",
+          "Year": 1912,
+          "Month": 8
+        },
+        {
+          "Date": "1913-06-01T00:00:00",
+          "AverageTemperature": 18.731,
+          "AverageTemperatureUncertainty": 0.202,
+          "Country": "United States",
+          "Year": 1913,
+          "Month": 6
+        },
+        {
+          "Date": "1913-07-01T00:00:00",
+          "AverageTemperature": 21.019,
+          "AverageTemperatureUncertainty": 0.214,
+          "Country": "United States",
+          "Year": 1913,
+          "Month": 7
+        },
+        {
+          "Date": "1913-08-01T00:00:00",
+          "AverageTemperature": 20.744,
+          "AverageTemperatureUncertainty": 0.344,
+          "Country": "United States",
+          "Year": 1913,
+          "Month": 8
+        },
+        {
+          "Date": "1914-06-01T00:00:00",
+          "AverageTemperature": 19.133,
+          "AverageTemperatureUncertainty": 0.295,
+          "Country": "United States",
+          "Year": 1914,
+          "Month": 6
+        },
+        {
+          "Date": "1914-07-01T00:00:00",
+          "AverageTemperature": 21.429,
+          "AverageTemperatureUncertainty": 0.25,
+          "Country": "United States",
+          "Year": 1914,
+          "Month": 7
+        },
+        {
+          "Date": "1914-08-01T00:00:00",
+          "AverageTemperature": 20.253,
+          "AverageTemperatureUncertainty": 0.239,
+          "Country": "United States",
+          "Year": 1914,
+          "Month": 8
+        },
+        {
+          "Date": "1915-06-01T00:00:00",
+          "AverageTemperature": 17.743,
+          "AverageTemperatureUncertainty": 0.207,
+          "Country": "United States",
+          "Year": 1915,
+          "Month": 6
+        },
+        {
+          "Date": "1915-07-01T00:00:00",
+          "AverageTemperature": 20.383,
+          "AverageTemperatureUncertainty": 0.199,
+          "Country": "United States",
+          "Year": 1915,
+          "Month": 7
+        },
+        {
+          "Date": "1915-08-01T00:00:00",
+          "AverageTemperature": 19.511,
+          "AverageTemperatureUncertainty": 0.256,
+          "Country": "United States",
+          "Year": 1915,
+          "Month": 8
+        },
+        {
+          "Date": "1916-06-01T00:00:00",
+          "AverageTemperature": 17.62,
+          "AverageTemperatureUncertainty": 0.153,
+          "Country": "United States",
+          "Year": 1916,
+          "Month": 6
+        },
+        {
+          "Date": "1916-07-01T00:00:00",
+          "AverageTemperature": 21.586,
+          "AverageTemperatureUncertainty": 0.162,
+          "Country": "United States",
+          "Year": 1916,
+          "Month": 7
+        },
+        {
+          "Date": "1916-08-01T00:00:00",
+          "AverageTemperature": 20.17,
+          "AverageTemperatureUncertainty": 0.244,
+          "Country": "United States",
+          "Year": 1916,
+          "Month": 8
+        },
+        {
+          "Date": "1917-06-01T00:00:00",
+          "AverageTemperature": 17.805999999999997,
+          "AverageTemperatureUncertainty": 0.233,
+          "Country": "United States",
+          "Year": 1917,
+          "Month": 6
+        },
+        {
+          "Date": "1917-07-01T00:00:00",
+          "AverageTemperature": 21.49,
+          "AverageTemperatureUncertainty": 0.417,
+          "Country": "United States",
+          "Year": 1917,
+          "Month": 7
+        },
+        {
+          "Date": "1917-08-01T00:00:00",
+          "AverageTemperature": 19.923,
+          "AverageTemperatureUncertainty": 0.317,
+          "Country": "United States",
+          "Year": 1917,
+          "Month": 8
+        },
+        {
+          "Date": "1918-06-01T00:00:00",
+          "AverageTemperature": 19.596,
+          "AverageTemperatureUncertainty": 0.1669999999999999,
+          "Country": "United States",
+          "Year": 1918,
+          "Month": 6
+        },
+        {
+          "Date": "1918-07-01T00:00:00",
+          "AverageTemperature": 20.916,
+          "AverageTemperatureUncertainty": 0.217,
+          "Country": "United States",
+          "Year": 1918,
+          "Month": 7
+        },
+        {
+          "Date": "1918-08-01T00:00:00",
+          "AverageTemperature": 20.485,
+          "AverageTemperatureUncertainty": 0.255,
+          "Country": "United States",
+          "Year": 1918,
+          "Month": 8
+        },
+        {
+          "Date": "1919-06-01T00:00:00",
+          "AverageTemperature": 18.615,
+          "AverageTemperatureUncertainty": 0.194,
+          "Country": "United States",
+          "Year": 1919,
+          "Month": 6
+        },
+        {
+          "Date": "1919-07-01T00:00:00",
+          "AverageTemperature": 21.680999999999997,
+          "AverageTemperatureUncertainty": 0.206,
+          "Country": "United States",
+          "Year": 1919,
+          "Month": 7
+        },
+        {
+          "Date": "1919-08-01T00:00:00",
+          "AverageTemperature": 20.471,
+          "AverageTemperatureUncertainty": 0.303,
+          "Country": "United States",
+          "Year": 1919,
+          "Month": 8
+        },
+        {
+          "Date": "1920-06-01T00:00:00",
+          "AverageTemperature": 18.076,
+          "AverageTemperatureUncertainty": 0.292,
+          "Country": "United States",
+          "Year": 1920,
+          "Month": 6
+        },
+        {
+          "Date": "1920-07-01T00:00:00",
+          "AverageTemperature": 20.752,
+          "AverageTemperatureUncertainty": 0.259,
+          "Country": "United States",
+          "Year": 1920,
+          "Month": 7
+        },
+        {
+          "Date": "1920-08-01T00:00:00",
+          "AverageTemperature": 19.588,
+          "AverageTemperatureUncertainty": 0.206,
+          "Country": "United States",
+          "Year": 1920,
+          "Month": 8
+        },
+        {
+          "Date": "1921-06-01T00:00:00",
+          "AverageTemperature": 19.506,
+          "AverageTemperatureUncertainty": 0.346,
+          "Country": "United States",
+          "Year": 1921,
+          "Month": 6
+        },
+        {
+          "Date": "1921-07-01T00:00:00",
+          "AverageTemperature": 21.784,
+          "AverageTemperatureUncertainty": 0.37,
+          "Country": "United States",
+          "Year": 1921,
+          "Month": 7
+        },
+        {
+          "Date": "1921-08-01T00:00:00",
+          "AverageTemperature": 20.483,
+          "AverageTemperatureUncertainty": 0.205,
+          "Country": "United States",
+          "Year": 1921,
+          "Month": 8
+        },
+        {
+          "Date": "1922-06-01T00:00:00",
+          "AverageTemperature": 19.154,
+          "AverageTemperatureUncertainty": 0.176,
+          "Country": "United States",
+          "Year": 1922,
+          "Month": 6
+        },
+        {
+          "Date": "1922-07-01T00:00:00",
+          "AverageTemperature": 20.616999999999997,
+          "AverageTemperatureUncertainty": 0.243,
+          "Country": "United States",
+          "Year": 1922,
+          "Month": 7
+        },
+        {
+          "Date": "1922-08-01T00:00:00",
+          "AverageTemperature": 20.55,
+          "AverageTemperatureUncertainty": 0.28,
+          "Country": "United States",
+          "Year": 1922,
+          "Month": 8
+        },
+        {
+          "Date": "1923-06-01T00:00:00",
+          "AverageTemperature": 18.438,
+          "AverageTemperatureUncertainty": 0.159,
+          "Country": "United States",
+          "Year": 1923,
+          "Month": 6
+        },
+        {
+          "Date": "1923-07-01T00:00:00",
+          "AverageTemperature": 21.53,
+          "AverageTemperatureUncertainty": 0.203,
+          "Country": "United States",
+          "Year": 1923,
+          "Month": 7
+        },
+        {
+          "Date": "1923-08-01T00:00:00",
+          "AverageTemperature": 20.356,
+          "AverageTemperatureUncertainty": 0.207,
+          "Country": "United States",
+          "Year": 1923,
+          "Month": 8
+        },
+        {
+          "Date": "1924-06-01T00:00:00",
+          "AverageTemperature": 18.679,
+          "AverageTemperatureUncertainty": 0.206,
+          "Country": "United States",
+          "Year": 1924,
+          "Month": 6
+        },
+        {
+          "Date": "1924-07-01T00:00:00",
+          "AverageTemperature": 20.3,
+          "AverageTemperatureUncertainty": 0.231,
+          "Country": "United States",
+          "Year": 1924,
+          "Month": 7
+        },
+        {
+          "Date": "1924-08-01T00:00:00",
+          "AverageTemperature": 20.249,
+          "AverageTemperatureUncertainty": 0.198,
+          "Country": "United States",
+          "Year": 1924,
+          "Month": 8
+        },
+        {
+          "Date": "1925-06-01T00:00:00",
+          "AverageTemperature": 19.242,
+          "AverageTemperatureUncertainty": 0.229,
+          "Country": "United States",
+          "Year": 1925,
+          "Month": 6
+        },
+        {
+          "Date": "1925-07-01T00:00:00",
+          "AverageTemperature": 21.496,
+          "AverageTemperatureUncertainty": 0.157,
+          "Country": "United States",
+          "Year": 1925,
+          "Month": 7
+        },
+        {
+          "Date": "1925-08-01T00:00:00",
+          "AverageTemperature": 20.211,
+          "AverageTemperatureUncertainty": 0.174,
+          "Country": "United States",
+          "Year": 1925,
+          "Month": 8
+        },
+        {
+          "Date": "1926-06-01T00:00:00",
+          "AverageTemperature": 18.768,
+          "AverageTemperatureUncertainty": 0.262,
+          "Country": "United States",
+          "Year": 1926,
+          "Month": 6
+        },
+        {
+          "Date": "1926-07-01T00:00:00",
+          "AverageTemperature": 21.291,
+          "AverageTemperatureUncertainty": 0.246,
+          "Country": "United States",
+          "Year": 1926,
+          "Month": 7
+        },
+        {
+          "Date": "1926-08-01T00:00:00",
+          "AverageTemperature": 20.658,
+          "AverageTemperatureUncertainty": 0.244,
+          "Country": "United States",
+          "Year": 1926,
+          "Month": 8
+        },
+        {
+          "Date": "1927-06-01T00:00:00",
+          "AverageTemperature": 18.142,
+          "AverageTemperatureUncertainty": 0.183,
+          "Country": "United States",
+          "Year": 1927,
+          "Month": 6
+        },
+        {
+          "Date": "1927-07-01T00:00:00",
+          "AverageTemperature": 21.026999999999997,
+          "AverageTemperatureUncertainty": 0.159,
+          "Country": "United States",
+          "Year": 1927,
+          "Month": 7
+        },
+        {
+          "Date": "1927-08-01T00:00:00",
+          "AverageTemperature": 19.134,
+          "AverageTemperatureUncertainty": 0.174,
+          "Country": "United States",
+          "Year": 1927,
+          "Month": 8
+        },
+        {
+          "Date": "1928-06-01T00:00:00",
+          "AverageTemperature": 17.503,
+          "AverageTemperatureUncertainty": 0.261,
+          "Country": "United States",
+          "Year": 1928,
+          "Month": 6
+        },
+        {
+          "Date": "1928-07-01T00:00:00",
+          "AverageTemperature": 21.151,
+          "AverageTemperatureUncertainty": 0.229,
+          "Country": "United States",
+          "Year": 1928,
+          "Month": 7
+        },
+        {
+          "Date": "1928-08-01T00:00:00",
+          "AverageTemperature": 20.125,
+          "AverageTemperatureUncertainty": 0.22,
+          "Country": "United States",
+          "Year": 1928,
+          "Month": 8
+        },
+        {
+          "Date": "1929-06-01T00:00:00",
+          "AverageTemperature": 18.241,
+          "AverageTemperatureUncertainty": 0.1689999999999999,
+          "Country": "United States",
+          "Year": 1929,
+          "Month": 6
+        },
+        {
+          "Date": "1929-07-01T00:00:00",
+          "AverageTemperature": 21.211,
+          "AverageTemperatureUncertainty": 0.15,
+          "Country": "United States",
+          "Year": 1929,
+          "Month": 7
+        },
+        {
+          "Date": "1929-08-01T00:00:00",
+          "AverageTemperature": 20.546999999999997,
+          "AverageTemperatureUncertainty": 0.161,
+          "Country": "United States",
+          "Year": 1929,
+          "Month": 8
+        },
+        {
+          "Date": "1930-06-01T00:00:00",
+          "AverageTemperature": 18.587,
+          "AverageTemperatureUncertainty": 0.145,
+          "Country": "United States",
+          "Year": 1930,
+          "Month": 6
+        },
+        {
+          "Date": "1930-07-01T00:00:00",
+          "AverageTemperature": 21.939,
+          "AverageTemperatureUncertainty": 0.126,
+          "Country": "United States",
+          "Year": 1930,
+          "Month": 7
+        },
+        {
+          "Date": "1930-08-01T00:00:00",
+          "AverageTemperature": 20.758000000000003,
+          "AverageTemperatureUncertainty": 0.079,
+          "Country": "United States",
+          "Year": 1930,
+          "Month": 8
+        },
+        {
+          "Date": "1931-06-01T00:00:00",
+          "AverageTemperature": 19.565,
+          "AverageTemperatureUncertainty": 0.173,
+          "Country": "United States",
+          "Year": 1931,
+          "Month": 6
+        },
+        {
+          "Date": "1931-07-01T00:00:00",
+          "AverageTemperature": 22.143,
+          "AverageTemperatureUncertainty": 0.205,
+          "Country": "United States",
+          "Year": 1931,
+          "Month": 7
+        },
+        {
+          "Date": "1931-08-01T00:00:00",
+          "AverageTemperature": 20.291,
+          "AverageTemperatureUncertainty": 0.15,
+          "Country": "United States",
+          "Year": 1931,
+          "Month": 8
+        },
+        {
+          "Date": "1932-06-01T00:00:00",
+          "AverageTemperature": 18.85,
+          "AverageTemperatureUncertainty": 0.178,
+          "Country": "United States",
+          "Year": 1932,
+          "Month": 6
+        },
+        {
+          "Date": "1932-07-01T00:00:00",
+          "AverageTemperature": 21.495,
+          "AverageTemperatureUncertainty": 0.226,
+          "Country": "United States",
+          "Year": 1932,
+          "Month": 7
+        },
+        {
+          "Date": "1932-08-01T00:00:00",
+          "AverageTemperature": 20.439,
+          "AverageTemperatureUncertainty": 0.196,
+          "Country": "United States",
+          "Year": 1932,
+          "Month": 8
+        },
+        {
+          "Date": "1933-06-01T00:00:00",
+          "AverageTemperature": 19.805,
+          "AverageTemperatureUncertainty": 0.1669999999999999,
+          "Country": "United States",
+          "Year": 1933,
+          "Month": 6
+        },
+        {
+          "Date": "1933-07-01T00:00:00",
+          "AverageTemperature": 21.917,
+          "AverageTemperatureUncertainty": 0.162,
+          "Country": "United States",
+          "Year": 1933,
+          "Month": 7
+        },
+        {
+          "Date": "1933-08-01T00:00:00",
+          "AverageTemperature": 20.234,
+          "AverageTemperatureUncertainty": 0.129,
+          "Country": "United States",
+          "Year": 1933,
+          "Month": 8
+        },
+        {
+          "Date": "1934-06-01T00:00:00",
+          "AverageTemperature": 19.58,
+          "AverageTemperatureUncertainty": 0.114,
+          "Country": "United States",
+          "Year": 1934,
+          "Month": 6
+        },
+        {
+          "Date": "1934-07-01T00:00:00",
+          "AverageTemperature": 22.412,
+          "AverageTemperatureUncertainty": 0.1369999999999999,
+          "Country": "United States",
+          "Year": 1934,
+          "Month": 7
+        },
+        {
+          "Date": "1934-08-01T00:00:00",
+          "AverageTemperature": 21.013,
+          "AverageTemperatureUncertainty": 0.126,
+          "Country": "United States",
+          "Year": 1934,
+          "Month": 8
+        },
+        {
+          "Date": "1935-06-01T00:00:00",
+          "AverageTemperature": 18.199,
+          "AverageTemperatureUncertainty": 0.127,
+          "Country": "United States",
+          "Year": 1935,
+          "Month": 6
+        },
+        {
+          "Date": "1935-07-01T00:00:00",
+          "AverageTemperature": 22.09,
+          "AverageTemperatureUncertainty": 0.191,
+          "Country": "United States",
+          "Year": 1935,
+          "Month": 7
+        },
+        {
+          "Date": "1935-08-01T00:00:00",
+          "AverageTemperature": 20.643,
+          "AverageTemperatureUncertainty": 0.1369999999999999,
+          "Country": "United States",
+          "Year": 1935,
+          "Month": 8
+        },
+        {
+          "Date": "1936-06-01T00:00:00",
+          "AverageTemperature": 19.983,
+          "AverageTemperatureUncertainty": 0.14,
+          "Country": "United States",
+          "Year": 1936,
+          "Month": 6
+        },
+        {
+          "Date": "1936-07-01T00:00:00",
+          "AverageTemperature": 22.834,
+          "AverageTemperatureUncertainty": 0.066,
+          "Country": "United States",
+          "Year": 1936,
+          "Month": 7
+        },
+        {
+          "Date": "1936-08-01T00:00:00",
+          "AverageTemperature": 21.746,
+          "AverageTemperatureUncertainty": 0.159,
+          "Country": "United States",
+          "Year": 1936,
+          "Month": 8
+        },
+        {
+          "Date": "1937-06-01T00:00:00",
+          "AverageTemperature": 18.913,
+          "AverageTemperatureUncertainty": 0.128,
+          "Country": "United States",
+          "Year": 1937,
+          "Month": 6
+        },
+        {
+          "Date": "1937-07-01T00:00:00",
+          "AverageTemperature": 21.769,
+          "AverageTemperatureUncertainty": 0.1369999999999999,
+          "Country": "United States",
+          "Year": 1937,
+          "Month": 7
+        },
+        {
+          "Date": "1937-08-01T00:00:00",
+          "AverageTemperature": 21.466,
+          "AverageTemperatureUncertainty": 0.1689999999999999,
+          "Country": "United States",
+          "Year": 1937,
+          "Month": 8
+        },
+        {
+          "Date": "1938-06-01T00:00:00",
+          "AverageTemperature": 18.718,
+          "AverageTemperatureUncertainty": 0.089,
+          "Country": "United States",
+          "Year": 1938,
+          "Month": 6
+        },
+        {
+          "Date": "1938-07-01T00:00:00",
+          "AverageTemperature": 21.359,
+          "AverageTemperatureUncertainty": 0.108,
+          "Country": "United States",
+          "Year": 1938,
+          "Month": 7
+        },
+        {
+          "Date": "1938-08-01T00:00:00",
+          "AverageTemperature": 21.178,
+          "AverageTemperatureUncertainty": 0.136,
+          "Country": "United States",
+          "Year": 1938,
+          "Month": 8
+        },
+        {
+          "Date": "1939-06-01T00:00:00",
+          "AverageTemperature": 18.855,
+          "AverageTemperatureUncertainty": 0.228,
+          "Country": "United States",
+          "Year": 1939,
+          "Month": 6
+        },
+        {
+          "Date": "1939-07-01T00:00:00",
+          "AverageTemperature": 21.899,
+          "AverageTemperatureUncertainty": 0.185,
+          "Country": "United States",
+          "Year": 1939,
+          "Month": 7
+        },
+        {
+          "Date": "1939-08-01T00:00:00",
+          "AverageTemperature": 20.505,
+          "AverageTemperatureUncertainty": 0.094,
+          "Country": "United States",
+          "Year": 1939,
+          "Month": 8
+        },
+        {
+          "Date": "1940-06-01T00:00:00",
+          "AverageTemperature": 19.261,
+          "AverageTemperatureUncertainty": 0.128,
+          "Country": "United States",
+          "Year": 1940,
+          "Month": 6
+        },
+        {
+          "Date": "1940-07-01T00:00:00",
+          "AverageTemperature": 21.706,
+          "AverageTemperatureUncertainty": 0.178,
+          "Country": "United States",
+          "Year": 1940,
+          "Month": 7
+        },
+        {
+          "Date": "1940-08-01T00:00:00",
+          "AverageTemperature": 20.543000000000003,
+          "AverageTemperatureUncertainty": 0.159,
+          "Country": "United States",
+          "Year": 1940,
+          "Month": 8
+        },
+        {
+          "Date": "1941-06-01T00:00:00",
+          "AverageTemperature": 18.519,
+          "AverageTemperatureUncertainty": 0.145,
+          "Country": "United States",
+          "Year": 1941,
+          "Month": 6
+        },
+        {
+          "Date": "1941-07-01T00:00:00",
+          "AverageTemperature": 21.365,
+          "AverageTemperatureUncertainty": 0.151,
+          "Country": "United States",
+          "Year": 1941,
+          "Month": 7
+        },
+        {
+          "Date": "1941-08-01T00:00:00",
+          "AverageTemperature": 20.621,
+          "AverageTemperatureUncertainty": 0.183,
+          "Country": "United States",
+          "Year": 1941,
+          "Month": 8
+        },
+        {
+          "Date": "1942-06-01T00:00:00",
+          "AverageTemperature": 18.511,
+          "AverageTemperatureUncertainty": 0.1639999999999999,
+          "Country": "United States",
+          "Year": 1942,
+          "Month": 6
+        },
+        {
+          "Date": "1942-07-01T00:00:00",
+          "AverageTemperature": 21.558000000000003,
+          "AverageTemperatureUncertainty": 0.213,
+          "Country": "United States",
+          "Year": 1942,
+          "Month": 7
+        },
+        {
+          "Date": "1942-08-01T00:00:00",
+          "AverageTemperature": 20.35,
+          "AverageTemperatureUncertainty": 0.197,
+          "Country": "United States",
+          "Year": 1942,
+          "Month": 8
+        },
+        {
+          "Date": "1943-06-01T00:00:00",
+          "AverageTemperature": 19.049,
+          "AverageTemperatureUncertainty": 0.081,
+          "Country": "United States",
+          "Year": 1943,
+          "Month": 6
+        },
+        {
+          "Date": "1943-07-01T00:00:00",
+          "AverageTemperature": 21.65,
+          "AverageTemperatureUncertainty": 0.179,
+          "Country": "United States",
+          "Year": 1943,
+          "Month": 7
+        },
+        {
+          "Date": "1943-08-01T00:00:00",
+          "AverageTemperature": 20.979,
+          "AverageTemperatureUncertainty": 0.147,
+          "Country": "United States",
+          "Year": 1943,
+          "Month": 8
+        },
+        {
+          "Date": "1944-06-01T00:00:00",
+          "AverageTemperature": 18.735,
+          "AverageTemperatureUncertainty": 0.145,
+          "Country": "United States",
+          "Year": 1944,
+          "Month": 6
+        },
+        {
+          "Date": "1944-07-01T00:00:00",
+          "AverageTemperature": 21.05,
+          "AverageTemperatureUncertainty": 0.176,
+          "Country": "United States",
+          "Year": 1944,
+          "Month": 7
+        },
+        {
+          "Date": "1944-08-01T00:00:00",
+          "AverageTemperature": 20.369,
+          "AverageTemperatureUncertainty": 0.19,
+          "Country": "United States",
+          "Year": 1944,
+          "Month": 8
+        },
+        {
+          "Date": "1945-06-01T00:00:00",
+          "AverageTemperature": 17.245,
+          "AverageTemperatureUncertainty": 0.143,
+          "Country": "United States",
+          "Year": 1945,
+          "Month": 6
+        },
+        {
+          "Date": "1945-07-01T00:00:00",
+          "AverageTemperature": 20.995,
+          "AverageTemperatureUncertainty": 0.201,
+          "Country": "United States",
+          "Year": 1945,
+          "Month": 7
+        },
+        {
+          "Date": "1945-08-01T00:00:00",
+          "AverageTemperature": 20.288,
+          "AverageTemperatureUncertainty": 0.166,
+          "Country": "United States",
+          "Year": 1945,
+          "Month": 8
+        },
+        {
+          "Date": "1946-06-01T00:00:00",
+          "AverageTemperature": 18.725,
+          "AverageTemperatureUncertainty": 0.199,
+          "Country": "United States",
+          "Year": 1946,
+          "Month": 6
+        },
+        {
+          "Date": "1946-07-01T00:00:00",
+          "AverageTemperature": 21.57,
+          "AverageTemperatureUncertainty": 0.176,
+          "Country": "United States",
+          "Year": 1946,
+          "Month": 7
+        },
+        {
+          "Date": "1946-08-01T00:00:00",
+          "AverageTemperature": 19.84,
+          "AverageTemperatureUncertainty": 0.212,
+          "Country": "United States",
+          "Year": 1946,
+          "Month": 8
+        },
+        {
+          "Date": "1947-06-01T00:00:00",
+          "AverageTemperature": 17.784000000000002,
+          "AverageTemperatureUncertainty": 0.186,
+          "Country": "United States",
+          "Year": 1947,
+          "Month": 6
+        },
+        {
+          "Date": "1947-07-01T00:00:00",
+          "AverageTemperature": 21.107,
+          "AverageTemperatureUncertainty": 0.146,
+          "Country": "United States",
+          "Year": 1947,
+          "Month": 7
+        },
+        {
+          "Date": "1947-08-01T00:00:00",
+          "AverageTemperature": 21.168000000000003,
+          "AverageTemperatureUncertainty": 0.126,
+          "Country": "United States",
+          "Year": 1947,
+          "Month": 8
+        },
+        {
+          "Date": "1948-06-01T00:00:00",
+          "AverageTemperature": 18.81,
+          "AverageTemperatureUncertainty": 0.106,
+          "Country": "United States",
+          "Year": 1948,
+          "Month": 6
+        },
+        {
+          "Date": "1948-07-01T00:00:00",
+          "AverageTemperature": 21.058000000000003,
+          "AverageTemperatureUncertainty": 0.157,
+          "Country": "United States",
+          "Year": 1948,
+          "Month": 7
+        },
+        {
+          "Date": "1948-08-01T00:00:00",
+          "AverageTemperature": 20.155,
+          "AverageTemperatureUncertainty": 0.124,
+          "Country": "United States",
+          "Year": 1948,
+          "Month": 8
+        },
+        {
+          "Date": "1949-06-01T00:00:00",
+          "AverageTemperature": 18.612,
+          "AverageTemperatureUncertainty": 0.131,
+          "Country": "United States",
+          "Year": 1949,
+          "Month": 6
+        },
+        {
+          "Date": "1949-07-01T00:00:00",
+          "AverageTemperature": 21.593000000000004,
+          "AverageTemperatureUncertainty": 0.111,
+          "Country": "United States",
+          "Year": 1949,
+          "Month": 7
+        },
+        {
+          "Date": "1949-08-01T00:00:00",
+          "AverageTemperature": 20.481,
+          "AverageTemperatureUncertainty": 0.182,
+          "Country": "United States",
+          "Year": 1949,
+          "Month": 8
+        },
+        {
+          "Date": "1950-06-01T00:00:00",
+          "AverageTemperature": 18.408,
+          "AverageTemperatureUncertainty": 0.144,
+          "Country": "United States",
+          "Year": 1950,
+          "Month": 6
+        },
+        {
+          "Date": "1950-07-01T00:00:00",
+          "AverageTemperature": 20.4,
+          "AverageTemperatureUncertainty": 0.146,
+          "Country": "United States",
+          "Year": 1950,
+          "Month": 7
+        },
+        {
+          "Date": "1950-08-01T00:00:00",
+          "AverageTemperature": 19.723,
+          "AverageTemperatureUncertainty": 0.1689999999999999,
+          "Country": "United States",
+          "Year": 1950,
+          "Month": 8
+        },
+        {
+          "Date": "1951-06-01T00:00:00",
+          "AverageTemperature": 17.843,
+          "AverageTemperatureUncertainty": 0.417,
+          "Country": "United States",
+          "Year": 1951,
+          "Month": 6
+        },
+        {
+          "Date": "1951-07-01T00:00:00",
+          "AverageTemperature": 21.501,
+          "AverageTemperatureUncertainty": 0.209,
+          "Country": "United States",
+          "Year": 1951,
+          "Month": 7
+        },
+        {
+          "Date": "1951-08-01T00:00:00",
+          "AverageTemperature": 20.488000000000003,
+          "AverageTemperatureUncertainty": 0.154,
+          "Country": "United States",
+          "Year": 1951,
+          "Month": 8
+        },
+        {
+          "Date": "1952-06-01T00:00:00",
+          "AverageTemperature": 19.656,
+          "AverageTemperatureUncertainty": 0.104,
+          "Country": "United States",
+          "Year": 1952,
+          "Month": 6
+        },
+        {
+          "Date": "1952-07-01T00:00:00",
+          "AverageTemperature": 21.589,
+          "AverageTemperatureUncertainty": 0.154,
+          "Country": "United States",
+          "Year": 1952,
+          "Month": 7
+        },
+        {
+          "Date": "1952-08-01T00:00:00",
+          "AverageTemperature": 20.744,
+          "AverageTemperatureUncertainty": 0.155,
+          "Country": "United States",
+          "Year": 1952,
+          "Month": 8
+        },
+        {
+          "Date": "1953-06-01T00:00:00",
+          "AverageTemperature": 19.755,
+          "AverageTemperatureUncertainty": 0.152,
+          "Country": "United States",
+          "Year": 1953,
+          "Month": 6
+        },
+        {
+          "Date": "1953-07-01T00:00:00",
+          "AverageTemperature": 21.796999999999997,
+          "AverageTemperatureUncertainty": 0.134,
+          "Country": "United States",
+          "Year": 1953,
+          "Month": 7
+        },
+        {
+          "Date": "1953-08-01T00:00:00",
+          "AverageTemperature": 20.485,
+          "AverageTemperatureUncertainty": 0.103,
+          "Country": "United States",
+          "Year": 1953,
+          "Month": 8
+        },
+        {
+          "Date": "1954-06-01T00:00:00",
+          "AverageTemperature": 18.885,
+          "AverageTemperatureUncertainty": 0.205,
+          "Country": "United States",
+          "Year": 1954,
+          "Month": 6
+        },
+        {
+          "Date": "1954-07-01T00:00:00",
+          "AverageTemperature": 22.183000000000003,
+          "AverageTemperatureUncertainty": 0.159,
+          "Country": "United States",
+          "Year": 1954,
+          "Month": 7
+        },
+        {
+          "Date": "1954-08-01T00:00:00",
+          "AverageTemperature": 20.645,
+          "AverageTemperatureUncertainty": 0.115,
+          "Country": "United States",
+          "Year": 1954,
+          "Month": 8
+        },
+        {
+          "Date": "1955-06-01T00:00:00",
+          "AverageTemperature": 17.528,
+          "AverageTemperatureUncertainty": 0.157,
+          "Country": "United States",
+          "Year": 1955,
+          "Month": 6
+        },
+        {
+          "Date": "1955-07-01T00:00:00",
+          "AverageTemperature": 21.839,
+          "AverageTemperatureUncertainty": 0.138,
+          "Country": "United States",
+          "Year": 1955,
+          "Month": 7
+        },
+        {
+          "Date": "1955-08-01T00:00:00",
+          "AverageTemperature": 21.113000000000003,
+          "AverageTemperatureUncertainty": 0.187,
+          "Country": "United States",
+          "Year": 1955,
+          "Month": 8
+        },
+        {
+          "Date": "1956-06-01T00:00:00",
+          "AverageTemperature": 19.444000000000003,
+          "AverageTemperatureUncertainty": 0.095,
+          "Country": "United States",
+          "Year": 1956,
+          "Month": 6
+        },
+        {
+          "Date": "1956-07-01T00:00:00",
+          "AverageTemperature": 21.202,
+          "AverageTemperatureUncertainty": 0.15,
+          "Country": "United States",
+          "Year": 1956,
+          "Month": 7
+        },
+        {
+          "Date": "1956-08-01T00:00:00",
+          "AverageTemperature": 20.219,
+          "AverageTemperatureUncertainty": 0.215,
+          "Country": "United States",
+          "Year": 1956,
+          "Month": 8
+        },
+        {
+          "Date": "1957-06-01T00:00:00",
+          "AverageTemperature": 19.162,
+          "AverageTemperatureUncertainty": 0.463,
+          "Country": "United States",
+          "Year": 1957,
+          "Month": 6
+        },
+        {
+          "Date": "1957-07-01T00:00:00",
+          "AverageTemperature": 21.761999999999997,
+          "AverageTemperatureUncertainty": 0.428,
+          "Country": "United States",
+          "Year": 1957,
+          "Month": 7
+        },
+        {
+          "Date": "1957-08-01T00:00:00",
+          "AverageTemperature": 20.603,
+          "AverageTemperatureUncertainty": 0.7040000000000001,
+          "Country": "United States",
+          "Year": 1957,
+          "Month": 8
+        },
+        {
+          "Date": "1958-06-01T00:00:00",
+          "AverageTemperature": 18.729,
+          "AverageTemperatureUncertainty": 0.335,
+          "Country": "United States",
+          "Year": 1958,
+          "Month": 6
+        },
+        {
+          "Date": "1958-07-01T00:00:00",
+          "AverageTemperature": 21.098000000000003,
+          "AverageTemperatureUncertainty": 0.348,
+          "Country": "United States",
+          "Year": 1958,
+          "Month": 7
+        },
+        {
+          "Date": "1958-08-01T00:00:00",
+          "AverageTemperature": 21.135,
+          "AverageTemperatureUncertainty": 0.302,
+          "Country": "United States",
+          "Year": 1958,
+          "Month": 8
+        },
+        {
+          "Date": "1959-06-01T00:00:00",
+          "AverageTemperature": 19.573,
+          "AverageTemperatureUncertainty": 0.148,
+          "Country": "United States",
+          "Year": 1959,
+          "Month": 6
+        },
+        {
+          "Date": "1959-07-01T00:00:00",
+          "AverageTemperature": 21.11,
+          "AverageTemperatureUncertainty": 0.294,
+          "Country": "United States",
+          "Year": 1959,
+          "Month": 7
+        },
+        {
+          "Date": "1959-08-01T00:00:00",
+          "AverageTemperature": 21.001,
+          "AverageTemperatureUncertainty": 0.151,
+          "Country": "United States",
+          "Year": 1959,
+          "Month": 8
+        },
+        {
+          "Date": "1960-06-01T00:00:00",
+          "AverageTemperature": 18.864,
+          "AverageTemperatureUncertainty": 0.265,
+          "Country": "United States",
+          "Year": 1960,
+          "Month": 6
+        },
+        {
+          "Date": "1960-07-01T00:00:00",
+          "AverageTemperature": 21.568,
+          "AverageTemperatureUncertainty": 0.139,
+          "Country": "United States",
+          "Year": 1960,
+          "Month": 7
+        },
+        {
+          "Date": "1960-08-01T00:00:00",
+          "AverageTemperature": 20.487,
+          "AverageTemperatureUncertainty": 0.308,
+          "Country": "United States",
+          "Year": 1960,
+          "Month": 8
+        },
+        {
+          "Date": "1961-06-01T00:00:00",
+          "AverageTemperature": 19.164,
+          "AverageTemperatureUncertainty": 0.292,
+          "Country": "United States",
+          "Year": 1961,
+          "Month": 6
+        },
+        {
+          "Date": "1961-07-01T00:00:00",
+          "AverageTemperature": 21.153,
+          "AverageTemperatureUncertainty": 0.203,
+          "Country": "United States",
+          "Year": 1961,
+          "Month": 7
+        },
+        {
+          "Date": "1961-08-01T00:00:00",
+          "AverageTemperature": 20.716,
+          "AverageTemperatureUncertainty": 0.108,
+          "Country": "United States",
+          "Year": 1961,
+          "Month": 8
+        },
+        {
+          "Date": "1962-06-01T00:00:00",
+          "AverageTemperature": 18.445,
+          "AverageTemperatureUncertainty": 0.5,
+          "Country": "United States",
+          "Year": 1962,
+          "Month": 6
+        },
+        {
+          "Date": "1962-07-01T00:00:00",
+          "AverageTemperature": 20.930999999999997,
+          "AverageTemperatureUncertainty": 0.222,
+          "Country": "United States",
+          "Year": 1962,
+          "Month": 7
+        },
+        {
+          "Date": "1962-08-01T00:00:00",
+          "AverageTemperature": 20.693,
+          "AverageTemperatureUncertainty": 0.215,
+          "Country": "United States",
+          "Year": 1962,
+          "Month": 8
+        },
+        {
+          "Date": "1963-06-01T00:00:00",
+          "AverageTemperature": 18.599,
+          "AverageTemperatureUncertainty": 0.237,
+          "Country": "United States",
+          "Year": 1963,
+          "Month": 6
+        },
+        {
+          "Date": "1963-07-01T00:00:00",
+          "AverageTemperature": 21.405,
+          "AverageTemperatureUncertainty": 0.279,
+          "Country": "United States",
+          "Year": 1963,
+          "Month": 7
+        },
+        {
+          "Date": "1963-08-01T00:00:00",
+          "AverageTemperature": 20.43,
+          "AverageTemperatureUncertainty": 0.114,
+          "Country": "United States",
+          "Year": 1963,
+          "Month": 8
+        },
+        {
+          "Date": "1964-06-01T00:00:00",
+          "AverageTemperature": 18.574,
+          "AverageTemperatureUncertainty": 0.294,
+          "Country": "United States",
+          "Year": 1964,
+          "Month": 6
+        },
+        {
+          "Date": "1964-07-01T00:00:00",
+          "AverageTemperature": 21.909,
+          "AverageTemperatureUncertainty": 0.196,
+          "Country": "United States",
+          "Year": 1964,
+          "Month": 7
+        },
+        {
+          "Date": "1964-08-01T00:00:00",
+          "AverageTemperature": 19.864,
+          "AverageTemperatureUncertainty": 0.253,
+          "Country": "United States",
+          "Year": 1964,
+          "Month": 8
+        },
+        {
+          "Date": "1965-06-01T00:00:00",
+          "AverageTemperature": 17.768,
+          "AverageTemperatureUncertainty": 0.4370000000000001,
+          "Country": "United States",
+          "Year": 1965,
+          "Month": 6
+        },
+        {
+          "Date": "1965-07-01T00:00:00",
+          "AverageTemperature": 20.889,
+          "AverageTemperatureUncertainty": 0.235,
+          "Country": "United States",
+          "Year": 1965,
+          "Month": 7
+        },
+        {
+          "Date": "1965-08-01T00:00:00",
+          "AverageTemperature": 19.91,
+          "AverageTemperatureUncertainty": 0.088,
+          "Country": "United States",
+          "Year": 1965,
+          "Month": 8
+        },
+        {
+          "Date": "1966-06-01T00:00:00",
+          "AverageTemperature": 18.61,
+          "AverageTemperatureUncertainty": 0.156,
+          "Country": "United States",
+          "Year": 1966,
+          "Month": 6
+        },
+        {
+          "Date": "1966-07-01T00:00:00",
+          "AverageTemperature": 22.124,
+          "AverageTemperatureUncertainty": 0.261,
+          "Country": "United States",
+          "Year": 1966,
+          "Month": 7
+        },
+        {
+          "Date": "1966-08-01T00:00:00",
+          "AverageTemperature": 19.87,
+          "AverageTemperatureUncertainty": 0.235,
+          "Country": "United States",
+          "Year": 1966,
+          "Month": 8
+        },
+        {
+          "Date": "1967-06-01T00:00:00",
+          "AverageTemperature": 18.446,
+          "AverageTemperatureUncertainty": 0.194,
+          "Country": "United States",
+          "Year": 1967,
+          "Month": 6
+        },
+        {
+          "Date": "1967-07-01T00:00:00",
+          "AverageTemperature": 20.935,
+          "AverageTemperatureUncertainty": 0.424,
+          "Country": "United States",
+          "Year": 1967,
+          "Month": 7
+        },
+        {
+          "Date": "1967-08-01T00:00:00",
+          "AverageTemperature": 20.188,
+          "AverageTemperatureUncertainty": 0.265,
+          "Country": "United States",
+          "Year": 1967,
+          "Month": 8
+        },
+        {
+          "Date": "1968-06-01T00:00:00",
+          "AverageTemperature": 18.754,
+          "AverageTemperatureUncertainty": 0.307,
+          "Country": "United States",
+          "Year": 1968,
+          "Month": 6
+        },
+        {
+          "Date": "1968-07-01T00:00:00",
+          "AverageTemperature": 21.389,
+          "AverageTemperatureUncertainty": 0.274,
+          "Country": "United States",
+          "Year": 1968,
+          "Month": 7
+        },
+        {
+          "Date": "1968-08-01T00:00:00",
+          "AverageTemperature": 20.077,
+          "AverageTemperatureUncertainty": 0.173,
+          "Country": "United States",
+          "Year": 1968,
+          "Month": 8
+        },
+        {
+          "Date": "1969-06-01T00:00:00",
+          "AverageTemperature": 18.272,
+          "AverageTemperatureUncertainty": 0.267,
+          "Country": "United States",
+          "Year": 1969,
+          "Month": 6
+        },
+        {
+          "Date": "1969-07-01T00:00:00",
+          "AverageTemperature": 21.605,
+          "AverageTemperatureUncertainty": 0.151,
+          "Country": "United States",
+          "Year": 1969,
+          "Month": 7
+        },
+        {
+          "Date": "1969-08-01T00:00:00",
+          "AverageTemperature": 20.625,
+          "AverageTemperatureUncertainty": 0.266,
+          "Country": "United States",
+          "Year": 1969,
+          "Month": 8
+        },
+        {
+          "Date": "1970-06-01T00:00:00",
+          "AverageTemperature": 18.803,
+          "AverageTemperatureUncertainty": 0.237,
+          "Country": "United States",
+          "Year": 1970,
+          "Month": 6
+        },
+        {
+          "Date": "1970-07-01T00:00:00",
+          "AverageTemperature": 21.56,
+          "AverageTemperatureUncertainty": 0.127,
+          "Country": "United States",
+          "Year": 1970,
+          "Month": 7
+        },
+        {
+          "Date": "1970-08-01T00:00:00",
+          "AverageTemperature": 21.043000000000003,
+          "AverageTemperatureUncertainty": 0.1689999999999999,
+          "Country": "United States",
+          "Year": 1970,
+          "Month": 8
+        },
+        {
+          "Date": "1971-06-01T00:00:00",
+          "AverageTemperature": 19.337,
+          "AverageTemperatureUncertainty": 0.122,
+          "Country": "United States",
+          "Year": 1971,
+          "Month": 6
+        },
+        {
+          "Date": "1971-07-01T00:00:00",
+          "AverageTemperature": 20.903,
+          "AverageTemperatureUncertainty": 0.192,
+          "Country": "United States",
+          "Year": 1971,
+          "Month": 7
+        },
+        {
+          "Date": "1971-08-01T00:00:00",
+          "AverageTemperature": 20.418,
+          "AverageTemperatureUncertainty": 0.187,
+          "Country": "United States",
+          "Year": 1971,
+          "Month": 8
+        },
+        {
+          "Date": "1972-06-01T00:00:00",
+          "AverageTemperature": 18.57,
+          "AverageTemperatureUncertainty": 0.216,
+          "Country": "United States",
+          "Year": 1972,
+          "Month": 6
+        },
+        {
+          "Date": "1972-07-01T00:00:00",
+          "AverageTemperature": 21.074,
+          "AverageTemperatureUncertainty": 0.216,
+          "Country": "United States",
+          "Year": 1972,
+          "Month": 7
+        },
+        {
+          "Date": "1972-08-01T00:00:00",
+          "AverageTemperature": 20.579,
+          "AverageTemperatureUncertainty": 0.219,
+          "Country": "United States",
+          "Year": 1972,
+          "Month": 8
+        },
+        {
+          "Date": "1973-06-01T00:00:00",
+          "AverageTemperature": 18.945,
+          "AverageTemperatureUncertainty": 0.092,
+          "Country": "United States",
+          "Year": 1973,
+          "Month": 6
+        },
+        {
+          "Date": "1973-07-01T00:00:00",
+          "AverageTemperature": 21.241999999999997,
+          "AverageTemperatureUncertainty": 0.233,
+          "Country": "United States",
+          "Year": 1973,
+          "Month": 7
+        },
+        {
+          "Date": "1973-08-01T00:00:00",
+          "AverageTemperature": 20.62,
+          "AverageTemperatureUncertainty": 0.265,
+          "Country": "United States",
+          "Year": 1973,
+          "Month": 8
+        },
+        {
+          "Date": "1974-06-01T00:00:00",
+          "AverageTemperature": 18.66,
+          "AverageTemperatureUncertainty": 0.141,
+          "Country": "United States",
+          "Year": 1974,
+          "Month": 6
+        },
+        {
+          "Date": "1974-07-01T00:00:00",
+          "AverageTemperature": 21.704,
+          "AverageTemperatureUncertainty": 0.17,
+          "Country": "United States",
+          "Year": 1974,
+          "Month": 7
+        },
+        {
+          "Date": "1974-08-01T00:00:00",
+          "AverageTemperature": 19.923,
+          "AverageTemperatureUncertainty": 0.255,
+          "Country": "United States",
+          "Year": 1974,
+          "Month": 8
+        },
+        {
+          "Date": "1975-06-01T00:00:00",
+          "AverageTemperature": 18.198,
+          "AverageTemperatureUncertainty": 0.225,
+          "Country": "United States",
+          "Year": 1975,
+          "Month": 6
+        },
+        {
+          "Date": "1975-07-01T00:00:00",
+          "AverageTemperature": 21.53,
+          "AverageTemperatureUncertainty": 0.336,
+          "Country": "United States",
+          "Year": 1975,
+          "Month": 7
+        },
+        {
+          "Date": "1975-08-01T00:00:00",
+          "AverageTemperature": 20.285,
+          "AverageTemperatureUncertainty": 0.456,
+          "Country": "United States",
+          "Year": 1975,
+          "Month": 8
+        },
+        {
+          "Date": "1976-06-01T00:00:00",
+          "AverageTemperature": 18.448,
+          "AverageTemperatureUncertainty": 0.228,
+          "Country": "United States",
+          "Year": 1976,
+          "Month": 6
+        },
+        {
+          "Date": "1976-07-01T00:00:00",
+          "AverageTemperature": 21.201,
+          "AverageTemperatureUncertainty": 0.31,
+          "Country": "United States",
+          "Year": 1976,
+          "Month": 7
+        },
+        {
+          "Date": "1976-08-01T00:00:00",
+          "AverageTemperature": 20.131,
+          "AverageTemperatureUncertainty": 0.19,
+          "Country": "United States",
+          "Year": 1976,
+          "Month": 8
+        },
+        {
+          "Date": "1977-06-01T00:00:00",
+          "AverageTemperature": 19.741,
+          "AverageTemperatureUncertainty": 0.172,
+          "Country": "United States",
+          "Year": 1977,
+          "Month": 6
+        },
+        {
+          "Date": "1977-07-01T00:00:00",
+          "AverageTemperature": 22.083,
+          "AverageTemperatureUncertainty": 0.246,
+          "Country": "United States",
+          "Year": 1977,
+          "Month": 7
+        },
+        {
+          "Date": "1977-08-01T00:00:00",
+          "AverageTemperature": 20.909,
+          "AverageTemperatureUncertainty": 0.213,
+          "Country": "United States",
+          "Year": 1977,
+          "Month": 8
+        },
+        {
+          "Date": "1978-06-01T00:00:00",
+          "AverageTemperature": 18.872,
+          "AverageTemperatureUncertainty": 0.216,
+          "Country": "United States",
+          "Year": 1978,
+          "Month": 6
+        },
+        {
+          "Date": "1978-07-01T00:00:00",
+          "AverageTemperature": 21.733,
+          "AverageTemperatureUncertainty": 0.236,
+          "Country": "United States",
+          "Year": 1978,
+          "Month": 7
+        },
+        {
+          "Date": "1978-08-01T00:00:00",
+          "AverageTemperature": 20.653,
+          "AverageTemperatureUncertainty": 0.266,
+          "Country": "United States",
+          "Year": 1978,
+          "Month": 8
+        },
+        {
+          "Date": "1979-06-01T00:00:00",
+          "AverageTemperature": 18.514,
+          "AverageTemperatureUncertainty": 0.155,
+          "Country": "United States",
+          "Year": 1979,
+          "Month": 6
+        },
+        {
+          "Date": "1979-07-01T00:00:00",
+          "AverageTemperature": 21.439,
+          "AverageTemperatureUncertainty": 0.148,
+          "Country": "United States",
+          "Year": 1979,
+          "Month": 7
+        },
+        {
+          "Date": "1979-08-01T00:00:00",
+          "AverageTemperature": 20.371,
+          "AverageTemperatureUncertainty": 0.281,
+          "Country": "United States",
+          "Year": 1979,
+          "Month": 8
+        },
+        {
+          "Date": "1980-06-01T00:00:00",
+          "AverageTemperature": 18.939,
+          "AverageTemperatureUncertainty": 0.178,
+          "Country": "United States",
+          "Year": 1980,
+          "Month": 6
+        },
+        {
+          "Date": "1980-07-01T00:00:00",
+          "AverageTemperature": 22.544,
+          "AverageTemperatureUncertainty": 0.227,
+          "Country": "United States",
+          "Year": 1980,
+          "Month": 7
+        },
+        {
+          "Date": "1980-08-01T00:00:00",
+          "AverageTemperature": 20.776,
+          "AverageTemperatureUncertainty": 0.193,
+          "Country": "United States",
+          "Year": 1980,
+          "Month": 8
+        },
+        {
+          "Date": "1981-06-01T00:00:00",
+          "AverageTemperature": 19.467,
+          "AverageTemperatureUncertainty": 0.291,
+          "Country": "United States",
+          "Year": 1981,
+          "Month": 6
+        },
+        {
+          "Date": "1981-07-01T00:00:00",
+          "AverageTemperature": 21.562,
+          "AverageTemperatureUncertainty": 0.252,
+          "Country": "United States",
+          "Year": 1981,
+          "Month": 7
+        },
+        {
+          "Date": "1981-08-01T00:00:00",
+          "AverageTemperature": 20.495,
+          "AverageTemperatureUncertainty": 0.124,
+          "Country": "United States",
+          "Year": 1981,
+          "Month": 8
+        },
+        {
+          "Date": "1982-06-01T00:00:00",
+          "AverageTemperature": 17.84,
+          "AverageTemperatureUncertainty": 0.225,
+          "Country": "United States",
+          "Year": 1982,
+          "Month": 6
+        },
+        {
+          "Date": "1982-07-01T00:00:00",
+          "AverageTemperature": 21.383000000000003,
+          "AverageTemperatureUncertainty": 0.231,
+          "Country": "United States",
+          "Year": 1982,
+          "Month": 7
+        },
+        {
+          "Date": "1982-08-01T00:00:00",
+          "AverageTemperature": 20.56,
+          "AverageTemperatureUncertainty": 0.072,
+          "Country": "United States",
+          "Year": 1982,
+          "Month": 8
+        },
+        {
+          "Date": "1983-06-01T00:00:00",
+          "AverageTemperature": 18.284,
+          "AverageTemperatureUncertainty": 0.251,
+          "Country": "United States",
+          "Year": 1983,
+          "Month": 6
+        },
+        {
+          "Date": "1983-07-01T00:00:00",
+          "AverageTemperature": 21.787,
+          "AverageTemperatureUncertainty": 0.179,
+          "Country": "United States",
+          "Year": 1983,
+          "Month": 7
+        },
+        {
+          "Date": "1983-08-01T00:00:00",
+          "AverageTemperature": 21.763,
+          "AverageTemperatureUncertainty": 0.128,
+          "Country": "United States",
+          "Year": 1983,
+          "Month": 8
+        },
+        {
+          "Date": "1984-06-01T00:00:00",
+          "AverageTemperature": 19.035,
+          "AverageTemperatureUncertainty": 0.125,
+          "Country": "United States",
+          "Year": 1984,
+          "Month": 6
+        },
+        {
+          "Date": "1984-07-01T00:00:00",
+          "AverageTemperature": 21.264,
+          "AverageTemperatureUncertainty": 0.287,
+          "Country": "United States",
+          "Year": 1984,
+          "Month": 7
+        },
+        {
+          "Date": "1984-08-01T00:00:00",
+          "AverageTemperature": 20.886,
+          "AverageTemperatureUncertainty": 0.211,
+          "Country": "United States",
+          "Year": 1984,
+          "Month": 8
+        },
+        {
+          "Date": "1985-06-01T00:00:00",
+          "AverageTemperature": 18.462,
+          "AverageTemperatureUncertainty": 0.308,
+          "Country": "United States",
+          "Year": 1985,
+          "Month": 6
+        },
+        {
+          "Date": "1985-07-01T00:00:00",
+          "AverageTemperature": 21.758000000000003,
+          "AverageTemperatureUncertainty": 0.218,
+          "Country": "United States",
+          "Year": 1985,
+          "Month": 7
+        },
+        {
+          "Date": "1985-08-01T00:00:00",
+          "AverageTemperature": 20.02,
+          "AverageTemperatureUncertainty": 0.202,
+          "Country": "United States",
+          "Year": 1985,
+          "Month": 8
+        },
+        {
+          "Date": "1986-06-01T00:00:00",
+          "AverageTemperature": 19.789,
+          "AverageTemperatureUncertainty": 0.201,
+          "Country": "United States",
+          "Year": 1986,
+          "Month": 6
+        },
+        {
+          "Date": "1986-07-01T00:00:00",
+          "AverageTemperature": 21.544,
+          "AverageTemperatureUncertainty": 0.153,
+          "Country": "United States",
+          "Year": 1986,
+          "Month": 7
+        },
+        {
+          "Date": "1986-08-01T00:00:00",
+          "AverageTemperature": 20.188,
+          "AverageTemperatureUncertainty": 0.207,
+          "Country": "United States",
+          "Year": 1986,
+          "Month": 8
+        },
+        {
+          "Date": "1987-06-01T00:00:00",
+          "AverageTemperature": 19.63,
+          "AverageTemperatureUncertainty": 0.172,
+          "Country": "United States",
+          "Year": 1987,
+          "Month": 6
+        },
+        {
+          "Date": "1987-07-01T00:00:00",
+          "AverageTemperature": 21.479,
+          "AverageTemperatureUncertainty": 0.183,
+          "Country": "United States",
+          "Year": 1987,
+          "Month": 7
+        },
+        {
+          "Date": "1987-08-01T00:00:00",
+          "AverageTemperature": 20.587,
+          "AverageTemperatureUncertainty": 0.238,
+          "Country": "United States",
+          "Year": 1987,
+          "Month": 8
+        },
+        {
+          "Date": "1988-06-01T00:00:00",
+          "AverageTemperature": 20.021,
+          "AverageTemperatureUncertainty": 0.245,
+          "Country": "United States",
+          "Year": 1988,
+          "Month": 6
+        },
+        {
+          "Date": "1988-07-01T00:00:00",
+          "AverageTemperature": 22.243,
+          "AverageTemperatureUncertainty": 0.185,
+          "Country": "United States",
+          "Year": 1988,
+          "Month": 7
+        },
+        {
+          "Date": "1988-08-01T00:00:00",
+          "AverageTemperature": 21.295,
+          "AverageTemperatureUncertainty": 0.124,
+          "Country": "United States",
+          "Year": 1988,
+          "Month": 8
+        },
+        {
+          "Date": "1989-06-01T00:00:00",
+          "AverageTemperature": 18.698,
+          "AverageTemperatureUncertainty": 0.181,
+          "Country": "United States",
+          "Year": 1989,
+          "Month": 6
+        },
+        {
+          "Date": "1989-07-01T00:00:00",
+          "AverageTemperature": 21.974,
+          "AverageTemperatureUncertainty": 0.242,
+          "Country": "United States",
+          "Year": 1989,
+          "Month": 7
+        },
+        {
+          "Date": "1989-08-01T00:00:00",
+          "AverageTemperature": 20.469,
+          "AverageTemperatureUncertainty": 0.282,
+          "Country": "United States",
+          "Year": 1989,
+          "Month": 8
+        },
+        {
+          "Date": "1990-06-01T00:00:00",
+          "AverageTemperature": 19.78,
+          "AverageTemperatureUncertainty": 0.255,
+          "Country": "United States",
+          "Year": 1990,
+          "Month": 6
+        },
+        {
+          "Date": "1990-07-01T00:00:00",
+          "AverageTemperature": 21.605,
+          "AverageTemperatureUncertainty": 0.175,
+          "Country": "United States",
+          "Year": 1990,
+          "Month": 7
+        },
+        {
+          "Date": "1990-08-01T00:00:00",
+          "AverageTemperature": 20.857,
+          "AverageTemperatureUncertainty": 0.218,
+          "Country": "United States",
+          "Year": 1990,
+          "Month": 8
+        },
+        {
+          "Date": "1991-06-01T00:00:00",
+          "AverageTemperature": 19.335,
+          "AverageTemperatureUncertainty": 0.087,
+          "Country": "United States",
+          "Year": 1991,
+          "Month": 6
+        },
+        {
+          "Date": "1991-07-01T00:00:00",
+          "AverageTemperature": 21.616,
+          "AverageTemperatureUncertainty": 0.188,
+          "Country": "United States",
+          "Year": 1991,
+          "Month": 7
+        },
+        {
+          "Date": "1991-08-01T00:00:00",
+          "AverageTemperature": 20.866,
+          "AverageTemperatureUncertainty": 0.195,
+          "Country": "United States",
+          "Year": 1991,
+          "Month": 8
+        },
+        {
+          "Date": "1992-06-01T00:00:00",
+          "AverageTemperature": 18.477,
+          "AverageTemperatureUncertainty": 0.227,
+          "Country": "United States",
+          "Year": 1992,
+          "Month": 6
+        },
+        {
+          "Date": "1992-07-01T00:00:00",
+          "AverageTemperature": 20.595,
+          "AverageTemperatureUncertainty": 0.212,
+          "Country": "United States",
+          "Year": 1992,
+          "Month": 7
+        },
+        {
+          "Date": "1992-08-01T00:00:00",
+          "AverageTemperature": 19.492,
+          "AverageTemperatureUncertainty": 0.175,
+          "Country": "United States",
+          "Year": 1992,
+          "Month": 8
+        },
+        {
+          "Date": "1993-06-01T00:00:00",
+          "AverageTemperature": 18.459,
+          "AverageTemperatureUncertainty": 0.119,
+          "Country": "United States",
+          "Year": 1993,
+          "Month": 6
+        },
+        {
+          "Date": "1993-07-01T00:00:00",
+          "AverageTemperature": 21.254,
+          "AverageTemperatureUncertainty": 0.166,
+          "Country": "United States",
+          "Year": 1993,
+          "Month": 7
+        },
+        {
+          "Date": "1993-08-01T00:00:00",
+          "AverageTemperature": 20.486,
+          "AverageTemperatureUncertainty": 0.174,
+          "Country": "United States",
+          "Year": 1993,
+          "Month": 8
+        },
+        {
+          "Date": "1994-06-01T00:00:00",
+          "AverageTemperature": 19.964,
+          "AverageTemperatureUncertainty": 0.209,
+          "Country": "United States",
+          "Year": 1994,
+          "Month": 6
+        },
+        {
+          "Date": "1994-07-01T00:00:00",
+          "AverageTemperature": 21.694000000000003,
+          "AverageTemperatureUncertainty": 0.206,
+          "Country": "United States",
+          "Year": 1994,
+          "Month": 7
+        },
+        {
+          "Date": "1994-08-01T00:00:00",
+          "AverageTemperature": 20.807,
+          "AverageTemperatureUncertainty": 0.147,
+          "Country": "United States",
+          "Year": 1994,
+          "Month": 8
+        },
+        {
+          "Date": "1995-06-01T00:00:00",
+          "AverageTemperature": 18.469,
+          "AverageTemperatureUncertainty": 0.162,
+          "Country": "United States",
+          "Year": 1995,
+          "Month": 6
+        },
+        {
+          "Date": "1995-07-01T00:00:00",
+          "AverageTemperature": 21.632,
+          "AverageTemperatureUncertainty": 0.147,
+          "Country": "United States",
+          "Year": 1995,
+          "Month": 7
+        },
+        {
+          "Date": "1995-08-01T00:00:00",
+          "AverageTemperature": 21.586,
+          "AverageTemperatureUncertainty": 0.157,
+          "Country": "United States",
+          "Year": 1995,
+          "Month": 8
+        },
+        {
+          "Date": "1996-06-01T00:00:00",
+          "AverageTemperature": 19.513,
+          "AverageTemperatureUncertainty": 0.154,
+          "Country": "United States",
+          "Year": 1996,
+          "Month": 6
+        },
+        {
+          "Date": "1996-07-01T00:00:00",
+          "AverageTemperature": 21.636,
+          "AverageTemperatureUncertainty": 0.183,
+          "Country": "United States",
+          "Year": 1996,
+          "Month": 7
+        },
+        {
+          "Date": "1996-08-01T00:00:00",
+          "AverageTemperature": 20.497,
+          "AverageTemperatureUncertainty": 0.147,
+          "Country": "United States",
+          "Year": 1996,
+          "Month": 8
+        },
+        {
+          "Date": "1997-06-01T00:00:00",
+          "AverageTemperature": 19.042,
+          "AverageTemperatureUncertainty": 0.159,
+          "Country": "United States",
+          "Year": 1997,
+          "Month": 6
+        },
+        {
+          "Date": "1997-07-01T00:00:00",
+          "AverageTemperature": 21.597,
+          "AverageTemperatureUncertainty": 0.246,
+          "Country": "United States",
+          "Year": 1997,
+          "Month": 7
+        },
+        {
+          "Date": "1997-08-01T00:00:00",
+          "AverageTemperature": 20.642,
+          "AverageTemperatureUncertainty": 0.214,
+          "Country": "United States",
+          "Year": 1997,
+          "Month": 8
+        },
+        {
+          "Date": "1998-06-01T00:00:00",
+          "AverageTemperature": 18.771,
+          "AverageTemperatureUncertainty": 0.157,
+          "Country": "United States",
+          "Year": 1998,
+          "Month": 6
+        },
+        {
+          "Date": "1998-07-01T00:00:00",
+          "AverageTemperature": 22.626,
+          "AverageTemperatureUncertainty": 0.141,
+          "Country": "United States",
+          "Year": 1998,
+          "Month": 7
+        },
+        {
+          "Date": "1998-08-01T00:00:00",
+          "AverageTemperature": 21.299,
+          "AverageTemperatureUncertainty": 0.105,
+          "Country": "United States",
+          "Year": 1998,
+          "Month": 8
+        },
+        {
+          "Date": "1999-06-01T00:00:00",
+          "AverageTemperature": 18.912,
+          "AverageTemperatureUncertainty": 0.125,
+          "Country": "United States",
+          "Year": 1999,
+          "Month": 6
+        },
+        {
+          "Date": "1999-07-01T00:00:00",
+          "AverageTemperature": 21.923,
+          "AverageTemperatureUncertainty": 0.204,
+          "Country": "United States",
+          "Year": 1999,
+          "Month": 7
+        },
+        {
+          "Date": "1999-08-01T00:00:00",
+          "AverageTemperature": 21.085,
+          "AverageTemperatureUncertainty": 0.183,
+          "Country": "United States",
+          "Year": 1999,
+          "Month": 8
+        },
+        {
+          "Date": "2000-06-01T00:00:00",
+          "AverageTemperature": 19.294,
+          "AverageTemperatureUncertainty": 0.16,
+          "Country": "United States",
+          "Year": 2000,
+          "Month": 6
+        },
+        {
+          "Date": "2000-07-01T00:00:00",
+          "AverageTemperature": 21.605,
+          "AverageTemperatureUncertainty": 0.231,
+          "Country": "United States",
+          "Year": 2000,
+          "Month": 7
+        },
+        {
+          "Date": "2000-08-01T00:00:00",
+          "AverageTemperature": 21.263,
+          "AverageTemperatureUncertainty": 0.259,
+          "Country": "United States",
+          "Year": 2000,
+          "Month": 8
+        },
+        {
+          "Date": "2001-06-01T00:00:00",
+          "AverageTemperature": 19.357,
+          "AverageTemperatureUncertainty": 0.175,
+          "Country": "United States",
+          "Year": 2001,
+          "Month": 6
+        },
+        {
+          "Date": "2001-07-01T00:00:00",
+          "AverageTemperature": 21.906999999999996,
+          "AverageTemperatureUncertainty": 0.198,
+          "Country": "United States",
+          "Year": 2001,
+          "Month": 7
+        },
+        {
+          "Date": "2001-08-01T00:00:00",
+          "AverageTemperature": 21.653,
+          "AverageTemperatureUncertainty": 0.098,
+          "Country": "United States",
+          "Year": 2001,
+          "Month": 8
+        },
+        {
+          "Date": "2002-06-01T00:00:00",
+          "AverageTemperature": 20.052,
+          "AverageTemperatureUncertainty": 0.093,
+          "Country": "United States",
+          "Year": 2002,
+          "Month": 6
+        },
+        {
+          "Date": "2002-07-01T00:00:00",
+          "AverageTemperature": 22.675,
+          "AverageTemperatureUncertainty": 0.238,
+          "Country": "United States",
+          "Year": 2002,
+          "Month": 7
+        },
+        {
+          "Date": "2002-08-01T00:00:00",
+          "AverageTemperature": 20.901,
+          "AverageTemperatureUncertainty": 0.124,
+          "Country": "United States",
+          "Year": 2002,
+          "Month": 8
+        },
+        {
+          "Date": "2003-06-01T00:00:00",
+          "AverageTemperature": 18.871,
+          "AverageTemperatureUncertainty": 0.267,
+          "Country": "United States",
+          "Year": 2003,
+          "Month": 6
+        },
+        {
+          "Date": "2003-07-01T00:00:00",
+          "AverageTemperature": 22.499,
+          "AverageTemperatureUncertainty": 0.225,
+          "Country": "United States",
+          "Year": 2003,
+          "Month": 7
+        },
+        {
+          "Date": "2003-08-01T00:00:00",
+          "AverageTemperature": 21.833,
+          "AverageTemperatureUncertainty": 0.3,
+          "Country": "United States",
+          "Year": 2003,
+          "Month": 8
+        },
+        {
+          "Date": "2004-06-01T00:00:00",
+          "AverageTemperature": 19.228,
+          "AverageTemperatureUncertainty": 0.279,
+          "Country": "United States",
+          "Year": 2004,
+          "Month": 6
+        },
+        {
+          "Date": "2004-07-01T00:00:00",
+          "AverageTemperature": 21.663,
+          "AverageTemperatureUncertainty": 0.166,
+          "Country": "United States",
+          "Year": 2004,
+          "Month": 7
+        },
+        {
+          "Date": "2004-08-01T00:00:00",
+          "AverageTemperature": 20.175,
+          "AverageTemperatureUncertainty": 0.217,
+          "Country": "United States",
+          "Year": 2004,
+          "Month": 8
+        },
+        {
+          "Date": "2005-06-01T00:00:00",
+          "AverageTemperature": 19.511,
+          "AverageTemperatureUncertainty": 0.134,
+          "Country": "United States",
+          "Year": 2005,
+          "Month": 6
+        },
+        {
+          "Date": "2005-07-01T00:00:00",
+          "AverageTemperature": 22.478,
+          "AverageTemperatureUncertainty": 0.129,
+          "Country": "United States",
+          "Year": 2005,
+          "Month": 7
+        },
+        {
+          "Date": "2005-08-01T00:00:00",
+          "AverageTemperature": 21.353,
+          "AverageTemperatureUncertainty": 0.085,
+          "Country": "United States",
+          "Year": 2005,
+          "Month": 8
+        },
+        {
+          "Date": "2006-06-01T00:00:00",
+          "AverageTemperature": 19.933,
+          "AverageTemperatureUncertainty": 0.172,
+          "Country": "United States",
+          "Year": 2006,
+          "Month": 6
+        },
+        {
+          "Date": "2006-07-01T00:00:00",
+          "AverageTemperature": 22.911,
+          "AverageTemperatureUncertainty": 0.181,
+          "Country": "United States",
+          "Year": 2006,
+          "Month": 7
+        },
+        {
+          "Date": "2006-08-01T00:00:00",
+          "AverageTemperature": 21.079,
+          "AverageTemperatureUncertainty": 0.185,
+          "Country": "United States",
+          "Year": 2006,
+          "Month": 8
+        },
+        {
+          "Date": "2007-06-01T00:00:00",
+          "AverageTemperature": 19.705,
+          "AverageTemperatureUncertainty": 0.162,
+          "Country": "United States",
+          "Year": 2007,
+          "Month": 6
+        },
+        {
+          "Date": "2007-07-01T00:00:00",
+          "AverageTemperature": 22.351999999999997,
+          "AverageTemperatureUncertainty": 0.162,
+          "Country": "United States",
+          "Year": 2007,
+          "Month": 7
+        },
+        {
+          "Date": "2007-08-01T00:00:00",
+          "AverageTemperature": 22.118,
+          "AverageTemperatureUncertainty": 0.106,
+          "Country": "United States",
+          "Year": 2007,
+          "Month": 8
+        },
+        {
+          "Date": "2008-06-01T00:00:00",
+          "AverageTemperature": 19.381,
+          "AverageTemperatureUncertainty": 0.181,
+          "Country": "United States",
+          "Year": 2008,
+          "Month": 6
+        },
+        {
+          "Date": "2008-07-01T00:00:00",
+          "AverageTemperature": 21.69,
+          "AverageTemperatureUncertainty": 0.11,
+          "Country": "United States",
+          "Year": 2008,
+          "Month": 7
+        },
+        {
+          "Date": "2008-08-01T00:00:00",
+          "AverageTemperature": 20.543000000000003,
+          "AverageTemperatureUncertainty": 0.251,
+          "Country": "United States",
+          "Year": 2008,
+          "Month": 8
+        },
+        {
+          "Date": "2009-06-01T00:00:00",
+          "AverageTemperature": 18.962,
+          "AverageTemperatureUncertainty": 0.146,
+          "Country": "United States",
+          "Year": 2009,
+          "Month": 6
+        },
+        {
+          "Date": "2009-07-01T00:00:00",
+          "AverageTemperature": 21.463,
+          "AverageTemperatureUncertainty": 0.287,
+          "Country": "United States",
+          "Year": 2009,
+          "Month": 7
+        },
+        {
+          "Date": "2009-08-01T00:00:00",
+          "AverageTemperature": 20.436,
+          "AverageTemperatureUncertainty": 0.221,
+          "Country": "United States",
+          "Year": 2009,
+          "Month": 8
+        },
+        {
+          "Date": "2010-06-01T00:00:00",
+          "AverageTemperature": 19.885,
+          "AverageTemperatureUncertainty": 0.182,
+          "Country": "United States",
+          "Year": 2010,
+          "Month": 6
+        },
+        {
+          "Date": "2010-07-01T00:00:00",
+          "AverageTemperature": 22.078000000000003,
+          "AverageTemperatureUncertainty": 0.229,
+          "Country": "United States",
+          "Year": 2010,
+          "Month": 7
+        },
+        {
+          "Date": "2010-08-01T00:00:00",
+          "AverageTemperature": 21.703000000000003,
+          "AverageTemperatureUncertainty": 0.256,
+          "Country": "United States",
+          "Year": 2010,
+          "Month": 8
+        },
+        {
+          "Date": "2011-06-01T00:00:00",
+          "AverageTemperature": 19.578,
+          "AverageTemperatureUncertainty": 0.251,
+          "Country": "United States",
+          "Year": 2011,
+          "Month": 6
+        },
+        {
+          "Date": "2011-07-01T00:00:00",
+          "AverageTemperature": 22.722,
+          "AverageTemperatureUncertainty": 0.22,
+          "Country": "United States",
+          "Year": 2011,
+          "Month": 7
+        },
+        {
+          "Date": "2011-08-01T00:00:00",
+          "AverageTemperature": 21.915,
+          "AverageTemperatureUncertainty": 0.132,
+          "Country": "United States",
+          "Year": 2011,
+          "Month": 8
+        },
+        {
+          "Date": "2012-06-01T00:00:00",
+          "AverageTemperature": 19.954,
+          "AverageTemperatureUncertainty": 0.273,
+          "Country": "United States",
+          "Year": 2012,
+          "Month": 6
+        },
+        {
+          "Date": "2012-07-01T00:00:00",
+          "AverageTemperature": 23.008000000000003,
+          "AverageTemperatureUncertainty": 0.278,
+          "Country": "United States",
+          "Year": 2012,
+          "Month": 7
+        },
+        {
+          "Date": "2012-08-01T00:00:00",
+          "AverageTemperature": 21.421999999999997,
+          "AverageTemperatureUncertainty": 0.251,
+          "Country": "United States",
+          "Year": 2012,
+          "Month": 8
+        },
+        {
+          "Date": "2013-06-01T00:00:00",
+          "AverageTemperature": 20.198,
+          "AverageTemperatureUncertainty": 0.236,
+          "Country": "United States",
+          "Year": 2013,
+          "Month": 6
+        },
+        {
+          "Date": "2013-07-01T00:00:00",
+          "AverageTemperature": 22.074,
+          "AverageTemperatureUncertainty": 0.152,
+          "Country": "United States",
+          "Year": 2013,
+          "Month": 7
+        },
+        {
+          "Date": "2013-08-01T00:00:00",
+          "AverageTemperature": 21.168000000000003,
+          "AverageTemperatureUncertainty": 0.249,
+          "Country": "United States",
+          "Year": 2013,
+          "Month": 8
+        }
+      ]
+    },
+    {
+      "name": "data_1",
+      "source": "data-272edbfdf5cb87d1117990ef301f8645",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "isValid(datum[\"Year\"]) && isFinite(+datum[\"Year\"]) && isValid(datum[\"AverageTemperature\"]) && isFinite(+datum[\"AverageTemperature\"])"
+        }
+      ]
+    },
+    {
+      "name": "data_2",
+      "source": "data-272edbfdf5cb87d1117990ef301f8645",
+      "transform": [
+        {
+          "type": "regression",
+          "x": "Year",
+          "y": "AverageTemperature",
+          "as": ["Year", "AverageTemperature"]
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "name": "unit",
+      "value": {},
+      "on": [
+        {"events": "pointermove", "update": "isTuple(group()) ? group() : unit"}
+      ]
+    },
+    {
+      "name": "param_8",
+      "update": "vlSelectionResolve(\"param_8_store\", \"union\")"
+    },
+    {
+      "name": "param_8_Year",
+      "on": [
+        {"events": [{"source": "view", "type": "dblclick"}], "update": "null"},
+        {
+          "events": {"signal": "param_8_translate_delta"},
+          "update": "panLinear(param_8_translate_anchor.extent_x, -param_8_translate_delta.x / width)"
+        },
+        {
+          "events": {"signal": "param_8_zoom_delta"},
+          "update": "zoomLinear(domain(\"x\"), param_8_zoom_anchor.x, param_8_zoom_delta)"
+        }
+      ]
+    },
+    {
+      "name": "param_8_AverageTemperature",
+      "on": [
+        {"events": [{"source": "view", "type": "dblclick"}], "update": "null"},
+        {
+          "events": {"signal": "param_8_translate_delta"},
+          "update": "panLinear(param_8_translate_anchor.extent_y, param_8_translate_delta.y / height)"
+        },
+        {
+          "events": {"signal": "param_8_zoom_delta"},
+          "update": "zoomLinear(domain(\"y\"), param_8_zoom_anchor.y, param_8_zoom_delta)"
+        }
+      ]
+    },
+    {
+      "name": "param_8_tuple",
+      "on": [
+        {
+          "events": [{"signal": "param_8_Year || param_8_AverageTemperature"}],
+          "update": "param_8_Year && param_8_AverageTemperature ? {unit: \"view_8\", fields: param_8_tuple_fields, values: [param_8_Year,param_8_AverageTemperature]} : null"
+        }
+      ]
+    },
+    {
+      "name": "param_8_tuple_fields",
+      "value": [
+        {"field": "Year", "channel": "x", "type": "R"},
+        {"field": "AverageTemperature", "channel": "y", "type": "R"}
+      ]
+    },
+    {
+      "name": "param_8_translate_anchor",
+      "value": {},
+      "on": [
+        {
+          "events": [{"source": "scope", "type": "pointerdown"}],
+          "update": "{x: x(unit), y: y(unit), extent_x: domain(\"x\"), extent_y: domain(\"y\")}"
+        }
+      ]
+    },
+    {
+      "name": "param_8_translate_delta",
+      "value": {},
+      "on": [
+        {
+          "events": [
+            {
+              "source": "window",
+              "type": "pointermove",
+              "consume": true,
+              "between": [
+                {"source": "scope", "type": "pointerdown"},
+                {"source": "window", "type": "pointerup"}
+              ]
+            }
+          ],
+          "update": "{x: param_8_translate_anchor.x - x(unit), y: param_8_translate_anchor.y - y(unit)}"
+        }
+      ]
+    },
+    {
+      "name": "param_8_zoom_anchor",
+      "on": [
+        {
+          "events": [{"source": "scope", "type": "wheel", "consume": true}],
+          "update": "{x: invert(\"x\", x(unit)), y: invert(\"y\", y(unit))}"
+        }
+      ]
+    },
+    {
+      "name": "param_8_zoom_delta",
+      "on": [
+        {
+          "events": [{"source": "scope", "type": "wheel", "consume": true}],
+          "force": true,
+          "update": "pow(1.001, event.deltaY * pow(16, event.deltaMode))"
+        }
+      ]
+    },
+    {
+      "name": "param_8_modify",
+      "on": [
+        {
+          "events": {"signal": "param_8_tuple"},
+          "update": "modify(\"param_8_store\", param_8_tuple, true)"
+        }
+      ]
+    }
+  ],
+  "marks": [
+    {
+      "name": "view_8_marks",
+      "type": "symbol",
+      "clip": true,
+      "style": ["circle"],
+      "interactive": true,
+      "from": {"data": "data_1"},
+      "encode": {
+        "update": {
+          "opacity": {"value": 0.7},
+          "fill": {"value": "indianred"},
+          "tooltip": {
+            "signal": "{\"Year\": format(datum[\"Year\"], \"\"), \"AverageTemperature\": format(datum[\"AverageTemperature\"], \"\")}"
+          },
+          "ariaRoleDescription": {"value": "circle"},
+          "description": {
+            "signal": "\"Year: \" + (format(datum[\"Year\"], \"d\")) + \"; Land Average Temperature in Summer: \" + (format(datum[\"AverageTemperature\"], \"\")) + \"; AverageTemperature: \" + (format(datum[\"AverageTemperature\"], \"\"))"
+          },
+          "x": {"scale": "x", "field": "Year"},
+          "y": {"scale": "y", "field": "AverageTemperature"},
+          "shape": {"value": "circle"}
+        }
+      }
+    },
+    {
+      "name": "layer_1_marks",
+      "type": "line",
+      "clip": true,
+      "style": ["line"],
+      "sort": {"field": "datum[\"Year\"]"},
+      "interactive": false,
+      "from": {"data": "data_2"},
+      "encode": {
+        "update": {
+          "stroke": {"value": "mediumblue"},
+          "description": {
+            "signal": "\"Year: \" + (format(datum[\"Year\"], \"\")) + \"; AverageTemperature: \" + (format(datum[\"AverageTemperature\"], \"\"))"
+          },
+          "x": {"scale": "x", "field": "Year"},
+          "y": {"scale": "y", "field": "AverageTemperature"},
+          "defined": {
+            "signal": "isValid(datum[\"Year\"]) && isFinite(+datum[\"Year\"]) && isValid(datum[\"AverageTemperature\"]) && isFinite(+datum[\"AverageTemperature\"])"
+          }
+        }
+      }
+    }
+  ],
+  "scales": [
+    {
+      "name": "x",
+      "type": "linear",
+      "domain": [1850, 2010],
+      "domainRaw": {"signal": "param_8[\"Year\"]"},
+      "range": [0, {"signal": "width"}],
+      "zero": false
+    },
+    {
+      "name": "y",
+      "type": "linear",
+      "domain": [17, 23],
+      "domainRaw": {"signal": "param_8[\"AverageTemperature\"]"},
+      "range": [{"signal": "height"}, 0],
+      "zero": false
+    }
+  ],
+  "axes": [
+    {
+      "scale": "x",
+      "orient": "bottom",
+      "gridScale": "y",
+      "grid": true,
+      "tickCount": {"signal": "ceil(width/40)"},
+      "tickMinStep": 1,
+      "domain": false,
+      "labels": false,
+      "aria": false,
+      "maxExtent": 0,
+      "minExtent": 0,
+      "ticks": false,
+      "zindex": 0
+    },
+    {
+      "scale": "y",
+      "orient": "left",
+      "gridScale": "x",
+      "grid": true,
+      "tickCount": {"signal": "ceil(height/40)"},
+      "domain": false,
+      "labels": false,
+      "aria": false,
+      "maxExtent": 0,
+      "minExtent": 0,
+      "ticks": false,
+      "zindex": 0
+    },
+    {
+      "scale": "x",
+      "orient": "bottom",
+      "grid": false,
+      "title": "Year",
+      "format": "d",
+      "labelFlush": true,
+      "labelOverlap": true,
+      "tickCount": {"signal": "ceil(width/40)"},
+      "tickMinStep": 1,
+      "zindex": 0
+    },
+    {
+      "scale": "y",
+      "orient": "left",
+      "grid": false,
+      "title": "Land Average Temperature in Summer",
+      "labelOverlap": true,
+      "tickCount": {"signal": "ceil(height/40)"},
+      "zindex": 0
+    }
+  ]
+}

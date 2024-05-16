@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+
+<!--
+  portfolYOU Jekyll theme by Youssef Raafat
+  Free for personal and commercial use under the MIT license
+  https://github.com/YoussefRaafatNasry/portfolYOU
+  Updates for JPN Spring 2023
+-->
+
+<html lang="en" class="h-100">
+
+<head>
+
+  
+  
+  
+
+  
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Kavya Moharana&#39;s Portfolio">
+  <meta property="og:description" content="Welcome! Click on About or Projects to learn more">
+  <meta property="og:image" content="/assets/jpegs/quadpfp.jpg">
+
+  <title>Kavya Moharana&#39;s Portfolio</title>
+  <meta name="description" content="Welcome! Click on About or Projects to learn more">
+
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+
+  <!-- Theme style -->
+  <script src="/assets/js/theme.js"></script>
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
+
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+</head>
+
+<body class="h-100 d-flex flex-column">
+
+  <main class="flex-shrink-0 container mt-5">
+    <nav class="navbar navbar-expand-lg navbar-themed">
+
+  <a class="navbar-brand" href="/"><h5><b>Kavya Moharana's Portfolio</b></h5></a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-1x fa-bars text-themed"></i>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link active" href="/is445-guide"></a>
+
+      <a class="nav-item nav-link " href="/projects/">Projects</a>
+
+      <a class="nav-item nav-link " href="/about/">About</a>
+
+      
+
+      <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
+    </div>
+  </div>
+
+</nav>
+    <div class="col-lg-10 mx-auto mt-5 markdown-body">
+  <!-- # Online CV Templete for IS445
+
+This is a resource for [IS445 as of Fall 2022](https://uiuc-ischool-dataviz.github.io/is445_bcubcg_fall2022/).  It is a way to host an online CV with interactive visualizations.  See the course page for more materials.
+
+# How to use this repo
+
+## Download & install
+
+ 1. clone this repo or download the contents
+ 1. make sure you have Ruby *properly* installed (see [the course's install instructions](https://uiuc-ischool-dataviz.github.io/is445_bcubcg_fall2022/week09/installation_instructions_week11.html) for this process)
+ 1. Install using `bundle install` (see [the course's install instructions](https://uiuc-ischool-dataviz.github.io/is445_bcubcg_fall2022/week09/installation_instructions_week11.html))
+ 1. Host locally with `bundle exec jekyll serve` or `bundle exec jekyll serve -l` (live reload)
+ 1. Modify files as needed (see sections below)
+
+## General configurations
+
+Edit info in: _config.yml
+
+Some things you should be sure to check
+ 1. The "how to use this document" info at the top
+ 1. title, description, repository -- basic title and linking info
+ 1. baseurl -- in case you want to have it be a sub-page of your main github.io page
+ 1. exclude -- this section at the end of the config file, add at will in case you have other things stored in your github.io repo
+
+## About page
+
+Edit info in:
+ 1. pages/about.md for your general introduction
+ 1. _data/programming-skills.yml to update your your programming skills list
+ 1. _data/other-skills.yml to update other skills
+ 1. timeline.yml to update the timeline of your CV
+ 
+## Projects
+
+Add project files in: 
+ * `_projects` to add page files
+ * `pages/projects.html` under `remote_projects` for links to your github projects.  Note: this will ONLY link to your repos and you must specify the end of your repo URL (see example)
+
+You can link both project pages and github repositories.  Github repos will autopopulate, pages allow you to provide more details.
+
+By default, the project pages go first, but you can modify this if you want any github repos to show up first.
+
+Project pages can be added by adding markdown files in the `_projects` folder.
+
+Project layouts can be modified in `_includes/projects`.
+
+See `_example_projects` folder for more examples from [portfolYOU](https://github.com/YoussefRaafatNasry/portfolYOU).
+
+## Python notebooks
+
+Generally, you will be linking notebooks that exist in other repositories that are doing analysis.  However for any "loose" notebooks, you can store them in the `python_notebooks` folder.  In theory you can do fancy local linking with it, but it hasn't been implemented yet.
+
+## Altair-saved chart json's
+
+By default these are saved in `assets/json/` and static images are saved in `assets/pngs/`.  See the example 
+
+
+## Blog Posts
+
+All blog posts will be posted by most recent time stamp -- please see the example for a properly formatted file name.
+
+Add blog posts in:
+ * `_posts` (see example)
+
+You can see further examples in the `_example_posts` directory.
+
+
+## Sources
+
+This is an amalgamation of [portfolYOU](https://github.com/YoussefRaafatNasry/portfolYOU) and [4dcu.be](https://github.com/4dcu-be/4dcu.be).
+
+[portfolYOU](https://github.com/YoussefRaafatNasry/portfolYOU) was used for:
+ * overall style, taking off a few elements -- Blog, About, Projects all are included here
+ * also progress bars for skills are modified to contain words, not percentages
+ 
+[4dcu.be](https://github.com/4dcu-be/4dcu.be)
+ * vega-lite additions -- found in the `_plugins` folder and the vega-added things in `assets/js`
+
+
+# ------------- Old ramblings below -------------
+
+# Info for how this was created
+
+1. Start by searching for Jeykll themes: https://github.com/topics/jekyll-theme
+2. pick the following: https://github.com/YoussefRaafatNasry/portfolYOU
+3. clone and follow the "Installation" instructions here: https://youssefraafatnasry.github.io/portfolYOU/docs/
+4. Added port
+5. remove Gemfile.lock if needed
+trying to install with: bundle install --path ~/.gem
+5. `bundle install` in directory 
+
+<!-- 
+bundle exec jekyll serve -->
+<p>without the l for live reload if something else is running?</p>
+
+<p>NOTE!!! it is quite likely that you have to serve the site locally and/or delete _site before pushing for your changes to go live.  I AM NOT SURE.  Have to re-start after you do a change to the config.yml file</p>
+
+<p>–&gt; –&gt;</p>
+
+</div>
+  </main>
+  <footer class="mt-auto py-3 text-center">
+
+  <small class="text-muted mb-2">
+    <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
+    by <strong>Kavya Moharana</strong>
+  </small>
+
+  <div class="container-fluid justify-content-center"><a class="social mx-1"  href="mailto:kavyam3@illinois.edu"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#db4437'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fas fa-envelope fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.github.com/kavyamoharana"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#333333'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-github fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.linkedin.com/in/kavya-moharana-9a379624b"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#007bb5'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-linkedin-in fa-1x"></i>
+    </a>
+
+</div>
+
+  Theme by <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a> and <a href="https://github.com/4dcu-be/4dcu.be">4dcu.be</a>.
+
+  
+<!--<small id="attribution">
+    theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a>
+  </small>
+-->
+
+</footer>
+
+
+
+
+  
+  <!-- GitHub Buttons -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper.js CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS CDN -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- wow.js CDN & Activation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script> new WOW().init(); </script>
+
+<!-- Initialize all tooltips -->
+<script>
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+</body>
+
+<!--
+end of checks! JPN
+-->
+
+</html>

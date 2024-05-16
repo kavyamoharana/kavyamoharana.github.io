@@ -24,7 +24,7 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="Project - Analyzing Global Temperature Trends Over Time">
   <meta property="og:description" content="ML project which uses Python's scikit-learn library for linear regression modeling and clustering analysis on climate change trends">
-  <meta property="og:image" content="assets/pngs/cars.png">
+  <meta property="og:image" content="assets/pngs/327-cover.png">
 
   <title>Project - Analyzing Global Temperature Trends Over Time</title>
   <meta name="description" content="ML project which uses Python's scikit-learn library for linear regression modeling and clustering analysis on climate change trends">
@@ -60,7 +60,9 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav ml-auto"><a class="nav-item nav-link active" href="/projects/">Projects</a>
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/is445-guide"></a>
+
+      <a class="nav-item nav-link active" href="/projects/">Projects</a>
 
       <a class="nav-item nav-link " href="/about/">About</a>
 
@@ -75,6 +77,14 @@
   <h2 id="assessing-climate-change-and-global-temperature-trends-over-time">Assessing Climate Change and Global Temperature Trends Over Time</h2>
 <p><em>Final project for <a href="https://ischool.illinois.edu/degrees-programs/courses/is327">IS 327</a>: Concepts of Machine Learning at UIUC</em></p>
 
+<div class="left">
+  <a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/kavyamoharana/kavyamoharana.github.io/blob/main/python_notebooks/IS327-Project.ipynb">
+  The Analysis (Jupyter Notebook)
+</a>
+</div>
+<p><br />
+<br /></p>
+
 <h4 id="purpose-and-problem-description">Purpose and Problem Description</h4>
 <p>The Climate Crisis is one of the most critical and urgent issues of our time. For most of history there has been a general lack in well-funded, proper climate change related research. Machine Learning approaches to global warming problems can provide more nuanced insights into climate patterns, complexities of global temperature trends, and help predict future climate scenarios.</p>
 
@@ -85,39 +95,54 @@
 <h5 id="what-are-the-long-term-trends-in-global-surface-temperatures-and-how-do-temperature-patterns-vary-in-different-regions-over-time"><strong>What are the long-term trends in global surface temperatures and how do temperature patterns vary in different regions over time?</strong></h5>
 <p><br /></p>
 
-<h4 id="1-exploratory-data-analysis">1. Exploratory Data Analysis</h4>
+<h5 id="1-exploratory-data-analysis-and-preprocessing">1. Exploratory Data Analysis and Preprocessing</h5>
 <ul>
   <li>In order to analyze trends based on seasons and year, I removed NA values, converted dates to datetime data types, added ‘Year’ and ‘Month’ columns</li>
   <li>I split dataset into subsets to compare global trends versus US major city trends, and summer temperatures specifically</li>
 </ul>
 
-<h4 id="2-linear-regression">2. Linear Regression</h4>
+<h5 id="2-linear-regression">2. Linear Regression</h5>
 <ul>
   <li>I trained the linear model on the training set for global average land temperatures in the summer</li>
   <li>implemented the same steps for major US cities to analyze the differences</li>
 </ul>
 
-<h4 id="3-k-means-clustering">3. K-Means Clustering</h4>
+<h5 id="3-k-means-clustering">3. K-Means Clustering</h5>
 <ul>
   <li>performed clustering analysis on subset of average land temperatures during the summer in only major US cities – grouping regions with similar readings</li>
   <li>did the same for overall US temperatures and compared clusters</li>
 </ul>
 
-<p><br /></p>
+<h4 id="results">Results</h4>
+<p><em>with Interactive Visualizations</em></p>
+<vegachart schema-url="/assets/json/chart1_327.json" style="width: 100%"></vegachart>
 
-<!-- these are written in a combo of html and liquid -->
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Summer Surface Temperatures Globally --
+R-squared: 0.2656132923936281
+Mean Squared Error (MSE): 0.24252933133205157
+Root Mean Squared Error (RMSE): 0.49247267064483036
+</code></pre></div></div>
+<vegachart schema-url="/assets/json/chart2_327.json" style="width: 100%"></vegachart>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Summer Surface Temperatures for US Major Cities --
+R-squared: 0.06748822904532015
+Mean Squared Error (MSE): 1.5149053265391863
+Root Mean Squared Error (RMSE): 1.230814903443725
+</code></pre></div></div>
+<p>The linear model for overall Global temperatures had higher accuracy.</p>
 
-<div class="left">
-<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/vega/vega/blob/main/docs/data/cars.json">
-  The Data
-</a>
-</div>
+<vegachart schema-url="/assets/json/chart3_327.json" style="width: 100%"></vegachart>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>US Major Cities --
+Silhouette Score: 0.3669338556145997
+</code></pre></div></div>
 
-<div class="right">
-<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/jnaiman/online_cv_public/blob/main/python_notebooks/test_generate_plots.ipynb">
-  The Analysis
-</a>
-</div>
+<vegachart schema-url="/assets/json/chart4_327.json" style="width: 100%"></vegachart>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>US Overall --
+Silhouette Score: 0.4357067013289608
+</code></pre></div></div>
+<p>The second clustering analysis of overall US temperatures had less chance of overlapping or ambiguity.</p>
+
+<h4 id="conclusion">Conclusion</h4>
+<p>The linear model had a trade-off between explanatory power and predictive accuracy and it could be further improved by focusing on more specific variables or periods of time. Both the linear regression and clustering models were around the same level of accuracy and although there did seem to be an upward trend in temperatures, further improvement of the models is necessary.</p>
 
 
 </div>
