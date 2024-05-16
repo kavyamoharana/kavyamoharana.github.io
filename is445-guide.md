@@ -1,4 +1,4 @@
-# Online CV Templete for IS445
+<!-- # Online CV Templete for IS445
 
 This is a resource for [IS445 as of Fall 2022](https://uiuc-ischool-dataviz.github.io/is445_bcubcg_fall2022/).  It is a way to host an online CV with interactive visualizations.  See the course page for more materials.
 
@@ -89,9 +89,9 @@ This is an amalgamation of [portfolYOU](https://github.com/YoussefRaafatNasry/po
 trying to install with: bundle install --path ~/.gem
 5. `bundle install` in directory 
 
-
+<!-- 
 bundle exec jekyll serve --> without the l for live reload if something else is running?
 
 NOTE!!! it is quite likely that you have to serve the site locally and/or delete _site before pushing for your changes to go live.  I AM NOT SURE.  Have to re-start after you do a change to the config.yml file
 
-
+ --> -->
