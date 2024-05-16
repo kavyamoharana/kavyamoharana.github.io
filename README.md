@@ -1,97 +1,18 @@
-# Online CV Templete for IS445
+<h1 align="center">Hi 👋, I'm Kavya Moharana</h1>
+<h3 align="center">A dedicated 3rd year Information Science + Data Science student at the University of Illinois Urbana-Champaign!</h3>
 
-This is a resource for [IS445 as of Fall 2022](https://uiuc-ischool-dataviz.github.io/is445_bcubcg_fall2022/).  It is a way to host an online CV with interactive visualizations.  See the course page for more materials.
+- 🌱 I’m currently learning **about text mining and cybersecurity through my Computer Science and Data Science courses**
 
-# How to use this repo
+- 👨‍💻 All of my projects are available at [kavyamoharana.github.io/projects](kavyamoharana.github.io/projects)
 
-## Download & install
+- 📫 How to reach me **kavyam3@illinois.edu**
 
- 1. clone this repo or download the contents
- 1. make sure you have Ruby *properly* installed (see [the course's install instructions](https://uiuc-ischool-dataviz.github.io/is445_bcubcg_fall2022/week09/installation_instructions_week11.html) for this process)
- 1. Install using `bundle install` (see [the course's install instructions](https://uiuc-ischool-dataviz.github.io/is445_bcubcg_fall2022/week09/installation_instructions_week11.html))
- 1. Host locally with `bundle exec jekyll serve` or `bundle exec jekyll serve -l` (live reload)
- 1. Modify files as needed (see sections below)
+- 📄 Know about my experiences [kavyamoharana.github.io/about](kavyamoharana.github.io/about)
 
-## General configurations
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://linkedin.com/in/kavya-moharana-9a379624b" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="kavya-moharana-9a379624b" height="30" width="40" /></a>
+</p>
 
-Edit info in: _config.yml
-
-Some things you should be sure to check
- 1. The "how to use this document" info at the top
- 1. title, description, repository -- basic title and linking info
- 1. baseurl -- in case you want to have it be a sub-page of your main github.io page
- 1. exclude -- this section at the end of the config file, add at will in case you have other things stored in your github.io repo
-
-## About page
-
-Edit info in:
- 1. pages/about.md for your general introduction
- 1. _data/programming-skills.yml to update your your programming skills list
- 1. _data/other-skills.yml to update other skills
- 1. timeline.yml to update the timeline of your CV
- 
-## Projects
-
-Add project files in: 
- * `_projects` to add page files
- * `pages/projects.html` under `remote_projects` for links to your github projects.  Note: this will ONLY link to your repos and you must specify the end of your repo URL (see example)
-
-You can link both project pages and github repositories.  Github repos will autopopulate, pages allow you to provide more details.
-
-By default, the project pages go first, but you can modify this if you want any github repos to show up first.
-
-Project pages can be added by adding markdown files in the `_projects` folder.
-
-Project layouts can be modified in `_includes/projects`.
-
-See `_example_projects` folder for more examples from [portfolYOU](https://github.com/YoussefRaafatNasry/portfolYOU).
-
-## Python notebooks
-
-Generally, you will be linking notebooks that exist in other repositories that are doing analysis.  However for any "loose" notebooks, you can store them in the `python_notebooks` folder.  In theory you can do fancy local linking with it, but it hasn't been implemented yet.
-
-## Altair-saved chart json's
-
-By default these are saved in `assets/json/` and static images are saved in `assets/pngs/`.  See the example 
-
-
-## Blog Posts
-
-All blog posts will be posted by most recent time stamp -- please see the example for a properly formatted file name.
-
-Add blog posts in:
- * `_posts` (see example)
-
-You can see further examples in the `_example_posts` directory.
-
-
-## Sources
-
-This is an amalgamation of [portfolYOU](https://github.com/YoussefRaafatNasry/portfolYOU) and [4dcu.be](https://github.com/4dcu-be/4dcu.be).
-
-[portfolYOU](https://github.com/YoussefRaafatNasry/portfolYOU) was used for:
- * overall style, taking off a few elements -- Blog, About, Projects all are included here
- * also progress bars for skills are modified to contain words, not percentages
- 
-[4dcu.be](https://github.com/4dcu-be/4dcu.be)
- * vega-lite additions -- found in the `_plugins` folder and the vega-added things in `assets/js`
-
-
-# ------------- Old ramblings below -------------
-
-# Info for how this was created
-
-1. Start by searching for Jeykll themes: https://github.com/topics/jekyll-theme
-2. pick the following: https://github.com/YoussefRaafatNasry/portfolYOU
-3. clone and follow the "Installation" instructions here: https://youssefraafatnasry.github.io/portfolYOU/docs/
-4. Added port
-5. remove Gemfile.lock if needed
-trying to install with: bundle install --path ~/.gem
-5. `bundle install` in directory 
-
-
-bundle exec jekyll serve --> without the l for live reload if something else is running?
-
-NOTE!!! it is quite likely that you have to serve the site locally and/or delete _site before pushing for your changes to go live.  I AM NOT SURE.  Have to re-start after you do a change to the config.yml file
-
-
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://hadoop.apache.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_hadoop/apache_hadoop-icon.svg" alt="hadoop" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://jekyllrb.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jekyllrb/jekyllrb-icon.svg" alt="jekyll" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> <a href="https://www.adobe.com/products/xd.html" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/adobe-xd.svg" alt="xd" width="40" height="40"/> </a> </p>
