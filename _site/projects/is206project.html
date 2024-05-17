@@ -22,12 +22,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="The Heart of CampusTown - Analyzing Green Street’s Most Popular Restaurants">
-  <meta property="og:description" content="Project using Python's NLTK library for text sentiment analysis of Yelp reviews for popular UIUC restaurants">
-  <meta property="og:image" content="assets/pngs/campustown-3.png">
+  <meta property="og:title" content="Project - Designing an IMDb Database for Movies">
+  <meta property="og:description" content="Project which uses SQLite for designing a database for Movie reviews and ratings">
+  <meta property="og:image" content="assets/pngs/206-cover.png">
 
-  <title>The Heart of CampusTown - Analyzing Green Street’s Most Popular Restaurants</title>
-  <meta name="description" content="Project using Python's NLTK library for text sentiment analysis of Yelp reviews for popular UIUC restaurants">
+  <title>Project - Designing an IMDb Database for Movies</title>
+  <meta name="description" content="Project which uses SQLite for designing a database for Movie reviews and ratings">
 
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
 
@@ -74,44 +74,70 @@
 
 </nav>
     <div class="col-lg-10 mx-auto mt-5 markdown-body">
-  <h2 id="the-heart-of-campustown-analyzing-green-streets-most-popular-restaurants">The Heart of CampusTown: Analyzing Green Street’s Most Popular Restaurants</h2>
-<p><em>Final project for <a href="https://cs.illinois.edu/academics/courses/cs410">CS 410</a>: Text Information Systems at UIUC</em></p>
+  <h2 id="database-design-for-a-movie-ratings-and-review-website">Database Design for a Movie Ratings and Review Website</h2>
 
-<p>Group Members: Pranav Chandra, Kavya Moharana, Sriya Mikkilineni, Aryan Vaswani</p>
-
-<style>
-  .left {
-    display: inline-block;
-    margin-right: 10px; /* Adjust the margin as needed for spacing */
-  }
-</style>
+<p><em>Final project for <a href="https://ischool.illinois.edu/degrees-programs/courses/is206">IS 206</a>: Intro to Database Concepts and Applications at UIUC</em></p>
 
 <div class="left">
-  <a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/kavyamoharana/kavyamoharana.github.io/blob/main/assets/pdfs/410-Report.docx.pdf">
+  <a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/kavyamoharana/kavyamoharana.github.io/blob/main/assets/pdfs/206-Report.pdf">
   View Full Report
 </a>
 </div>
-<div class="left">
-  <a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/kavyamoharana/kavyamoharana.github.io/blob/main/python_notebooks/CS410-Project.ipynb">
-  The Analysis (Jupyter Notebook)
-</a>
-</div>
-<p><br /></p>
-
 <p><br />
 <br /></p>
 
-<h4 id="abstract">Abstract</h4>
-<p>Green Street’s wide variety of restaurants and cafes is an integral part of student life at the University of Illinois at Urbana-Champaign. Known as the “Heart of Campustown”, these establishments provide an important cultural and social hub for students, faculty, and residents. We intend to conduct sentiment analysis of the Yelp reviews for multiple major restaurants on this historical street. We will analyze online reviews over time periods to determine how students and food enthusiasts perceive these restaurants. Through this evaluation, we can see how the reception of these popular food spots has changed over the past decade.</p>
+<h4 id="purpose-and-scope">Purpose and Scope</h4>
+<p>This project consists of designing and creating an IMDb-esque movie reviews and ratings database—a platform for users to be able to access basic movie information such as cast and crew information, genre, and roles while also writing reviews, ratings, and interacting with other users’ posts. The purpose for the database is to enhance the movie experience for users with up-to-date movie details while providing insight into what kinds of movies or media resonate the most with audiences and the general public.</p>
 
-<h4 id="the-data">The Data</h4>
-<p>We utilized two different datasets during this project: the first from <a href="https://www.kaggle.com/datasets/hhalalwi/yelp-light">Kaggle</a> for the testing of five different models and one for the evaluation of our actual project. To understand why we needed two  models, we need to look at <a href="https://docs.developer.yelp.com/docs/graphql-basic-usage">Yelp’s GraphQL API</a> documentation. For this project, we have identified 12 restaurants on Green Street for which we were interested in understanding peoples’ sentiments towards them over time, as shown in Figure 1. However, because Yelp API is still in its beta stage, we are limited to only the first three reviews on each restaurant’s Yelp page. While severely limits our ability in trying to understand Champaign’s preferences, our code still shows sentiments over a couple of months. When the API limits increase, we would only have to re-run the code as is to get all the data.</p>
+<h4 id="entity-relationship-diagram">Entity-Relationship Diagram</h4>
+<p>This diagram, created with <a href="https://www.lucidchart.com">LucidChart</a>, highlights the key entities, attributes, primary keys, and relationships for the database schema.
+<img src="/assets/pngs/206project-ERD.png" alt="image tooltip here" /></p>
 
-<vegachart schema-url="/assets/json/chart2_410.json" style="width: 100%"></vegachart>
-<p>Figure 1</p>
+<h4 id="creation-of-database">Creation of Database</h4>
+<p>Here are some of the tables created with SQLite.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>CREATE TABLE Movie(id INT PRIMARY KEY,
+        title varchar(100),
+        year INT,
+        release_date varchar(100),
+        duration INT,
+        country varchar(100),
+        worldwide_gross_income INT,
+        languages varchar(100),
+        production_company varchar(100)
+    );
 
-<vegachart schema-url="/assets/json/chart1_410.json" style="width: 100%"></vegachart>
-<p>Figure 2</p>
+CREATE TABLE Genre(movie_id varchar(100) PRIMARY KEY,
+        genre_name varchar(100)
+    );
+
+CREATE TABLE Ratings(movie_id varchar(100) PRIMARY KEY, 
+        avg_rating INT, 
+        total_votes INT,
+        median_rating varchar(100)
+    );
+
+CREATE TABLE Actors(id INT PRIMARY KEY,
+        name_id varchar(100), 
+        height INT,
+        date_of_birth varchar(100), 
+        movies_known_for varchar(100)
+    );
+...
+</code></pre></div></div>
+<p><img src="/assets/pngs/206-movie.png" alt="image tooltip here" />
+<img src="/assets/pngs/206-actors.png" alt="image tooltip here" />
+<img src="/assets/pngs/206-ratings.png" alt="image tooltip here" width="700" /></p>
+
+<h4 id="sample-queries">Sample Queries</h4>
+<ol>
+  <li>Top 5 movies that have the highest worldwide gross income
+ <img src="/assets/pngs/query1.png" alt="image tooltip here" width="650" /></li>
+  <li>Average ratings for movies released in Korean or Mandarin
+ <img src="/assets/pngs/query2.png" alt="image tooltip here" width="650" /></li>
+  <li>Average ratings for each movie genre
+ <img src="/assets/pngs/query3.png" alt="image tooltip here" width="650" /></li>
+</ol>
+
 
 </div>
   </main>

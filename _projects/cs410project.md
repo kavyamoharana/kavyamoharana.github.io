@@ -23,7 +23,7 @@ Group Members: Pranav Chandra, Kavya Moharana, Sriya Mikkilineni, Aryan Vaswani
 </style>
 
 <div class="left">
-  {% include elements/button.html link="https://github.com/kavyamoharana/kavyamoharana.github.io/blob/main/python_notebooks/CS410-Project.ipynb" text="Full Report" %}
+  {% include elements/button.html link="https://github.com/kavyamoharana/kavyamoharana.github.io/blob/main/assets/pdfs/410-Report.docx.pdf" text="View Full Report" %}
 </div>
 <div class="left">
   {% include elements/button.html link="https://github.com/kavyamoharana/kavyamoharana.github.io/blob/main/python_notebooks/CS410-Project.ipynb" text="The Analysis (Jupyter Notebook)" %}
