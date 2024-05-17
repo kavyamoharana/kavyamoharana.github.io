@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+
+<!--
+  portfolYOU Jekyll theme by Youssef Raafat
+  Free for personal and commercial use under the MIT license
+  https://github.com/YoussefRaafatNasry/portfolYOU
+  Updates for JPN Spring 2023
+-->
+
+<html lang="en" class="h-100">
+
+<head>
+
+  
+  
+  
+
+  
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Analyzing Spotify&#39;s Hit Songs">
+  <meta property="og:description" content="Projects which analyze the Spotify hit songs dataset to identify trends in genre and popularity">
+  <meta property="og:image" content="assets/pngs/204-cover.png">
+
+  <title>Analyzing Spotify&#39;s Hit Songs</title>
+  <meta name="description" content="Projects which analyze the Spotify hit songs dataset to identify trends in genre and popularity">
+
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+
+  <!-- Theme style -->
+  <script src="/assets/js/theme.js"></script>
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
+
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+</head>
+
+<body class="h-100 d-flex flex-column">
+
+  <main class="flex-shrink-0 container mt-5">
+    <nav class="navbar navbar-expand-lg navbar-themed">
+
+  <a class="navbar-brand" href="/"><h5><b>Kavya Moharana's Portfolio</b></h5></a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-1x fa-bars text-themed"></i>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/is445-guide"></a>
+
+      <a class="nav-item nav-link active" href="/projects/">Projects</a>
+
+      <a class="nav-item nav-link " href="/about/">About</a>
+
+      
+
+      <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
+    </div>
+  </div>
+
+</nav>
+    <div class="col-lg-10 mx-auto mt-5 markdown-body">
+  <h2 id="analyzing-spotifys-hit-songs-and-how-genres-encapsulate-different-music-trends">Analyzing Spotify’s Hit Songs and How Genres Encapsulate Different Music Trends</h2>
+<p><em>Final projects for <a href="https://discovery.cs.illinois.edu/">STAT 107</a>: Data Science Discovery and <a href="https://ischool.illinois.edu/degrees-programs/courses/is204">IS 204</a>: Research Design for Information Sciences at UIUC</em></p>
+
+<hr />
+
+<h6 id="languages-and-tools-used"><em>Languages and Tools Used</em></h6>
+<p><a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40" />
+<a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40" />
+<a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40" />
+<a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40" />
+<a href="https://altair-viz.github.io/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Vega-Lite_Logo.svg/1920px-Vega-Lite_Logo.svg.png" alt="vega-lite" width="40" height="40" /></a></a></a></a></a></p>
+
+<!-- #### 1. Exploring the Spotify Top Hits [2000 to 2019 Dataset](https://www.kaggle.com/datasets/paradisejoy/top-hits-spotify-from-20002019)
+First, I conducted analysis on a dataset from Kaggle which contains data of the top 2000 *overall* hit songs on the popular music streaming platform, Spotify, that were <u>released</u> from 2000 to 2019. The dataset has 18 columns covering general information about the song (name, artist, genre, song duration, year of release) as well as other factors that Spotify itself uses to classify its top tracks such as scores for popularity, danceability, energy, and liveness. The following visualizations show the **Exploratory Data Analysis** of this dataset.
+
+
+<vegachart schema-url="/assets/json/chart1_107.json" style="width: 80%"></vegachart>
+
+<vegachart schema-url="/assets/json/chart2_107.json" style="width: 80%"></vegachart>
+
+<vegachart schema-url="/assets/json/pie_chart_107.json" style="width: 60%"></vegachart>
+
+<div class="left">
+  <a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/kavyamoharana/kavyamoharana.github.io/blob/main/python_notebooks/STAT107-Project.ipynb">
+  View Full Analysis (Jupyter Notebook)
+</a>
+</div>
+<br>
+<br> -->
+<style>
+  .left {
+    display: inline-block;
+    margin-right: 10px; /* Adjust the margin as needed for spacing */
+  }
+</style>
+
+<div class="left">
+  <a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/kavyamoharana/kavyamoharana.github.io/blob/main/assets/pdfs/204-ResearchPaper.pdf">
+  View Full Research Paper and Report
+</a>
+</div>
+<div class="left">
+  <a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/kavyamoharana/kavyamoharana.github.io/blob/main/python_notebooks/IS204-Project.ipynb">
+  The Analysis (Jupyter Notebook)
+</a>
+</div>
+<p><br /></p>
+
+<p><br />
+<br /></p>
+
+<h4 id="exploring-the-spotify-top-100-hit-songs-2010-to-2022-dataset">Exploring the Spotify Top 100 Hit Songs <a href="https://www.kaggle.com/datasets/josephinelsy/spotify-top-hit-playlist-2010-2022">2010 to 2022 Dataset</a></h4>
+<p>The second project uses another Kaggle dataset for Spotify’s top 100 hit songs per year from 2010 to 2022. This data was extracted directly from the Spotify API and specifically their ‘Top Hits’ playlist for each year (with 100 songs per year). The dataset has 23 columns and 2400 rows with 13 track audio features consisting of danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, duration, and time signature.</p>
+
+<h5 id="research-questions">Research Questions:</h5>
+<ul>
+  <li>Why are specific music trends on Spotify the way they are?</li>
+  <li>What aspects contribute to trends within a user’s music and listening history?</li>
+  <li>How does a user most frequently discover their most listened to genre?</li>
+  <li>Is someone who is interested in one genre more likely to be interested in another genre?</li>
+</ul>
+
+<h5 id="analysis-results">Analysis Results:</h5>
+<p><img src="/assets/pngs/summarystats.png" alt="image tooltip here" width="450" />
+<strong><em>Table 1</em> – Summary Statistics</strong></p>
+
+<div style="display: flex;">
+    <vegachart schema-url="/assets/json/scatter1_204.json" style="width: 50%;"></vegachart>
+    <vegachart schema-url="/assets/json/scatter2_204.json" style="width: 50%;"></vegachart>
+</div>
+<p><strong><em>Figure 1.1</em> – Exploratory Quantitative Analysis on Popularity Factors</strong></p>
+<ul>
+  <li>weak positive correlation for first chart shows that music trends are multifaceted</li>
+  <li>energy variable contributes to more trends than expected</li>
+</ul>
+
+<vegachart schema-url="/assets/json/line2_204.json" style="width: 80%"></vegachart>
+<p><strong><em>Figure 1.2</em> – Exploratory Quantitative Analysis on Average Duration of Songs</strong></p>
+<ul>
+  <li>strong negative trend display how song duration has decreased significantly since 2014</li>
+  <li>future music releases may continue to decrease in duration or remain stagnant</li>
+</ul>
+
+<vegachart schema-url="/assets/json/linreg_204.json" style="width: 80%"></vegachart>
+<p><strong><em>Figure 2</em> – Linear Regression Analysis of Artist Popularity and Track Popularity</strong></p>
+<ul>
+  <li>strong positive correlation implies artist popularity is closely tied to the popularity of a song and how a user finds hit songs</li>
+</ul>
+
+<vegachart schema-url="/assets/json/heatmap_204.json" style="width: 80%"></vegachart>
+<p><strong><em>Figure 3</em> – Correlation between Popular Genres</strong></p>
+<ul>
+  <li>The rap genre has moderate positive correlation with hip-hop and trap genres</li>
+  <li>Users who like broad genres like rap or pop are may be more likely to be interested in closely related genres like trap</li>
+</ul>
+
+</div>
+  </main>
+  <footer class="mt-auto py-3 text-center">
+
+  <small class="text-muted mb-2">
+    <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
+    by <strong>Kavya Moharana</strong>
+  </small>
+
+  <div class="container-fluid justify-content-center"><a class="social mx-1"  href="mailto:kavyam3@illinois.edu"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#db4437'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fas fa-envelope fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.github.com/kavyamoharana"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#333333'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-github fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.linkedin.com/in/kavya-moharana-9a379624b"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#007bb5'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-linkedin-in fa-1x"></i>
+    </a>
+
+</div>
+
+  Theme by <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a> and <a href="https://github.com/4dcu-be/4dcu.be">4dcu.be</a>.
+
+  
+<!--<small id="attribution">
+    theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a>
+  </small>
+-->
+
+</footer>
+
+
+<!-- Custom page specific js files -->
+  
+    <script src='/assets/js/vega.min.js' type="text/javascript"></script>
+  
+    <script src='/assets/js/vega-lite.min.js' type="text/javascript"></script>
+  
+    <script src='/assets/js/vega-embed.min.js' type="text/javascript"></script>
+  
+    <script src='/assets/js/justcharts.js' type="text/javascript"></script>
+  
+
+
+
+  
+  <!-- GitHub Buttons -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper.js CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS CDN -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- wow.js CDN & Activation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script> new WOW().init(); </script>
+
+<!-- Initialize all tooltips -->
+<script>
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+</body>
+
+<!--
+end of checks! JPN
+-->
+
+</html>
