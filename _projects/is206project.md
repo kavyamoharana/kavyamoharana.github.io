@@ -14,6 +14,13 @@ custom_js:
 
 *Final project for [IS 206](https://ischool.illinois.edu/degrees-programs/courses/is206): Intro to Database Concepts and Applications at UIUC*
 
+---
+
+
+###### *Languages and Tools Used*
+<a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/>
+<a href="https://www.lucidchart.com" target="_blank" rel="noreferrer"> <img src="https://avatars.slack-edge.com/2022-07-26/3865608556737_8f4ae4a98b36ab6912b3_512.png" alt="lucidchart" width="40" height="40"/>
+
 <div class="left">
   {% include elements/button.html link="https://github.com/kavyamoharana/kavyamoharana.github.io/blob/main/assets/pdfs/206-Report.pdf" text="View Full Report" %}
 </div>
@@ -24,7 +31,7 @@ custom_js:
 This project consists of designing and creating an IMDb-esque movie reviews and ratings database---a platform for users to be able to access basic movie information such as cast and crew information, genre, and roles while also writing reviews, ratings, and interacting with other users’ posts. The purpose for the database is to enhance the movie experience for users with up-to-date movie details while providing insight into what kinds of movies or media resonate the most with audiences and the general public. 
 
 #### Entity-Relationship Diagram
-This diagram, created with [LucidChart](https://www.lucidchart.com), highlights the key entities, attributes, primary keys, and relationships for the database schema.
+This diagram, created with LucidChart, highlights the key entities, attributes, primary keys, and relationships for the database schema.
 ![image tooltip here](/assets/pngs/206project-ERD.png)
 
 #### Creation of Database
