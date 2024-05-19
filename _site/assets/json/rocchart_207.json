@@ -1,0 +1,1804 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "data": [
+    {"name": "param_9_store"},
+    {
+      "name": "source_0",
+      "values": [
+        {"False Positive Rate": 0, "True Positive Rate": 0},
+        {"False Positive Rate": 0, "True Positive Rate": 0.003236245954692557},
+        {
+          "False Positive Rate": 0.0015290519877675841,
+          "True Positive Rate": 0.003236245954692557
+        },
+        {
+          "False Positive Rate": 0.0015290519877675841,
+          "True Positive Rate": 0.009708737864077669
+        },
+        {
+          "False Positive Rate": 0.0015290519877675841,
+          "True Positive Rate": 0.022653721682847898
+        },
+        {
+          "False Positive Rate": 0.0030581039755351682,
+          "True Positive Rate": 0.022653721682847898
+        },
+        {
+          "False Positive Rate": 0.0030581039755351682,
+          "True Positive Rate": 0.032362459546925564
+        },
+        {
+          "False Positive Rate": 0.0045871559633027525,
+          "True Positive Rate": 0.032362459546925564
+        },
+        {
+          "False Positive Rate": 0.0045871559633027525,
+          "True Positive Rate": 0.038834951456310676
+        },
+        {
+          "False Positive Rate": 0.0061162079510703364,
+          "True Positive Rate": 0.038834951456310676
+        },
+        {
+          "False Positive Rate": 0.0061162079510703364,
+          "True Positive Rate": 0.042071197411003236
+        },
+        {
+          "False Positive Rate": 0.0061162079510703364,
+          "True Positive Rate": 0.04854368932038835
+        },
+        {
+          "False Positive Rate": 0.0061162079510703364,
+          "True Positive Rate": 0.061488673139158574
+        },
+        {
+          "False Positive Rate": 0.00764525993883792,
+          "True Positive Rate": 0.061488673139158574
+        },
+        {
+          "False Positive Rate": 0.00764525993883792,
+          "True Positive Rate": 0.08737864077669903
+        },
+        {
+          "False Positive Rate": 0.009174311926605505,
+          "True Positive Rate": 0.08737864077669903
+        },
+        {
+          "False Positive Rate": 0.009174311926605505,
+          "True Positive Rate": 0.0970873786407767
+        },
+        {
+          "False Positive Rate": 0.010703363914373088,
+          "True Positive Rate": 0.0970873786407767
+        },
+        {
+          "False Positive Rate": 0.010703363914373088,
+          "True Positive Rate": 0.10032362459546926
+        },
+        {
+          "False Positive Rate": 0.012232415902140673,
+          "True Positive Rate": 0.10032362459546926
+        },
+        {
+          "False Positive Rate": 0.012232415902140673,
+          "True Positive Rate": 0.10355987055016182
+        },
+        {
+          "False Positive Rate": 0.013761467889908258,
+          "True Positive Rate": 0.10355987055016182
+        },
+        {
+          "False Positive Rate": 0.013761467889908258,
+          "True Positive Rate": 0.11003236245954692
+        },
+        {
+          "False Positive Rate": 0.016819571865443424,
+          "True Positive Rate": 0.11003236245954692
+        },
+        {
+          "False Positive Rate": 0.016819571865443424,
+          "True Positive Rate": 0.12297734627831715
+        },
+        {
+          "False Positive Rate": 0.01834862385321101,
+          "True Positive Rate": 0.12297734627831715
+        },
+        {
+          "False Positive Rate": 0.01834862385321101,
+          "True Positive Rate": 0.1262135922330097
+        },
+        {
+          "False Positive Rate": 0.022935779816513763,
+          "True Positive Rate": 0.1262135922330097
+        },
+        {
+          "False Positive Rate": 0.022935779816513763,
+          "True Positive Rate": 0.12944983818770225
+        },
+        {
+          "False Positive Rate": 0.024464831804281346,
+          "True Positive Rate": 0.12944983818770225
+        },
+        {
+          "False Positive Rate": 0.024464831804281346,
+          "True Positive Rate": 0.13592233009708737
+        },
+        {
+          "False Positive Rate": 0.024464831804281346,
+          "True Positive Rate": 0.15210355987055016
+        },
+        {
+          "False Positive Rate": 0.02599388379204893,
+          "True Positive Rate": 0.15210355987055016
+        },
+        {
+          "False Positive Rate": 0.0290519877675841,
+          "True Positive Rate": 0.15210355987055016
+        },
+        {
+          "False Positive Rate": 0.0290519877675841,
+          "True Positive Rate": 0.15857605177993528
+        },
+        {
+          "False Positive Rate": 0.0290519877675841,
+          "True Positive Rate": 0.1650485436893204
+        },
+        {
+          "False Positive Rate": 0.03058103975535168,
+          "True Positive Rate": 0.16828478964401294
+        },
+        {
+          "False Positive Rate": 0.03363914373088685,
+          "True Positive Rate": 0.16828478964401294
+        },
+        {
+          "False Positive Rate": 0.03363914373088685,
+          "True Positive Rate": 0.18122977346278318
+        },
+        {
+          "False Positive Rate": 0.035168195718654434,
+          "True Positive Rate": 0.18122977346278318
+        },
+        {
+          "False Positive Rate": 0.035168195718654434,
+          "True Positive Rate": 0.19093851132686085
+        },
+        {
+          "False Positive Rate": 0.03669724770642202,
+          "True Positive Rate": 0.19093851132686085
+        },
+        {
+          "False Positive Rate": 0.03669724770642202,
+          "True Positive Rate": 0.20064724919093851
+        },
+        {
+          "False Positive Rate": 0.0382262996941896,
+          "True Positive Rate": 0.20064724919093851
+        },
+        {
+          "False Positive Rate": 0.0382262996941896,
+          "True Positive Rate": 0.20711974110032363
+        },
+        {
+          "False Positive Rate": 0.039755351681957186,
+          "True Positive Rate": 0.20711974110032363
+        },
+        {
+          "False Positive Rate": 0.039755351681957186,
+          "True Positive Rate": 0.21359223300970873
+        },
+        {
+          "False Positive Rate": 0.04281345565749235,
+          "True Positive Rate": 0.21359223300970873
+        },
+        {
+          "False Positive Rate": 0.04281345565749235,
+          "True Positive Rate": 0.2297734627831715
+        },
+        {
+          "False Positive Rate": 0.04281345565749235,
+          "True Positive Rate": 0.23624595469255663
+        },
+        {
+          "False Positive Rate": 0.04281345565749235,
+          "True Positive Rate": 0.23948220064724918
+        },
+        {
+          "False Positive Rate": 0.04434250764525994,
+          "True Positive Rate": 0.23948220064724918
+        },
+        {
+          "False Positive Rate": 0.04434250764525994,
+          "True Positive Rate": 0.2459546925566343
+        },
+        {
+          "False Positive Rate": 0.045871559633027525,
+          "True Positive Rate": 0.2459546925566343
+        },
+        {
+          "False Positive Rate": 0.045871559633027525,
+          "True Positive Rate": 0.2524271844660194
+        },
+        {
+          "False Positive Rate": 0.047400611620795105,
+          "True Positive Rate": 0.2524271844660194
+        },
+        {
+          "False Positive Rate": 0.047400611620795105,
+          "True Positive Rate": 0.2588996763754045
+        },
+        {
+          "False Positive Rate": 0.05045871559633028,
+          "True Positive Rate": 0.2588996763754045
+        },
+        {
+          "False Positive Rate": 0.05045871559633028,
+          "True Positive Rate": 0.2621359223300971
+        },
+        {
+          "False Positive Rate": 0.05198776758409786,
+          "True Positive Rate": 0.2621359223300971
+        },
+        {
+          "False Positive Rate": 0.05198776758409786,
+          "True Positive Rate": 0.26537216828478966
+        },
+        {
+          "False Positive Rate": 0.053516819571865444,
+          "True Positive Rate": 0.26537216828478966
+        },
+        {
+          "False Positive Rate": 0.053516819571865444,
+          "True Positive Rate": 0.2750809061488673
+        },
+        {
+          "False Positive Rate": 0.05504587155963303,
+          "True Positive Rate": 0.2750809061488673
+        },
+        {
+          "False Positive Rate": 0.05504587155963303,
+          "True Positive Rate": 0.2783171521035599
+        },
+        {
+          "False Positive Rate": 0.05657492354740061,
+          "True Positive Rate": 0.2783171521035599
+        },
+        {
+          "False Positive Rate": 0.05657492354740061,
+          "True Positive Rate": 0.284789644012945
+        },
+        {
+          "False Positive Rate": 0.0581039755351682,
+          "True Positive Rate": 0.284789644012945
+        },
+        {
+          "False Positive Rate": 0.0581039755351682,
+          "True Positive Rate": 0.2977346278317152
+        },
+        {
+          "False Positive Rate": 0.05963302752293578,
+          "True Positive Rate": 0.2977346278317152
+        },
+        {
+          "False Positive Rate": 0.05963302752293578,
+          "True Positive Rate": 0.3042071197411003
+        },
+        {
+          "False Positive Rate": 0.06116207951070336,
+          "True Positive Rate": 0.3042071197411003
+        },
+        {
+          "False Positive Rate": 0.06116207951070336,
+          "True Positive Rate": 0.3106796116504854
+        },
+        {
+          "False Positive Rate": 0.0672782874617737,
+          "True Positive Rate": 0.3106796116504854
+        },
+        {
+          "False Positive Rate": 0.0672782874617737,
+          "True Positive Rate": 0.313915857605178
+        },
+        {
+          "False Positive Rate": 0.06880733944954129,
+          "True Positive Rate": 0.313915857605178
+        },
+        {
+          "False Positive Rate": 0.06880733944954129,
+          "True Positive Rate": 0.32362459546925565
+        },
+        {
+          "False Positive Rate": 0.07339449541284404,
+          "True Positive Rate": 0.32362459546925565
+        },
+        {
+          "False Positive Rate": 0.07339449541284404,
+          "True Positive Rate": 0.3300970873786408
+        },
+        {
+          "False Positive Rate": 0.0764525993883792,
+          "True Positive Rate": 0.3300970873786408
+        },
+        {
+          "False Positive Rate": 0.0764525993883792,
+          "True Positive Rate": 0.3365695792880259
+        },
+        {
+          "False Positive Rate": 0.0779816513761468,
+          "True Positive Rate": 0.3365695792880259
+        },
+        {
+          "False Positive Rate": 0.0779816513761468,
+          "True Positive Rate": 0.34627831715210355
+        },
+        {
+          "False Positive Rate": 0.07951070336391437,
+          "True Positive Rate": 0.34627831715210355
+        },
+        {
+          "False Positive Rate": 0.07951070336391437,
+          "True Positive Rate": 0.35275080906148865
+        },
+        {
+          "False Positive Rate": 0.08103975535168195,
+          "True Positive Rate": 0.35275080906148865
+        },
+        {
+          "False Positive Rate": 0.08103975535168195,
+          "True Positive Rate": 0.3559870550161812
+        },
+        {
+          "False Positive Rate": 0.08256880733944955,
+          "True Positive Rate": 0.3592233009708738
+        },
+        {
+          "False Positive Rate": 0.08256880733944955,
+          "True Positive Rate": 0.36245954692556637
+        },
+        {
+          "False Positive Rate": 0.08409785932721713,
+          "True Positive Rate": 0.36245954692556637
+        },
+        {
+          "False Positive Rate": 0.08409785932721713,
+          "True Positive Rate": 0.3656957928802589
+        },
+        {
+          "False Positive Rate": 0.09174311926605505,
+          "True Positive Rate": 0.3656957928802589
+        },
+        {
+          "False Positive Rate": 0.09174311926605505,
+          "True Positive Rate": 0.37216828478964403
+        },
+        {
+          "False Positive Rate": 0.09480122324159021,
+          "True Positive Rate": 0.37216828478964403
+        },
+        {
+          "False Positive Rate": 0.09480122324159021,
+          "True Positive Rate": 0.37540453074433655
+        },
+        {
+          "False Positive Rate": 0.0963302752293578,
+          "True Positive Rate": 0.37540453074433655
+        },
+        {
+          "False Positive Rate": 0.0963302752293578,
+          "True Positive Rate": 0.3883495145631068
+        },
+        {
+          "False Positive Rate": 0.09785932721712538,
+          "True Positive Rate": 0.3883495145631068
+        },
+        {
+          "False Positive Rate": 0.09785932721712538,
+          "True Positive Rate": 0.3948220064724919
+        },
+        {
+          "False Positive Rate": 0.09938837920489296,
+          "True Positive Rate": 0.3948220064724919
+        },
+        {
+          "False Positive Rate": 0.09938837920489296,
+          "True Positive Rate": 0.40129449838187703
+        },
+        {
+          "False Positive Rate": 0.1162079510703364,
+          "True Positive Rate": 0.40129449838187703
+        },
+        {
+          "False Positive Rate": 0.1162079510703364,
+          "True Positive Rate": 0.4077669902912621
+        },
+        {
+          "False Positive Rate": 0.1162079510703364,
+          "True Positive Rate": 0.4110032362459547
+        },
+        {
+          "False Positive Rate": 0.11773700305810397,
+          "True Positive Rate": 0.4110032362459547
+        },
+        {
+          "False Positive Rate": 0.11773700305810397,
+          "True Positive Rate": 0.41423948220064727
+        },
+        {
+          "False Positive Rate": 0.12079510703363915,
+          "True Positive Rate": 0.41423948220064727
+        },
+        {
+          "False Positive Rate": 0.12079510703363915,
+          "True Positive Rate": 0.42071197411003236
+        },
+        {
+          "False Positive Rate": 0.12079510703363915,
+          "True Positive Rate": 0.42394822006472493
+        },
+        {
+          "False Positive Rate": 0.12232415902140673,
+          "True Positive Rate": 0.42394822006472493
+        },
+        {
+          "False Positive Rate": 0.12232415902140673,
+          "True Positive Rate": 0.42718446601941745
+        },
+        {
+          "False Positive Rate": 0.12385321100917432,
+          "True Positive Rate": 0.43042071197411
+        },
+        {
+          "False Positive Rate": 0.12385321100917432,
+          "True Positive Rate": 0.4401294498381877
+        },
+        {
+          "False Positive Rate": 0.12538226299694188,
+          "True Positive Rate": 0.4401294498381877
+        },
+        {
+          "False Positive Rate": 0.12538226299694188,
+          "True Positive Rate": 0.4563106796116505
+        },
+        {
+          "False Positive Rate": 0.12691131498470948,
+          "True Positive Rate": 0.4563106796116505
+        },
+        {
+          "False Positive Rate": 0.12691131498470948,
+          "True Positive Rate": 0.459546925566343
+        },
+        {
+          "False Positive Rate": 0.13149847094801223,
+          "True Positive Rate": 0.459546925566343
+        },
+        {
+          "False Positive Rate": 0.13149847094801223,
+          "True Positive Rate": 0.4692556634304207
+        },
+        {
+          "False Positive Rate": 0.13302752293577982,
+          "True Positive Rate": 0.4692556634304207
+        },
+        {
+          "False Positive Rate": 0.13302752293577982,
+          "True Positive Rate": 0.47572815533980584
+        },
+        {
+          "False Positive Rate": 0.13608562691131498,
+          "True Positive Rate": 0.47572815533980584
+        },
+        {
+          "False Positive Rate": 0.13608562691131498,
+          "True Positive Rate": 0.47896440129449835
+        },
+        {
+          "False Positive Rate": 0.14220183486238533,
+          "True Positive Rate": 0.47896440129449835
+        },
+        {
+          "False Positive Rate": 0.14220183486238533,
+          "True Positive Rate": 0.48220064724919093
+        },
+        {
+          "False Positive Rate": 0.1452599388379205,
+          "True Positive Rate": 0.48220064724919093
+        },
+        {
+          "False Positive Rate": 0.1452599388379205,
+          "True Positive Rate": 0.4854368932038835
+        },
+        {
+          "False Positive Rate": 0.14678899082568808,
+          "True Positive Rate": 0.4854368932038835
+        },
+        {
+          "False Positive Rate": 0.14678899082568808,
+          "True Positive Rate": 0.4886731391585761
+        },
+        {
+          "False Positive Rate": 0.14984709480122324,
+          "True Positive Rate": 0.4886731391585761
+        },
+        {
+          "False Positive Rate": 0.14984709480122324,
+          "True Positive Rate": 0.49514563106796117
+        },
+        {
+          "False Positive Rate": 0.1529051987767584,
+          "True Positive Rate": 0.49514563106796117
+        },
+        {
+          "False Positive Rate": 0.154434250764526,
+          "True Positive Rate": 0.49838187702265374
+        },
+        {
+          "False Positive Rate": 0.154434250764526,
+          "True Positive Rate": 0.5016181229773463
+        },
+        {
+          "False Positive Rate": 0.1559633027522936,
+          "True Positive Rate": 0.5016181229773463
+        },
+        {
+          "False Positive Rate": 0.1559633027522936,
+          "True Positive Rate": 0.5080906148867314
+        },
+        {
+          "False Positive Rate": 0.15902140672782875,
+          "True Positive Rate": 0.5080906148867314
+        },
+        {
+          "False Positive Rate": 0.15902140672782875,
+          "True Positive Rate": 0.511326860841424
+        },
+        {
+          "False Positive Rate": 0.16055045871559634,
+          "True Positive Rate": 0.511326860841424
+        },
+        {
+          "False Positive Rate": 0.16055045871559634,
+          "True Positive Rate": 0.5210355987055016
+        },
+        {
+          "False Positive Rate": 0.1712538226299694,
+          "True Positive Rate": 0.5210355987055016
+        },
+        {
+          "False Positive Rate": 0.1712538226299694,
+          "True Positive Rate": 0.5242718446601942
+        },
+        {
+          "False Positive Rate": 0.172782874617737,
+          "True Positive Rate": 0.5275080906148867
+        },
+        {
+          "False Positive Rate": 0.17584097859327216,
+          "True Positive Rate": 0.5275080906148867
+        },
+        {
+          "False Positive Rate": 0.17584097859327216,
+          "True Positive Rate": 0.5307443365695793
+        },
+        {
+          "False Positive Rate": 0.17889908256880735,
+          "True Positive Rate": 0.5307443365695793
+        },
+        {
+          "False Positive Rate": 0.1819571865443425,
+          "True Positive Rate": 0.5307443365695793
+        },
+        {
+          "False Positive Rate": 0.1819571865443425,
+          "True Positive Rate": 0.5372168284789643
+        },
+        {
+          "False Positive Rate": 0.18501529051987767,
+          "True Positive Rate": 0.5372168284789643
+        },
+        {
+          "False Positive Rate": 0.18807339449541285,
+          "True Positive Rate": 0.5372168284789643
+        },
+        {
+          "False Positive Rate": 0.19418960244648317,
+          "True Positive Rate": 0.5372168284789643
+        },
+        {
+          "False Positive Rate": 0.19418960244648317,
+          "True Positive Rate": 0.5436893203883495
+        },
+        {
+          "False Positive Rate": 0.19571865443425077,
+          "True Positive Rate": 0.5436893203883495
+        },
+        {
+          "False Positive Rate": 0.20030581039755352,
+          "True Positive Rate": 0.5436893203883495
+        },
+        {
+          "False Positive Rate": 0.20642201834862386,
+          "True Positive Rate": 0.5436893203883495
+        },
+        {
+          "False Positive Rate": 0.20642201834862386,
+          "True Positive Rate": 0.5501618122977346
+        },
+        {
+          "False Positive Rate": 0.21406727828746178,
+          "True Positive Rate": 0.5501618122977346
+        },
+        {
+          "False Positive Rate": 0.21406727828746178,
+          "True Positive Rate": 0.5598705501618123
+        },
+        {
+          "False Positive Rate": 0.21865443425076453,
+          "True Positive Rate": 0.5598705501618123
+        },
+        {
+          "False Positive Rate": 0.21865443425076453,
+          "True Positive Rate": 0.5663430420711975
+        },
+        {
+          "False Positive Rate": 0.21865443425076453,
+          "True Positive Rate": 0.5728155339805825
+        },
+        {
+          "False Positive Rate": 0.22018348623853212,
+          "True Positive Rate": 0.5728155339805825
+        },
+        {
+          "False Positive Rate": 0.22018348623853212,
+          "True Positive Rate": 0.5760517799352751
+        },
+        {
+          "False Positive Rate": 0.22782874617737003,
+          "True Positive Rate": 0.5760517799352751
+        },
+        {
+          "False Positive Rate": 0.22782874617737003,
+          "True Positive Rate": 0.5792880258899676
+        },
+        {
+          "False Positive Rate": 0.22935779816513763,
+          "True Positive Rate": 0.5792880258899676
+        },
+        {
+          "False Positive Rate": 0.22935779816513763,
+          "True Positive Rate": 0.5857605177993528
+        },
+        {
+          "False Positive Rate": 0.2308868501529052,
+          "True Positive Rate": 0.5857605177993528
+        },
+        {
+          "False Positive Rate": 0.2308868501529052,
+          "True Positive Rate": 0.5922330097087378
+        },
+        {
+          "False Positive Rate": 0.23394495412844038,
+          "True Positive Rate": 0.5922330097087378
+        },
+        {
+          "False Positive Rate": 0.23394495412844038,
+          "True Positive Rate": 0.598705501618123
+        },
+        {
+          "False Positive Rate": 0.23394495412844038,
+          "True Positive Rate": 0.6051779935275081
+        },
+        {
+          "False Positive Rate": 0.23394495412844038,
+          "True Positive Rate": 0.6181229773462783
+        },
+        {
+          "False Positive Rate": 0.23700305810397554,
+          "True Positive Rate": 0.6181229773462783
+        },
+        {
+          "False Positive Rate": 0.23700305810397554,
+          "True Positive Rate": 0.6245954692556634
+        },
+        {
+          "False Positive Rate": 0.2400611620795107,
+          "True Positive Rate": 0.6245954692556634
+        },
+        {
+          "False Positive Rate": 0.24311926605504589,
+          "True Positive Rate": 0.627831715210356
+        },
+        {
+          "False Positive Rate": 0.24311926605504589,
+          "True Positive Rate": 0.6310679611650486
+        },
+        {
+          "False Positive Rate": 0.25076452599388377,
+          "True Positive Rate": 0.6310679611650486
+        },
+        {
+          "False Positive Rate": 0.25076452599388377,
+          "True Positive Rate": 0.6407766990291263
+        },
+        {
+          "False Positive Rate": 0.25688073394495414,
+          "True Positive Rate": 0.6407766990291263
+        },
+        {
+          "False Positive Rate": 0.25688073394495414,
+          "True Positive Rate": 0.6440129449838188
+        },
+        {
+          "False Positive Rate": 0.2599388379204893,
+          "True Positive Rate": 0.6440129449838188
+        },
+        {
+          "False Positive Rate": 0.2599388379204893,
+          "True Positive Rate": 0.6504854368932039
+        },
+        {
+          "False Positive Rate": 0.26299694189602446,
+          "True Positive Rate": 0.6504854368932039
+        },
+        {
+          "False Positive Rate": 0.26452599388379205,
+          "True Positive Rate": 0.6504854368932039
+        },
+        {
+          "False Positive Rate": 0.26452599388379205,
+          "True Positive Rate": 0.6537216828478964
+        },
+        {
+          "False Positive Rate": 0.26758409785932724,
+          "True Positive Rate": 0.6537216828478964
+        },
+        {
+          "False Positive Rate": 0.27370030581039756,
+          "True Positive Rate": 0.6537216828478964
+        },
+        {
+          "False Positive Rate": 0.27522935779816515,
+          "True Positive Rate": 0.6537216828478964
+        },
+        {
+          "False Positive Rate": 0.27675840978593275,
+          "True Positive Rate": 0.656957928802589
+        },
+        {
+          "False Positive Rate": 0.2782874617737003,
+          "True Positive Rate": 0.656957928802589
+        },
+        {
+          "False Positive Rate": 0.2782874617737003,
+          "True Positive Rate": 0.6634304207119741
+        },
+        {
+          "False Positive Rate": 0.28134556574923547,
+          "True Positive Rate": 0.6634304207119741
+        },
+        {
+          "False Positive Rate": 0.28134556574923547,
+          "True Positive Rate": 0.6666666666666666
+        },
+        {
+          "False Positive Rate": 0.28287461773700306,
+          "True Positive Rate": 0.6666666666666666
+        },
+        {
+          "False Positive Rate": 0.28287461773700306,
+          "True Positive Rate": 0.6731391585760518
+        },
+        {
+          "False Positive Rate": 0.28440366972477066,
+          "True Positive Rate": 0.6731391585760518
+        },
+        {
+          "False Positive Rate": 0.28440366972477066,
+          "True Positive Rate": 0.6796116504854369
+        },
+        {
+          "False Positive Rate": 0.2889908256880734,
+          "True Positive Rate": 0.6796116504854369
+        },
+        {
+          "False Positive Rate": 0.2889908256880734,
+          "True Positive Rate": 0.686084142394822
+        },
+        {
+          "False Positive Rate": 0.2981651376146789,
+          "True Positive Rate": 0.686084142394822
+        },
+        {
+          "False Positive Rate": 0.2981651376146789,
+          "True Positive Rate": 0.6957928802588996
+        },
+        {
+          "False Positive Rate": 0.2996941896024465,
+          "True Positive Rate": 0.6957928802588996
+        },
+        {
+          "False Positive Rate": 0.2996941896024465,
+          "True Positive Rate": 0.6990291262135923
+        },
+        {
+          "False Positive Rate": 0.3103975535168196,
+          "True Positive Rate": 0.6990291262135923
+        },
+        {
+          "False Positive Rate": 0.3103975535168196,
+          "True Positive Rate": 0.7055016181229773
+        },
+        {
+          "False Positive Rate": 0.3103975535168196,
+          "True Positive Rate": 0.7119741100323624
+        },
+        {
+          "False Positive Rate": 0.3149847094801223,
+          "True Positive Rate": 0.7119741100323624
+        },
+        {
+          "False Positive Rate": 0.3149847094801223,
+          "True Positive Rate": 0.7152103559870551
+        },
+        {
+          "False Positive Rate": 0.3165137614678899,
+          "True Positive Rate": 0.7152103559870551
+        },
+        {
+          "False Positive Rate": 0.3165137614678899,
+          "True Positive Rate": 0.7184466019417476
+        },
+        {
+          "False Positive Rate": 0.3211009174311927,
+          "True Positive Rate": 0.7184466019417476
+        },
+        {
+          "False Positive Rate": 0.3211009174311927,
+          "True Positive Rate": 0.7249190938511327
+        },
+        {
+          "False Positive Rate": 0.32262996941896027,
+          "True Positive Rate": 0.7249190938511327
+        },
+        {
+          "False Positive Rate": 0.32262996941896027,
+          "True Positive Rate": 0.7281553398058253
+        },
+        {
+          "False Positive Rate": 0.32262996941896027,
+          "True Positive Rate": 0.7346278317152104
+        },
+        {
+          "False Positive Rate": 0.3256880733944954,
+          "True Positive Rate": 0.7346278317152104
+        },
+        {
+          "False Positive Rate": 0.3256880733944954,
+          "True Positive Rate": 0.7443365695792881
+        },
+        {
+          "False Positive Rate": 0.3318042813455658,
+          "True Positive Rate": 0.7443365695792881
+        },
+        {
+          "False Positive Rate": 0.3348623853211009,
+          "True Positive Rate": 0.7443365695792881
+        },
+        {
+          "False Positive Rate": 0.3363914373088685,
+          "True Positive Rate": 0.7443365695792881
+        },
+        {
+          "False Positive Rate": 0.3363914373088685,
+          "True Positive Rate": 0.7475728155339806
+        },
+        {
+          "False Positive Rate": 0.3440366972477064,
+          "True Positive Rate": 0.7475728155339806
+        },
+        {
+          "False Positive Rate": 0.3470948012232416,
+          "True Positive Rate": 0.7475728155339806
+        },
+        {
+          "False Positive Rate": 0.3486238532110092,
+          "True Positive Rate": 0.7475728155339806
+        },
+        {
+          "False Positive Rate": 0.3486238532110092,
+          "True Positive Rate": 0.7540453074433657
+        },
+        {
+          "False Positive Rate": 0.35015290519877673,
+          "True Positive Rate": 0.7540453074433657
+        },
+        {
+          "False Positive Rate": 0.35015290519877673,
+          "True Positive Rate": 0.7605177993527508
+        },
+        {
+          "False Positive Rate": 0.3547400611620795,
+          "True Positive Rate": 0.7605177993527508
+        },
+        {
+          "False Positive Rate": 0.3547400611620795,
+          "True Positive Rate": 0.7637540453074434
+        },
+        {
+          "False Positive Rate": 0.3577981651376147,
+          "True Positive Rate": 0.7637540453074434
+        },
+        {
+          "False Positive Rate": 0.3577981651376147,
+          "True Positive Rate": 0.7669902912621359
+        },
+        {
+          "False Positive Rate": 0.3623853211009174,
+          "True Positive Rate": 0.7669902912621359
+        },
+        {
+          "False Positive Rate": 0.3654434250764526,
+          "True Positive Rate": 0.7702265372168284
+        },
+        {
+          "False Positive Rate": 0.3669724770642202,
+          "True Positive Rate": 0.7702265372168284
+        },
+        {
+          "False Positive Rate": 0.3669724770642202,
+          "True Positive Rate": 0.7734627831715211
+        },
+        {
+          "False Positive Rate": 0.36850152905198774,
+          "True Positive Rate": 0.7734627831715211
+        },
+        {
+          "False Positive Rate": 0.36850152905198774,
+          "True Positive Rate": 0.7766990291262136
+        },
+        {
+          "False Positive Rate": 0.3730886850152905,
+          "True Positive Rate": 0.7766990291262136
+        },
+        {
+          "False Positive Rate": 0.3730886850152905,
+          "True Positive Rate": 0.7831715210355987
+        },
+        {
+          "False Positive Rate": 0.3761467889908257,
+          "True Positive Rate": 0.7831715210355987
+        },
+        {
+          "False Positive Rate": 0.3761467889908257,
+          "True Positive Rate": 0.7864077669902912
+        },
+        {
+          "False Positive Rate": 0.37767584097859325,
+          "True Positive Rate": 0.7864077669902912
+        },
+        {
+          "False Positive Rate": 0.37767584097859325,
+          "True Positive Rate": 0.7896440129449838
+        },
+        {
+          "False Positive Rate": 0.37920489296636084,
+          "True Positive Rate": 0.7896440129449838
+        },
+        {
+          "False Positive Rate": 0.37920489296636084,
+          "True Positive Rate": 0.7928802588996764
+        },
+        {
+          "False Positive Rate": 0.382262996941896,
+          "True Positive Rate": 0.7928802588996764
+        },
+        {
+          "False Positive Rate": 0.382262996941896,
+          "True Positive Rate": 0.7961165048543689
+        },
+        {
+          "False Positive Rate": 0.39143730886850153,
+          "True Positive Rate": 0.7961165048543689
+        },
+        {
+          "False Positive Rate": 0.3944954128440367,
+          "True Positive Rate": 0.7961165048543689
+        },
+        {
+          "False Positive Rate": 0.39755351681957185,
+          "True Positive Rate": 0.7961165048543689
+        },
+        {
+          "False Positive Rate": 0.39755351681957185,
+          "True Positive Rate": 0.8025889967637541
+        },
+        {
+          "False Positive Rate": 0.39755351681957185,
+          "True Positive Rate": 0.8090614886731392
+        },
+        {
+          "False Positive Rate": 0.39908256880733944,
+          "True Positive Rate": 0.8090614886731392
+        },
+        {
+          "False Positive Rate": 0.39908256880733944,
+          "True Positive Rate": 0.8122977346278317
+        },
+        {
+          "False Positive Rate": 0.40214067278287463,
+          "True Positive Rate": 0.8122977346278317
+        },
+        {
+          "False Positive Rate": 0.40214067278287463,
+          "True Positive Rate": 0.8187702265372169
+        },
+        {
+          "False Positive Rate": 0.40214067278287463,
+          "True Positive Rate": 0.8220064724919094
+        },
+        {
+          "False Positive Rate": 0.40519877675840976,
+          "True Positive Rate": 0.8220064724919094
+        },
+        {
+          "False Positive Rate": 0.40519877675840976,
+          "True Positive Rate": 0.8252427184466019
+        },
+        {
+          "False Positive Rate": 0.40672782874617736,
+          "True Positive Rate": 0.8252427184466019
+        },
+        {
+          "False Positive Rate": 0.40672782874617736,
+          "True Positive Rate": 0.8284789644012945
+        },
+        {
+          "False Positive Rate": 0.40825688073394495,
+          "True Positive Rate": 0.8284789644012945
+        },
+        {
+          "False Positive Rate": 0.40825688073394495,
+          "True Positive Rate": 0.8349514563106796
+        },
+        {
+          "False Positive Rate": 0.42660550458715596,
+          "True Positive Rate": 0.8349514563106796
+        },
+        {
+          "False Positive Rate": 0.42660550458715596,
+          "True Positive Rate": 0.8381877022653722
+        },
+        {
+          "False Positive Rate": 0.42660550458715596,
+          "True Positive Rate": 0.8446601941747572
+        },
+        {
+          "False Positive Rate": 0.43119266055045874,
+          "True Positive Rate": 0.8446601941747572
+        },
+        {
+          "False Positive Rate": 0.43119266055045874,
+          "True Positive Rate": 0.8478964401294499
+        },
+        {
+          "False Positive Rate": 0.43425076452599387,
+          "True Positive Rate": 0.8478964401294499
+        },
+        {
+          "False Positive Rate": 0.43577981651376146,
+          "True Positive Rate": 0.8478964401294499
+        },
+        {
+          "False Positive Rate": 0.43577981651376146,
+          "True Positive Rate": 0.8543689320388349
+        },
+        {
+          "False Positive Rate": 0.44648318042813456,
+          "True Positive Rate": 0.8543689320388349
+        },
+        {
+          "False Positive Rate": 0.44648318042813456,
+          "True Positive Rate": 0.8576051779935275
+        },
+        {
+          "False Positive Rate": 0.44801223241590216,
+          "True Positive Rate": 0.8576051779935275
+        },
+        {
+          "False Positive Rate": 0.44801223241590216,
+          "True Positive Rate": 0.86084142394822
+        },
+        {
+          "False Positive Rate": 0.4525993883792049,
+          "True Positive Rate": 0.86084142394822
+        },
+        {
+          "False Positive Rate": 0.4525993883792049,
+          "True Positive Rate": 0.8640776699029126
+        },
+        {
+          "False Positive Rate": 0.45718654434250766,
+          "True Positive Rate": 0.8640776699029126
+        },
+        {
+          "False Positive Rate": 0.4602446483180428,
+          "True Positive Rate": 0.8640776699029126
+        },
+        {
+          "False Positive Rate": 0.4602446483180428,
+          "True Positive Rate": 0.8673139158576052
+        },
+        {
+          "False Positive Rate": 0.4617737003058104,
+          "True Positive Rate": 0.8673139158576052
+        },
+        {
+          "False Positive Rate": 0.46788990825688076,
+          "True Positive Rate": 0.8673139158576052
+        },
+        {
+          "False Positive Rate": 0.4709480122324159,
+          "True Positive Rate": 0.8673139158576052
+        },
+        {
+          "False Positive Rate": 0.4709480122324159,
+          "True Positive Rate": 0.8705501618122977
+        },
+        {
+          "False Positive Rate": 0.47553516819571867,
+          "True Positive Rate": 0.8705501618122977
+        },
+        {
+          "False Positive Rate": 0.47553516819571867,
+          "True Positive Rate": 0.8737864077669902
+        },
+        {
+          "False Positive Rate": 0.4801223241590214,
+          "True Positive Rate": 0.8737864077669902
+        },
+        {
+          "False Positive Rate": 0.4801223241590214,
+          "True Positive Rate": 0.8802588996763754
+        },
+        {
+          "False Positive Rate": 0.5030581039755352,
+          "True Positive Rate": 0.8802588996763754
+        },
+        {
+          "False Positive Rate": 0.5030581039755352,
+          "True Positive Rate": 0.883495145631068
+        },
+        {
+          "False Positive Rate": 0.5061162079510704,
+          "True Positive Rate": 0.883495145631068
+        },
+        {
+          "False Positive Rate": 0.5091743119266054,
+          "True Positive Rate": 0.883495145631068
+        },
+        {
+          "False Positive Rate": 0.5091743119266054,
+          "True Positive Rate": 0.8867313915857605
+        },
+        {
+          "False Positive Rate": 0.5137614678899083,
+          "True Positive Rate": 0.8867313915857605
+        },
+        {
+          "False Positive Rate": 0.5137614678899083,
+          "True Positive Rate": 0.889967637540453
+        },
+        {
+          "False Positive Rate": 0.5244648318042814,
+          "True Positive Rate": 0.889967637540453
+        },
+        {
+          "False Positive Rate": 0.5259938837920489,
+          "True Positive Rate": 0.8932038834951457
+        },
+        {
+          "False Positive Rate": 0.536697247706422,
+          "True Positive Rate": 0.8932038834951457
+        },
+        {
+          "False Positive Rate": 0.5412844036697247,
+          "True Positive Rate": 0.8932038834951457
+        },
+        {
+          "False Positive Rate": 0.5412844036697247,
+          "True Positive Rate": 0.8964401294498382
+        },
+        {
+          "False Positive Rate": 0.5474006116207951,
+          "True Positive Rate": 0.8964401294498382
+        },
+        {
+          "False Positive Rate": 0.5474006116207951,
+          "True Positive Rate": 0.8996763754045307
+        },
+        {
+          "False Positive Rate": 0.5535168195718655,
+          "True Positive Rate": 0.8996763754045307
+        },
+        {
+          "False Positive Rate": 0.5535168195718655,
+          "True Positive Rate": 0.9029126213592233
+        },
+        {
+          "False Positive Rate": 0.5611620795107034,
+          "True Positive Rate": 0.9029126213592233
+        },
+        {
+          "False Positive Rate": 0.5611620795107034,
+          "True Positive Rate": 0.9061488673139159
+        },
+        {
+          "False Positive Rate": 0.5642201834862385,
+          "True Positive Rate": 0.9061488673139159
+        },
+        {
+          "False Positive Rate": 0.5688073394495413,
+          "True Positive Rate": 0.9061488673139159
+        },
+        {
+          "False Positive Rate": 0.5718654434250765,
+          "True Positive Rate": 0.9061488673139159
+        },
+        {
+          "False Positive Rate": 0.5795107033639144,
+          "True Positive Rate": 0.9061488673139159
+        },
+        {
+          "False Positive Rate": 0.5825688073394495,
+          "True Positive Rate": 0.9061488673139159
+        },
+        {
+          "False Positive Rate": 0.5856269113149847,
+          "True Positive Rate": 0.9061488673139159
+        },
+        {
+          "False Positive Rate": 0.5886850152905199,
+          "True Positive Rate": 0.9061488673139159
+        },
+        {
+          "False Positive Rate": 0.6024464831804281,
+          "True Positive Rate": 0.9061488673139159
+        },
+        {
+          "False Positive Rate": 0.6024464831804281,
+          "True Positive Rate": 0.9093851132686084
+        },
+        {
+          "False Positive Rate": 0.6039755351681957,
+          "True Positive Rate": 0.9093851132686084
+        },
+        {
+          "False Positive Rate": 0.6055045871559633,
+          "True Positive Rate": 0.912621359223301
+        },
+        {
+          "False Positive Rate": 0.6192660550458715,
+          "True Positive Rate": 0.912621359223301
+        },
+        {
+          "False Positive Rate": 0.6223241590214067,
+          "True Positive Rate": 0.912621359223301
+        },
+        {
+          "False Positive Rate": 0.6314984709480123,
+          "True Positive Rate": 0.912621359223301
+        },
+        {
+          "False Positive Rate": 0.6314984709480123,
+          "True Positive Rate": 0.9158576051779935
+        },
+        {
+          "False Positive Rate": 0.6651376146788991,
+          "True Positive Rate": 0.9158576051779935
+        },
+        {
+          "False Positive Rate": 0.6651376146788991,
+          "True Positive Rate": 0.919093851132686
+        },
+        {
+          "False Positive Rate": 0.672782874617737,
+          "True Positive Rate": 0.919093851132686
+        },
+        {
+          "False Positive Rate": 0.672782874617737,
+          "True Positive Rate": 0.9223300970873787
+        },
+        {
+          "False Positive Rate": 0.6804281345565749,
+          "True Positive Rate": 0.9223300970873787
+        },
+        {
+          "False Positive Rate": 0.6804281345565749,
+          "True Positive Rate": 0.9255663430420712
+        },
+        {
+          "False Positive Rate": 0.6850152905198776,
+          "True Positive Rate": 0.9255663430420712
+        },
+        {
+          "False Positive Rate": 0.6850152905198776,
+          "True Positive Rate": 0.9288025889967637
+        },
+        {
+          "False Positive Rate": 0.6865443425076453,
+          "True Positive Rate": 0.9288025889967637
+        },
+        {
+          "False Positive Rate": 0.6865443425076453,
+          "True Positive Rate": 0.9352750809061489
+        },
+        {
+          "False Positive Rate": 0.6865443425076453,
+          "True Positive Rate": 0.9385113268608414
+        },
+        {
+          "False Positive Rate": 0.6896024464831805,
+          "True Positive Rate": 0.9385113268608414
+        },
+        {
+          "False Positive Rate": 0.6896024464831805,
+          "True Positive Rate": 0.9449838187702265
+        },
+        {
+          "False Positive Rate": 0.6926605504587156,
+          "True Positive Rate": 0.9449838187702265
+        },
+        {
+          "False Positive Rate": 0.6957186544342507,
+          "True Positive Rate": 0.9449838187702265
+        },
+        {
+          "False Positive Rate": 0.6972477064220184,
+          "True Positive Rate": 0.9449838187702265
+        },
+        {
+          "False Positive Rate": 0.7003058103975535,
+          "True Positive Rate": 0.9449838187702265
+        },
+        {
+          "False Positive Rate": 0.7018348623853211,
+          "True Positive Rate": 0.9449838187702265
+        },
+        {
+          "False Positive Rate": 0.7048929663608563,
+          "True Positive Rate": 0.9449838187702265
+        },
+        {
+          "False Positive Rate": 0.7079510703363915,
+          "True Positive Rate": 0.9449838187702265
+        },
+        {
+          "False Positive Rate": 0.7079510703363915,
+          "True Positive Rate": 0.948220064724919
+        },
+        {
+          "False Positive Rate": 0.7110091743119266,
+          "True Positive Rate": 0.948220064724919
+        },
+        {
+          "False Positive Rate": 0.7140672782874617,
+          "True Positive Rate": 0.948220064724919
+        },
+        {
+          "False Positive Rate": 0.7171253822629969,
+          "True Positive Rate": 0.948220064724919
+        },
+        {
+          "False Positive Rate": 0.7171253822629969,
+          "True Positive Rate": 0.9514563106796117
+        },
+        {
+          "False Positive Rate": 0.7217125382262997,
+          "True Positive Rate": 0.9514563106796117
+        },
+        {
+          "False Positive Rate": 0.7247706422018348,
+          "True Positive Rate": 0.9514563106796117
+        },
+        {
+          "False Positive Rate": 0.7324159021406728,
+          "True Positive Rate": 0.9514563106796117
+        },
+        {
+          "False Positive Rate": 0.735474006116208,
+          "True Positive Rate": 0.9514563106796117
+        },
+        {
+          "False Positive Rate": 0.7477064220183486,
+          "True Positive Rate": 0.9514563106796117
+        },
+        {
+          "False Positive Rate": 0.7507645259938838,
+          "True Positive Rate": 0.9514563106796117
+        },
+        {
+          "False Positive Rate": 0.7553516819571865,
+          "True Positive Rate": 0.9514563106796117
+        },
+        {
+          "False Positive Rate": 0.7553516819571865,
+          "True Positive Rate": 0.9546925566343042
+        },
+        {
+          "False Positive Rate": 0.7568807339449541,
+          "True Positive Rate": 0.9546925566343042
+        },
+        {
+          "False Positive Rate": 0.7568807339449541,
+          "True Positive Rate": 0.9579288025889967
+        },
+        {
+          "False Positive Rate": 0.7660550458715596,
+          "True Positive Rate": 0.9579288025889967
+        },
+        {
+          "False Positive Rate": 0.7660550458715596,
+          "True Positive Rate": 0.9644012944983819
+        },
+        {
+          "False Positive Rate": 0.7782874617737003,
+          "True Positive Rate": 0.9644012944983819
+        },
+        {
+          "False Positive Rate": 0.7782874617737003,
+          "True Positive Rate": 0.9676375404530745
+        },
+        {
+          "False Positive Rate": 0.7798165137614679,
+          "True Positive Rate": 0.9676375404530745
+        },
+        {
+          "False Positive Rate": 0.7798165137614679,
+          "True Positive Rate": 0.970873786407767
+        },
+        {
+          "False Positive Rate": 0.7813455657492355,
+          "True Positive Rate": 0.9741100323624595
+        },
+        {
+          "False Positive Rate": 0.7828746177370031,
+          "True Positive Rate": 0.9741100323624595
+        },
+        {
+          "False Positive Rate": 0.7828746177370031,
+          "True Positive Rate": 0.9838187702265372
+        },
+        {
+          "False Positive Rate": 0.7874617737003058,
+          "True Positive Rate": 0.9838187702265372
+        },
+        {
+          "False Positive Rate": 0.7874617737003058,
+          "True Positive Rate": 0.9870550161812298
+        },
+        {
+          "False Positive Rate": 0.8363914373088684,
+          "True Positive Rate": 0.9870550161812298
+        },
+        {
+          "False Positive Rate": 0.8394495412844036,
+          "True Positive Rate": 0.9870550161812298
+        },
+        {
+          "False Positive Rate": 0.8425076452599388,
+          "True Positive Rate": 0.9870550161812298
+        },
+        {
+          "False Positive Rate": 0.845565749235474,
+          "True Positive Rate": 0.9870550161812298
+        },
+        {
+          "False Positive Rate": 0.8516819571865444,
+          "True Positive Rate": 0.9870550161812298
+        },
+        {
+          "False Positive Rate": 0.8516819571865444,
+          "True Positive Rate": 0.9902912621359223
+        },
+        {
+          "False Positive Rate": 0.8608562691131498,
+          "True Positive Rate": 0.9902912621359223
+        },
+        {
+          "False Positive Rate": 0.8608562691131498,
+          "True Positive Rate": 0.9935275080906149
+        },
+        {
+          "False Positive Rate": 0.8685015290519877,
+          "True Positive Rate": 0.9935275080906149
+        },
+        {
+          "False Positive Rate": 0.8685015290519877,
+          "True Positive Rate": 0.9967637540453075
+        },
+        {
+          "False Positive Rate": 0.882262996941896,
+          "True Positive Rate": 0.9967637540453075
+        },
+        {
+          "False Positive Rate": 0.8853211009174312,
+          "True Positive Rate": 0.9967637540453075
+        },
+        {
+          "False Positive Rate": 0.9204892966360856,
+          "True Positive Rate": 0.9967637540453075
+        },
+        {
+          "False Positive Rate": 0.926605504587156,
+          "True Positive Rate": 0.9967637540453075
+        },
+        {
+          "False Positive Rate": 0.9480122324159022,
+          "True Positive Rate": 0.9967637540453075
+        },
+        {
+          "False Positive Rate": 0.9510703363914373,
+          "True Positive Rate": 0.9967637540453075
+        },
+        {
+          "False Positive Rate": 0.9525993883792049,
+          "True Positive Rate": 0.9967637540453075
+        },
+        {"False Positive Rate": 0.9525993883792049, "True Positive Rate": 1},
+        {"False Positive Rate": 0.9541284403669725, "True Positive Rate": 1},
+        {"False Positive Rate": 0.9571865443425076, "True Positive Rate": 1},
+        {"False Positive Rate": 0.963302752293578, "True Positive Rate": 1},
+        {"False Positive Rate": 0.9663608562691132, "True Positive Rate": 1},
+        {"False Positive Rate": 0.9724770642201835, "True Positive Rate": 1},
+        {"False Positive Rate": 0.9755351681957186, "True Positive Rate": 1},
+        {"False Positive Rate": 0.9801223241590215, "True Positive Rate": 1},
+        {"False Positive Rate": 0.9969418960244648, "True Positive Rate": 1},
+        {"False Positive Rate": 1, "True Positive Rate": 1}
+      ]
+    },
+    {
+      "name": "source_1",
+      "values": [
+        {"False Positive Rate": 0, "True Positive Rate": 0},
+        {"False Positive Rate": 1, "True Positive Rate": 1}
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "name": "unit",
+      "value": {},
+      "on": [
+        {"events": "pointermove", "update": "isTuple(group()) ? group() : unit"}
+      ]
+    },
+    {
+      "name": "param_9",
+      "update": "vlSelectionResolve(\"param_9_store\", \"union\")"
+    },
+    {
+      "name": "param_9_False_Positive_Rate",
+      "on": [
+        {"events": [{"source": "view", "type": "dblclick"}], "update": "null"},
+        {
+          "events": {"signal": "param_9_translate_delta"},
+          "update": "panLinear(param_9_translate_anchor.extent_x, -param_9_translate_delta.x / width)"
+        },
+        {
+          "events": {"signal": "param_9_zoom_delta"},
+          "update": "zoomLinear(domain(\"x\"), param_9_zoom_anchor.x, param_9_zoom_delta)"
+        }
+      ]
+    },
+    {
+      "name": "param_9_True_Positive_Rate",
+      "on": [
+        {"events": [{"source": "view", "type": "dblclick"}], "update": "null"},
+        {
+          "events": {"signal": "param_9_translate_delta"},
+          "update": "panLinear(param_9_translate_anchor.extent_y, param_9_translate_delta.y / height)"
+        },
+        {
+          "events": {"signal": "param_9_zoom_delta"},
+          "update": "zoomLinear(domain(\"y\"), param_9_zoom_anchor.y, param_9_zoom_delta)"
+        }
+      ]
+    },
+    {
+      "name": "param_9_tuple",
+      "on": [
+        {
+          "events": [
+            {
+              "signal": "param_9_False_Positive_Rate || param_9_True_Positive_Rate"
+            }
+          ],
+          "update": "param_9_False_Positive_Rate && param_9_True_Positive_Rate ? {unit: \"view_7\", fields: param_9_tuple_fields, values: [param_9_False_Positive_Rate,param_9_True_Positive_Rate]} : null"
+        }
+      ]
+    },
+    {
+      "name": "param_9_tuple_fields",
+      "value": [
+        {"field": "False Positive Rate", "channel": "x", "type": "R"},
+        {"field": "True Positive Rate", "channel": "y", "type": "R"}
+      ]
+    },
+    {
+      "name": "param_9_translate_anchor",
+      "value": {},
+      "on": [
+        {
+          "events": [{"source": "scope", "type": "pointerdown"}],
+          "update": "{x: x(unit), y: y(unit), extent_x: domain(\"x\"), extent_y: domain(\"y\")}"
+        }
+      ]
+    },
+    {
+      "name": "param_9_translate_delta",
+      "value": {},
+      "on": [
+        {
+          "events": [
+            {
+              "source": "window",
+              "between": [
+                {"source": "scope", "type": "pointerdown"},
+                {"source": "window", "type": "pointerup"}
+              ],
+              "type": "pointermove",
+              "consume": true
+            }
+          ],
+          "update": "{x: param_9_translate_anchor.x - x(unit), y: param_9_translate_anchor.y - y(unit)}"
+        }
+      ]
+    },
+    {
+      "name": "param_9_zoom_anchor",
+      "on": [
+        {
+          "events": [{"source": "scope", "type": "wheel", "consume": true}],
+          "update": "{x: invert(\"x\", x(unit)), y: invert(\"y\", y(unit))}"
+        }
+      ]
+    },
+    {
+      "name": "param_9_zoom_delta",
+      "on": [
+        {
+          "events": [{"source": "scope", "type": "wheel", "consume": true}],
+          "update": "pow(1.001, event.deltaY * pow(16, event.deltaMode))",
+          "force": true
+        }
+      ]
+    },
+    {
+      "name": "param_9_modify",
+      "on": [
+        {
+          "events": {"signal": "param_9_tuple"},
+          "update": "modify(\"param_9_store\", param_9_tuple, true)"
+        }
+      ]
+    }
+  ],
+  "marks": [
+    {
+      "type": "line",
+      "name": "view_7_marks",
+      "from": {"data": "source_0"},
+      "sort": {"field": "datum[\"False Positive Rate\"]"},
+      "encode": {
+        "update": {
+          "stroke": {"value": "darkorange"},
+          "tooltip": {
+            "signal": "{\"False Positive Rate\": format(datum[\"False Positive Rate\"], \"\"), \"True Positive Rate\": format(datum[\"True Positive Rate\"], \"\")}"
+          },
+          "defined": {
+            "signal": "isValid(datum[\"False Positive Rate\"]) && isFinite(+datum[\"False Positive Rate\"]) && isValid(datum[\"True Positive Rate\"]) && isFinite(+datum[\"True Positive Rate\"])"
+          },
+          "y": {"field": "True Positive Rate", "scale": "y"},
+          "x": {"field": "False Positive Rate", "scale": "x"}
+        }
+      },
+      "interactive": true,
+      "style": ["line"],
+      "clip": true
+    },
+    {
+      "type": "line",
+      "name": "layer_1_marks",
+      "from": {"data": "source_1"},
+      "sort": {"field": "datum[\"False Positive Rate\"]"},
+      "encode": {
+        "update": {
+          "y": {"field": "True Positive Rate", "scale": "y"},
+          "strokeDash": {"value": [5, 5]},
+          "defined": {
+            "signal": "isValid(datum[\"False Positive Rate\"]) && isFinite(+datum[\"False Positive Rate\"]) && isValid(datum[\"True Positive Rate\"]) && isFinite(+datum[\"True Positive Rate\"])"
+          },
+          "x": {"field": "False Positive Rate", "scale": "x"},
+          "stroke": {"value": "navy"}
+        }
+      },
+      "clip": true,
+      "style": ["line"],
+      "interactive": false
+    }
+  ],
+  "scales": [
+    {
+      "name": "x",
+      "type": "linear",
+      "domain": [0, 1],
+      "range": [0, {"signal": "width"}],
+      "zero": true,
+      "domainRaw": {"signal": "param_9[\"False Positive Rate\"]"},
+      "nice": true
+    },
+    {
+      "name": "y",
+      "type": "linear",
+      "domain": [0, 1.1],
+      "range": [{"signal": "height"}, 0],
+      "domainRaw": {"signal": "param_9[\"True Positive Rate\"]"},
+      "nice": true,
+      "zero": true
+    }
+  ],
+  "axes": [
+    {
+      "scale": "x",
+      "domain": false,
+      "ticks": false,
+      "tickCount": {"signal": "ceil(width/40)"},
+      "minExtent": 0,
+      "maxExtent": 0,
+      "labels": false,
+      "orient": "bottom",
+      "zindex": 0,
+      "gridScale": "y",
+      "grid": true,
+      "aria": false
+    },
+    {
+      "scale": "y",
+      "ticks": false,
+      "labels": false,
+      "orient": "left",
+      "zindex": 0,
+      "minExtent": 0,
+      "aria": false,
+      "domain": false,
+      "grid": true,
+      "gridScale": "x",
+      "tickCount": {"signal": "ceil(height/40)"},
+      "maxExtent": 0
+    },
+    {
+      "scale": "x",
+      "zindex": 0,
+      "orient": "bottom",
+      "title": "False Positive Rate",
+      "labelFlush": true,
+      "labelOverlap": true,
+      "tickCount": {"signal": "ceil(width/40)"},
+      "grid": false
+    },
+    {
+      "scale": "y",
+      "zindex": 0,
+      "orient": "left",
+      "grid": false,
+      "tickCount": {"signal": "ceil(height/40)"},
+      "title": "True Positive Rate",
+      "labelOverlap": true
+    }
+  ],
+  "title": {"text": "ROC Curve (AUC = 0.772)", "frame": "group"},
+  "style": "cell",
+  "background": "white",
+  "width": 500,
+  "padding": 5,
+  "height": 400
+}

@@ -1,0 +1,503 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "data": [
+    {
+      "name": "source_0",
+      "values": [
+        {
+          "Genre": "Action & Adventure",
+          "Year": 2019,
+          "average_Rotten_Tomatoes": 56.23529411764706,
+          "average_Rotten_Tomatoes_end": 247.7050944270689,
+          "average_Rotten_Tomatoes_start": 191.46980030942183
+        },
+        {
+          "Genre": "Action & Adventure",
+          "Year": 2020,
+          "average_Rotten_Tomatoes": 56.24590163934426,
+          "average_Rotten_Tomatoes_end": 272.43116949648714,
+          "average_Rotten_Tomatoes_start": 216.1852678571429
+        },
+        {
+          "Genre": "Action & Adventure",
+          "Year": 2012,
+          "average_Rotten_Tomatoes": 50.265822784810126,
+          "average_Rotten_Tomatoes_end": 231.48764025445368,
+          "average_Rotten_Tomatoes_start": 181.22181746964355
+        },
+        {
+          "Genre": "Action & Adventure",
+          "Year": 2018,
+          "average_Rotten_Tomatoes": 51.9349593495935,
+          "average_Rotten_Tomatoes_end": 241.63045974712878,
+          "average_Rotten_Tomatoes_start": 189.69550039753528
+        },
+        {
+          "Genre": "Action & Adventure",
+          "Year": 2016,
+          "average_Rotten_Tomatoes": 52.594339622641506,
+          "average_Rotten_Tomatoes_end": 239.0955572832299,
+          "average_Rotten_Tomatoes_start": 186.5012176605884
+        },
+        {
+          "Genre": "Action & Adventure",
+          "Year": 2017,
+          "average_Rotten_Tomatoes": 51.176,
+          "average_Rotten_Tomatoes_end": 241.98603406003406,
+          "average_Rotten_Tomatoes_start": 190.81003406003407
+        },
+        {
+          "Genre": "Action & Adventure",
+          "Year": 2011,
+          "average_Rotten_Tomatoes": 52.42666666666667,
+          "average_Rotten_Tomatoes_end": 224.2593827160494,
+          "average_Rotten_Tomatoes_start": 171.83271604938273
+        },
+        {
+          "Genre": "Comedy",
+          "Year": 2019,
+          "average_Rotten_Tomatoes": 49.70786516853933,
+          "average_Rotten_Tomatoes_end": 191.46980030942183,
+          "average_Rotten_Tomatoes_start": 141.76193514088249
+        },
+        {
+          "Genre": "Comedy",
+          "Year": 2016,
+          "average_Rotten_Tomatoes": 48.73109243697479,
+          "average_Rotten_Tomatoes_end": 186.5012176605884,
+          "average_Rotten_Tomatoes_start": 137.7701252236136
+        },
+        {
+          "Genre": "Comedy",
+          "Year": 2012,
+          "average_Rotten_Tomatoes": 49.05434782608695,
+          "average_Rotten_Tomatoes_end": 181.22181746964355,
+          "average_Rotten_Tomatoes_start": 132.16746964355661
+        },
+        {
+          "Genre": "Comedy",
+          "Year": 2017,
+          "average_Rotten_Tomatoes": 50.01298701298701,
+          "average_Rotten_Tomatoes_end": 190.81003406003407,
+          "average_Rotten_Tomatoes_start": 140.79704704704704
+        },
+        {
+          "Genre": "Comedy",
+          "Year": 2015,
+          "average_Rotten_Tomatoes": 48.24107142857143,
+          "average_Rotten_Tomatoes_end": 180.87325245205682,
+          "average_Rotten_Tomatoes_start": 132.63218102348537
+        },
+        {
+          "Genre": "Comedy",
+          "Year": 2014,
+          "average_Rotten_Tomatoes": 49.467213114754095,
+          "average_Rotten_Tomatoes_end": 179.30791130299977,
+          "average_Rotten_Tomatoes_start": 129.84069818824568
+        },
+        {
+          "Genre": "Crime",
+          "Year": 2015,
+          "average_Rotten_Tomatoes": 44.47826086956522,
+          "average_Rotten_Tomatoes_end": 132.63218102348537,
+          "average_Rotten_Tomatoes_start": 88.15392015392015
+        },
+        {
+          "Genre": "Crime",
+          "Year": 2011,
+          "average_Rotten_Tomatoes": 42.95,
+          "average_Rotten_Tomatoes_end": 125.96851851851852,
+          "average_Rotten_Tomatoes_start": 83.01851851851852
+        },
+        {
+          "Genre": "Crime",
+          "Year": 2013,
+          "average_Rotten_Tomatoes": 41.3,
+          "average_Rotten_Tomatoes_end": 124.98215488215489,
+          "average_Rotten_Tomatoes_start": 83.68215488215489
+        },
+        {
+          "Genre": "Crime",
+          "Year": 2016,
+          "average_Rotten_Tomatoes": 47.65384615384615,
+          "average_Rotten_Tomatoes_end": 137.7701252236136,
+          "average_Rotten_Tomatoes_start": 90.11627906976744
+        },
+        {
+          "Genre": "Crime",
+          "Year": 2018,
+          "average_Rotten_Tomatoes": 44.88461538461539,
+          "average_Rotten_Tomatoes_end": 139.8691115086464,
+          "average_Rotten_Tomatoes_start": 94.98449612403101
+        },
+        {
+          "Genre": "Crime",
+          "Year": 2014,
+          "average_Rotten_Tomatoes": 43.806451612903224,
+          "average_Rotten_Tomatoes_end": 129.84069818824568,
+          "average_Rotten_Tomatoes_start": 86.03424657534245
+        },
+        {
+          "Genre": "Crime",
+          "Year": 2017,
+          "average_Rotten_Tomatoes": 45.972972972972975,
+          "average_Rotten_Tomatoes_end": 140.79704704704704,
+          "average_Rotten_Tomatoes_start": 94.82407407407408
+        },
+        {
+          "Genre": "Crime",
+          "Year": 2019,
+          "average_Rotten_Tomatoes": 49.1578947368421,
+          "average_Rotten_Tomatoes_end": 141.7619351408825,
+          "average_Rotten_Tomatoes_start": 92.6040404040404
+        },
+        {
+          "Genre": "Drama",
+          "Year": 2017,
+          "average_Rotten_Tomatoes": 53.4537037037037,
+          "average_Rotten_Tomatoes_end": 94.82407407407408,
+          "average_Rotten_Tomatoes_start": 41.370370370370374
+        },
+        {
+          "Genre": "Drama",
+          "Year": 2013,
+          "average_Rotten_Tomatoes": 50.318518518518516,
+          "average_Rotten_Tomatoes_end": 83.68215488215489,
+          "average_Rotten_Tomatoes_start": 33.363636363636374
+        },
+        {
+          "Genre": "Drama",
+          "Year": 2015,
+          "average_Rotten_Tomatoes": 51.116883116883116,
+          "average_Rotten_Tomatoes_end": 88.15392015392015,
+          "average_Rotten_Tomatoes_start": 37.03703703703704
+        },
+        {
+          "Genre": "Drama",
+          "Year": 2020,
+          "average_Rotten_Tomatoes": 56.109375,
+          "average_Rotten_Tomatoes_end": 105.609375,
+          "average_Rotten_Tomatoes_start": 49.5
+        },
+        {
+          "Genre": "Drama",
+          "Year": 2014,
+          "average_Rotten_Tomatoes": 51.034246575342465,
+          "average_Rotten_Tomatoes_end": 86.03424657534246,
+          "average_Rotten_Tomatoes_start": 35
+        },
+        {
+          "Genre": "Drama",
+          "Year": 2012,
+          "average_Rotten_Tomatoes": 51.252252252252255,
+          "average_Rotten_Tomatoes_end": 87.60225225225226,
+          "average_Rotten_Tomatoes_start": 36.35
+        },
+        {
+          "Genre": "Drama",
+          "Year": 2018,
+          "average_Rotten_Tomatoes": 54.651162790697676,
+          "average_Rotten_Tomatoes_end": 94.98449612403101,
+          "average_Rotten_Tomatoes_start": 40.333333333333336
+        },
+        {
+          "Genre": "Drama",
+          "Year": 2016,
+          "average_Rotten_Tomatoes": 50.866279069767444,
+          "average_Rotten_Tomatoes_end": 90.11627906976744,
+          "average_Rotten_Tomatoes_start": 39.25
+        },
+        {
+          "Genre": "Drama",
+          "Year": 2011,
+          "average_Rotten_Tomatoes": 49.51851851851852,
+          "average_Rotten_Tomatoes_end": 83.01851851851852,
+          "average_Rotten_Tomatoes_start": 33.5
+        },
+        {
+          "Genre": "Horror",
+          "Year": 2013,
+          "average_Rotten_Tomatoes": 33.36363636363637,
+          "average_Rotten_Tomatoes_end": 33.36363636363637,
+          "average_Rotten_Tomatoes_start": 0
+        },
+        {
+          "Genre": "Horror",
+          "Year": 2019,
+          "average_Rotten_Tomatoes": 39.2,
+          "average_Rotten_Tomatoes_end": 39.2,
+          "average_Rotten_Tomatoes_start": 0
+        },
+        {
+          "Genre": "Horror",
+          "Year": 2012,
+          "average_Rotten_Tomatoes": 36.35,
+          "average_Rotten_Tomatoes_end": 36.35,
+          "average_Rotten_Tomatoes_start": 0
+        },
+        {
+          "Genre": "Horror",
+          "Year": 2018,
+          "average_Rotten_Tomatoes": 40.333333333333336,
+          "average_Rotten_Tomatoes_end": 40.333333333333336,
+          "average_Rotten_Tomatoes_start": 0
+        },
+        {
+          "Genre": "Horror",
+          "Year": 2017,
+          "average_Rotten_Tomatoes": 41.370370370370374,
+          "average_Rotten_Tomatoes_end": 41.370370370370374,
+          "average_Rotten_Tomatoes_start": 0
+        },
+        {
+          "Genre": "Action & Adventure",
+          "Year": 2013,
+          "average_Rotten_Tomatoes": 50.756410256410255,
+          "average_Rotten_Tomatoes_end": 224.20982950638123,
+          "average_Rotten_Tomatoes_start": 173.45341924997098
+        },
+        {
+          "Genre": "Action & Adventure",
+          "Year": 2021,
+          "average_Rotten_Tomatoes": 69,
+          "average_Rotten_Tomatoes_end": 119,
+          "average_Rotten_Tomatoes_start": 50
+        },
+        {
+          "Genre": "Action & Adventure",
+          "Year": 2014,
+          "average_Rotten_Tomatoes": 51.699029126213595,
+          "average_Rotten_Tomatoes_end": 231.00694042921336,
+          "average_Rotten_Tomatoes_start": 179.30791130299977
+        },
+        {
+          "Genre": "Comedy",
+          "Year": 2013,
+          "average_Rotten_Tomatoes": 48.47126436781609,
+          "average_Rotten_Tomatoes_end": 173.45341924997098,
+          "average_Rotten_Tomatoes_start": 124.98215488215489
+        },
+        {
+          "Genre": "Comedy",
+          "Year": 2018,
+          "average_Rotten_Tomatoes": 49.826388888888886,
+          "average_Rotten_Tomatoes_end": 189.69550039753528,
+          "average_Rotten_Tomatoes_start": 139.8691115086464
+        },
+        {
+          "Genre": "Comedy",
+          "Year": 2011,
+          "average_Rotten_Tomatoes": 45.864197530864196,
+          "average_Rotten_Tomatoes_end": 171.83271604938273,
+          "average_Rotten_Tomatoes_start": 125.96851851851852
+        },
+        {
+          "Genre": "Crime",
+          "Year": 2012,
+          "average_Rotten_Tomatoes": 44.56521739130435,
+          "average_Rotten_Tomatoes_end": 132.16746964355661,
+          "average_Rotten_Tomatoes_start": 87.60225225225227
+        },
+        {
+          "Genre": "Drama",
+          "Year": 2019,
+          "average_Rotten_Tomatoes": 53.4040404040404,
+          "average_Rotten_Tomatoes_end": 92.6040404040404,
+          "average_Rotten_Tomatoes_start": 39.2
+        },
+        {
+          "Genre": "Horror",
+          "Year": 2014,
+          "average_Rotten_Tomatoes": 35,
+          "average_Rotten_Tomatoes_end": 35,
+          "average_Rotten_Tomatoes_start": 0
+        },
+        {
+          "Genre": "Horror",
+          "Year": 2016,
+          "average_Rotten_Tomatoes": 39.25,
+          "average_Rotten_Tomatoes_end": 39.25,
+          "average_Rotten_Tomatoes_start": 0
+        },
+        {
+          "Genre": "Horror",
+          "Year": 2011,
+          "average_Rotten_Tomatoes": 33.5,
+          "average_Rotten_Tomatoes_end": 33.5,
+          "average_Rotten_Tomatoes_start": 0
+        },
+        {
+          "Genre": "Horror",
+          "Year": 2015,
+          "average_Rotten_Tomatoes": 37.03703703703704,
+          "average_Rotten_Tomatoes_end": 37.03703703703704,
+          "average_Rotten_Tomatoes_start": 0
+        },
+        {
+          "Genre": "Action & Adventure",
+          "Year": 2015,
+          "average_Rotten_Tomatoes": 49.479166666666664,
+          "average_Rotten_Tomatoes_end": 230.35241911872347,
+          "average_Rotten_Tomatoes_start": 180.87325245205682
+        },
+        {
+          "Genre": "Comedy",
+          "Year": 2020,
+          "average_Rotten_Tomatoes": 51.71875,
+          "average_Rotten_Tomatoes_end": 216.18526785714286,
+          "average_Rotten_Tomatoes_start": 164.46651785714286
+        },
+        {
+          "Genre": "Crime",
+          "Year": 2020,
+          "average_Rotten_Tomatoes": 58.857142857142854,
+          "average_Rotten_Tomatoes_end": 164.46651785714286,
+          "average_Rotten_Tomatoes_start": 105.609375
+        },
+        {
+          "Genre": "Horror",
+          "Year": 2020,
+          "average_Rotten_Tomatoes": 49.5,
+          "average_Rotten_Tomatoes_end": 49.5,
+          "average_Rotten_Tomatoes_start": 0
+        },
+        {
+          "Genre": "Drama",
+          "Year": 2021,
+          "average_Rotten_Tomatoes": 50,
+          "average_Rotten_Tomatoes_end": 50,
+          "average_Rotten_Tomatoes_start": 0
+        }
+      ]
+    },
+    {
+      "name": "source_0_x_domain_Year",
+      "values": [
+        {"Year": 2019},
+        {"Year": 2020},
+        {"Year": 2012},
+        {"Year": 2018},
+        {"Year": 2016},
+        {"Year": 2017},
+        {"Year": 2011},
+        {"Year": 2015},
+        {"Year": 2014},
+        {"Year": 2013},
+        {"Year": 2021}
+      ]
+    },
+    {
+      "name": "source_0_color_domain_Genre",
+      "values": [
+        {"Genre": "Action & Adventure"},
+        {"Genre": "Comedy"},
+        {"Genre": "Crime"},
+        {"Genre": "Drama"},
+        {"Genre": "Horror"}
+      ]
+    }
+  ],
+  "marks": [
+    {
+      "type": "rect",
+      "name": "marks",
+      "from": {"data": "source_0"},
+      "encode": {
+        "update": {
+          "y2": {"field": "average_Rotten_Tomatoes_start", "scale": "y"},
+          "width": {"value": 35},
+          "xc": {"field": "Year", "scale": "x", "band": 0.5},
+          "fill": {"field": "Genre", "scale": "color"},
+          "tooltip": {
+            "signal": "{\"Genre\": isValid(datum[\"Genre\"]) ? datum[\"Genre\"] : \"\"+datum[\"Genre\"], \"Year\": format(datum[\"Year\"], \"\"), \"Avg Rotten Tomatoes Score\": format(datum[\"average_Rotten_Tomatoes\"], \"\")}"
+          },
+          "y": {"field": "average_Rotten_Tomatoes_end", "scale": "y"}
+        }
+      },
+      "style": ["bar"]
+    }
+  ],
+  "scales": [
+    {
+      "name": "x",
+      "type": "band",
+      "domain": {
+        "data": "source_0_x_domain_Year",
+        "field": "Year",
+        "sort": true
+      },
+      "range": [0, {"signal": "width"}],
+      "paddingInner": 0.1,
+      "paddingOuter": 0.05
+    },
+    {
+      "name": "y",
+      "type": "linear",
+      "domain": {
+        "data": "source_0",
+        "fields": [
+          "average_Rotten_Tomatoes_start",
+          "average_Rotten_Tomatoes_end"
+        ]
+      },
+      "range": [{"signal": "height"}, 0],
+      "nice": true,
+      "zero": true
+    },
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": {
+        "data": "source_0_color_domain_Genre",
+        "field": "Genre",
+        "sort": true
+      },
+      "range": {"scheme": "spectral"}
+    }
+  ],
+  "axes": [
+    {
+      "scale": "y",
+      "grid": true,
+      "orient": "left",
+      "labels": false,
+      "tickCount": {"signal": "ceil(height/40)"},
+      "maxExtent": 0,
+      "aria": false,
+      "zindex": 0,
+      "minExtent": 0,
+      "ticks": false,
+      "domain": false,
+      "gridScale": "x"
+    },
+    {
+      "scale": "x",
+      "title": "Year",
+      "orient": "bottom",
+      "labelBaseline": "top",
+      "grid": false,
+      "zindex": 0
+    },
+    {
+      "scale": "y",
+      "labelOverlap": true,
+      "grid": false,
+      "orient": "left",
+      "labelAlign": "right",
+      "title": "Average Rotten Tomatoes Score (Combined)",
+      "tickCount": {"signal": "ceil(height/40)"},
+      "zindex": 0
+    }
+  ],
+  "title": {
+    "text": "Average Rotten Tomatoes Score by Genre and Year",
+    "frame": "group"
+  },
+  "height": 400,
+  "padding": 5,
+  "legends": [{"fill": "color", "symbolType": "square", "title": "Genre"}],
+  "background": "white",
+  "style": "cell",
+  "width": 600,
+  "config": {"axis": {"labelAngle": 0}}
+}

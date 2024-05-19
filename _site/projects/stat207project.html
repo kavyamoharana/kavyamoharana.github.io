@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+
+<!--
+  portfolYOU Jekyll theme by Youssef Raafat
+  Free for personal and commercial use under the MIT license
+  https://github.com/YoussefRaafatNasry/portfolYOU
+  Updates for JPN Spring 2023
+-->
+
+<html lang="en" class="h-100">
+
+<head>
+
+  
+  
+  
+
+  
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Analyzing Popular Movies &amp; TV Shows on Netflix and Prime Video">
+  <meta property="og:description" content="Project which analyzes a dataset of popular movies and shows on Netflix and Prime Video to identify trends in genre, ratings, and popularity">
+  <meta property="og:image" content="assets/pngs/207-cover.png">
+
+  <title>Analyzing Popular Movies &amp; TV Shows on Netflix and Prime Video</title>
+  <meta name="description" content="Project which analyzes a dataset of popular movies and shows on Netflix and Prime Video to identify trends in genre, ratings, and popularity">
+
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+
+  <!-- Theme style -->
+  <script src="/assets/js/theme.js"></script>
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
+
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+</head>
+
+<body class="h-100 d-flex flex-column">
+
+  <main class="flex-shrink-0 container mt-5">
+    <nav class="navbar navbar-expand-lg navbar-themed">
+
+  <a class="navbar-brand" href="/"><h5><b>Kavya Moharana's Portfolio</b></h5></a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-1x fa-bars text-themed"></i>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/is445-guide"></a>
+
+      <a class="nav-item nav-link active" href="/projects/">Projects</a>
+
+      <a class="nav-item nav-link " href="/about/">About</a>
+
+      
+
+      <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
+    </div>
+  </div>
+
+</nav>
+    <div class="col-lg-10 mx-auto mt-5 markdown-body">
+  <h2 id="analyzing-popular-movies--tv-shows-on-netflix-and-prime-video">Analyzing Popular Movies &amp; TV Shows on Netflix and Prime Video</h2>
+<p><em>Final project for <a href="https://exploration.stat.illinois.edu/">STAT 207</a>: Data Science Exploration at UIUC</em></p>
+
+<hr />
+
+<h6 id="languages-and-tools-used"><em>Languages and Tools Used</em></h6>
+<p><a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40" />
+<a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40" />
+<a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40" />
+<a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40" />
+<a href="https://altair-viz.github.io/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Vega-Lite_Logo.svg/1920px-Vega-Lite_Logo.svg.png" alt="vega-lite" width="40" height="40" /></a></a></a></a></a></p>
+
+<div class="left">
+  <a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/kavyamoharana/kavyamoharana.github.io/blob/main/python_notebooks/STAT207-Project.ipynb">
+  View Full Analysis (Jupyter Notebook)
+</a>
+</div>
+<p><br />
+<br /></p>
+
+<h4 id="motivation-behind-the-analysis">Motivation behind the Analysis:</h4>
+<p>The main motivation behind exploring this dataset would be the popularity and widespread use of Netflix and Amazon Prime Video as the top 2 streaming platforms for movies and television. I enjoy using these platforms for binging TV shows or movies and believe that analyzing such data would be helpful to us and others with similar hobbies. Ultimately the goal is to determine if either streaming platform contained certain movies or shows with higher ratings and if the ratings differ based on genre or year of release.</p>
+
+<h4 id="research-questions">Research Questions:</h4>
+<ol>
+  <li>How does the relationship between genre and the year it came out affect the overall Rotten Tomatoes rating of the movie?</li>
+  <li>Is there an association between Action and Adventure titles and higher rated Rotten Tomato scores from the population of popular movies and tv shows on Netflix and Amazon Prime Video?</li>
+  <li>Is there a linear relationship between the Rotten Tomatoes rating of a movie and the year it was released, the age rating, and whether the movie is on Netflix or Amazon Prime Video?</li>
+  <li>Can we predict whether a movie is available on Netflix based on its age rating, genre, Rotten Tomatoes score, and IMDb rating?</li>
+</ol>
+
+<h5 id="details--limitations-of-the-dataset">Details &amp; Limitations of the Dataset:</h5>
+<p>This dataset is from Kaggle and presents a collection of popular movies and TV shows on both Netflix and Amazon Prime Video. The dataframe contains 10 columns and 24664 rows before cleaning for missing values and other factors. The data includes titles from 1912 all the way to 2021 but we will be focusing in on the programs from the most recent decade of 2011 to 2021. There are some limitations to the data as it does not include any variables which allow for us to differentiate between TV shows and movies in the dataset. Therefore, we have chosen to look at both of these forms of media hollistically instead of differentiating between the two.</p>
+
+<h5 id="descriptive-analytics">Descriptive Analytics</h5>
+<p><br />
+<em>Version 1 - Matplotlib/Seaborn Bar Plot</em>
+<img src="/assets/pngs/chart207.png" alt="image tooltip here" width="750" />
+<em>Version 2 - Interactive Vega-Lite Bar Plot (Scores Combined)</em></p>
+<vegachart schema-url="/assets/json/barplot_207.json" style="width: 100%"></vegachart>
+<p><em>Version 3 - Interactive Vega-Lite Scatter Plot</em></p>
+<vegachart schema-url="/assets/json/scatter1_207.json" style="width: 100%"></vegachart>
+
+<h5 id="inference">Inference</h5>
+<p><strong><em>Visualizing the top 25% of Rotten Tomatoes scores for the Titles</em></strong></p>
+<vegachart schema-url="/assets/json/boxplot_207.json" style="width: 100%"></vegachart>
+<p><br /></p>
+
+<h5 id="logistic-regression">Logistic Regression</h5>
+<p><strong><em>Predicting whether a movie is available on Netflix based on its age rating, genre, Rotten Tomatoes score, and IMDb rating</em></strong></p>
+<div style="display: flex; justify-content: space-between;">
+    <img src="/assets/pngs/logit_207.png" alt="image tooltip here" width="400" />
+    <vegachart schema-url="/assets/json/rocchart_207.json" style="width: 100%"></vegachart>
+</div>
+
+<!-- <img src="/assets/pngs/ols_207.png" alt="image tooltip here" width="400"/> -->
+<ul>
+  <li>The pseudo R-squared value of 0.1837 shows that the final logistic regression model had a statistically significant relationship with whether a movie is available on Netflix or not. This means that the model explains about 18% of the variability in the response variable.</li>
+  <li>We also found that the age rating, year of release, Rotten Tomatoes score, and IMDb rating were significant predictors of whether a movie is available on Netflix or not. Specifically, movies with higher age ratings and higher Rotten Tomatoes and IMDb scores were more likely to be available on Netflix.</li>
+  <li>The AUC of 0.7724 indicated that the model has some ability to distinguish between positive and negative cases, although there is still room for improvement. Choosing an appropriate threshold of 0.2, we prioritized correctly predicting positive cases (i.e., movies that are on Netflix).</li>
+  <li>Shows that we can use the model to identify movies that are likely to be available on Netflix within a reasonable degree of accuracy</li>
+</ul>
+
+<h4 id="analysis-summary">Analysis Summary</h4>
+<ul>
+  <li>There may be an association between the genre of a movie, year of release and the Rotten Tomatoes score, with Action &amp; Adventure and Drama consistently having higher scores and the median score by year increasing steadily from 2011 to 2021.</li>
+  <li>We analyzed the concentration of Action and Adventure movies’ Rotten Tomatoes scores, and the confidence intervals provided more information about the possible association between genre and Rotten Tomatoes score.</li>
+  <li>We gained insight into the lack of a linear relationship between the year, rating, and streaming platform of movies.</li>
+  <li>Age rating, year of release, Rotten Tomatoes score, and IMDb rating were significant predictors of Netflix availability.</li>
+  <li>The ROC curve and AUC with a threshold of 0.2 suggested that the model can identify movies available on Netflix with a reasonable degree of accuracy, providing insights for content targeting by producers and distributors.</li>
+</ul>
+
+</div>
+  </main>
+  <footer class="mt-auto py-3 text-center">
+
+  <small class="text-muted mb-2">
+    <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
+    by <strong>Kavya Moharana</strong>
+  </small>
+
+  <div class="container-fluid justify-content-center"><a class="social mx-1"  href="mailto:kavyam3@illinois.edu"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#db4437'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fas fa-envelope fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.github.com/kavyamoharana"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#333333'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-github fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.linkedin.com/in/kavya-moharana-9a379624b"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#007bb5'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-linkedin-in fa-1x"></i>
+    </a>
+
+</div>
+
+  Theme by <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a> and <a href="https://github.com/4dcu-be/4dcu.be">4dcu.be</a>.
+
+  
+<!--<small id="attribution">
+    theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a>
+  </small>
+-->
+
+</footer>
+
+
+<!-- Custom page specific js files -->
+  
+    <script src='/assets/js/vega.min.js' type="text/javascript"></script>
+  
+    <script src='/assets/js/vega-lite.min.js' type="text/javascript"></script>
+  
+    <script src='/assets/js/vega-embed.min.js' type="text/javascript"></script>
+  
+    <script src='/assets/js/justcharts.js' type="text/javascript"></script>
+  
+
+
+
+  
+  <!-- GitHub Buttons -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper.js CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS CDN -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- wow.js CDN & Activation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script> new WOW().init(); </script>
+
+<!-- Initialize all tooltips -->
+<script>
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+</body>
+
+<!--
+end of checks! JPN
+-->
+
+</html>

@@ -1,0 +1,426 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "data": [
+    {"name": "source_0"},
+    {
+      "name": "data_0",
+      "values": [
+        {
+          "Genre": "Action & Adventure",
+          "lower_box_Rotten_Tomatoes": 78,
+          "lower_whisker_Rotten_Tomatoes": 76,
+          "mid_box_Rotten_Tomatoes": 81,
+          "upper_box_Rotten_Tomatoes": 84,
+          "upper_whisker_Rotten_Tomatoes": 94
+        },
+        {
+          "Genre": "Animation",
+          "lower_box_Rotten_Tomatoes": 76.75,
+          "lower_whisker_Rotten_Tomatoes": 76,
+          "mid_box_Rotten_Tomatoes": 79.5,
+          "upper_box_Rotten_Tomatoes": 80.25,
+          "upper_whisker_Rotten_Tomatoes": 90
+        },
+        {
+          "Genre": "Comedy",
+          "lower_box_Rotten_Tomatoes": 77,
+          "lower_whisker_Rotten_Tomatoes": 76,
+          "mid_box_Rotten_Tomatoes": 79,
+          "upper_box_Rotten_Tomatoes": 83,
+          "upper_whisker_Rotten_Tomatoes": 90
+        },
+        {
+          "Genre": "Drama",
+          "lower_box_Rotten_Tomatoes": 77,
+          "lower_whisker_Rotten_Tomatoes": 76,
+          "mid_box_Rotten_Tomatoes": 80,
+          "upper_box_Rotten_Tomatoes": 84,
+          "upper_whisker_Rotten_Tomatoes": 90
+        },
+        {
+          "Genre": "Biography",
+          "lower_box_Rotten_Tomatoes": 77,
+          "lower_whisker_Rotten_Tomatoes": 77,
+          "mid_box_Rotten_Tomatoes": 77,
+          "upper_box_Rotten_Tomatoes": 77,
+          "upper_whisker_Rotten_Tomatoes": 77
+        },
+        {
+          "Genre": "Crime",
+          "lower_box_Rotten_Tomatoes": 76.5,
+          "lower_whisker_Rotten_Tomatoes": 76,
+          "mid_box_Rotten_Tomatoes": 79,
+          "upper_box_Rotten_Tomatoes": 81.5,
+          "upper_whisker_Rotten_Tomatoes": 82
+        }
+      ]
+    },
+    {
+      "name": "data_1",
+      "values": [
+        {
+          "Genre": "Action & Adventure",
+          "lower_box_Rotten_Tomatoes": 78,
+          "lower_whisker_Rotten_Tomatoes": 76,
+          "mid_box_Rotten_Tomatoes": 81,
+          "upper_box_Rotten_Tomatoes": 84,
+          "upper_whisker_Rotten_Tomatoes": 94
+        },
+        {
+          "Genre": "Animation",
+          "lower_box_Rotten_Tomatoes": 76.75,
+          "lower_whisker_Rotten_Tomatoes": 76,
+          "mid_box_Rotten_Tomatoes": 79.5,
+          "upper_box_Rotten_Tomatoes": 80.25,
+          "upper_whisker_Rotten_Tomatoes": 90
+        },
+        {
+          "Genre": "Comedy",
+          "lower_box_Rotten_Tomatoes": 77,
+          "lower_whisker_Rotten_Tomatoes": 76,
+          "mid_box_Rotten_Tomatoes": 79,
+          "upper_box_Rotten_Tomatoes": 83,
+          "upper_whisker_Rotten_Tomatoes": 90
+        },
+        {
+          "Genre": "Drama",
+          "lower_box_Rotten_Tomatoes": 77,
+          "lower_whisker_Rotten_Tomatoes": 76,
+          "mid_box_Rotten_Tomatoes": 80,
+          "upper_box_Rotten_Tomatoes": 84,
+          "upper_whisker_Rotten_Tomatoes": 90
+        },
+        {
+          "Genre": "Biography",
+          "lower_box_Rotten_Tomatoes": 77,
+          "lower_whisker_Rotten_Tomatoes": 77,
+          "mid_box_Rotten_Tomatoes": 77,
+          "upper_box_Rotten_Tomatoes": 77,
+          "upper_whisker_Rotten_Tomatoes": 77
+        },
+        {
+          "Genre": "Crime",
+          "lower_box_Rotten_Tomatoes": 76.5,
+          "lower_whisker_Rotten_Tomatoes": 76,
+          "mid_box_Rotten_Tomatoes": 79,
+          "upper_box_Rotten_Tomatoes": 81.5,
+          "upper_whisker_Rotten_Tomatoes": 82
+        }
+      ]
+    },
+    {
+      "name": "data_2",
+      "values": [
+        {
+          "Genre": "Action & Adventure",
+          "lower_box_Rotten_Tomatoes": 78,
+          "lower_whisker_Rotten_Tomatoes": 76,
+          "mid_box_Rotten_Tomatoes": 81,
+          "upper_box_Rotten_Tomatoes": 84,
+          "upper_whisker_Rotten_Tomatoes": 94
+        },
+        {
+          "Genre": "Animation",
+          "lower_box_Rotten_Tomatoes": 76.75,
+          "lower_whisker_Rotten_Tomatoes": 76,
+          "mid_box_Rotten_Tomatoes": 79.5,
+          "upper_box_Rotten_Tomatoes": 80.25,
+          "upper_whisker_Rotten_Tomatoes": 90
+        },
+        {
+          "Genre": "Comedy",
+          "lower_box_Rotten_Tomatoes": 77,
+          "lower_whisker_Rotten_Tomatoes": 76,
+          "mid_box_Rotten_Tomatoes": 79,
+          "upper_box_Rotten_Tomatoes": 83,
+          "upper_whisker_Rotten_Tomatoes": 90
+        },
+        {
+          "Genre": "Drama",
+          "lower_box_Rotten_Tomatoes": 77,
+          "lower_whisker_Rotten_Tomatoes": 76,
+          "mid_box_Rotten_Tomatoes": 80,
+          "upper_box_Rotten_Tomatoes": 84,
+          "upper_whisker_Rotten_Tomatoes": 90
+        },
+        {
+          "Genre": "Biography",
+          "lower_box_Rotten_Tomatoes": 77,
+          "lower_whisker_Rotten_Tomatoes": 77,
+          "mid_box_Rotten_Tomatoes": 77,
+          "upper_box_Rotten_Tomatoes": 77,
+          "upper_whisker_Rotten_Tomatoes": 77
+        },
+        {
+          "Genre": "Crime",
+          "lower_box_Rotten_Tomatoes": 76.5,
+          "lower_whisker_Rotten_Tomatoes": 76,
+          "mid_box_Rotten_Tomatoes": 79,
+          "upper_box_Rotten_Tomatoes": 81.5,
+          "upper_whisker_Rotten_Tomatoes": 82
+        }
+      ]
+    },
+    {
+      "name": "data_3",
+      "values": [
+        {
+          "Genre": "Action & Adventure",
+          "lower_box_Rotten_Tomatoes": 78,
+          "lower_whisker_Rotten_Tomatoes": 76,
+          "mid_box_Rotten_Tomatoes": 81,
+          "upper_box_Rotten_Tomatoes": 84,
+          "upper_whisker_Rotten_Tomatoes": 94
+        },
+        {
+          "Genre": "Animation",
+          "lower_box_Rotten_Tomatoes": 76.75,
+          "lower_whisker_Rotten_Tomatoes": 76,
+          "mid_box_Rotten_Tomatoes": 79.5,
+          "upper_box_Rotten_Tomatoes": 80.25,
+          "upper_whisker_Rotten_Tomatoes": 90
+        },
+        {
+          "Genre": "Comedy",
+          "lower_box_Rotten_Tomatoes": 77,
+          "lower_whisker_Rotten_Tomatoes": 76,
+          "mid_box_Rotten_Tomatoes": 79,
+          "upper_box_Rotten_Tomatoes": 83,
+          "upper_whisker_Rotten_Tomatoes": 90
+        },
+        {
+          "Genre": "Drama",
+          "lower_box_Rotten_Tomatoes": 77,
+          "lower_whisker_Rotten_Tomatoes": 76,
+          "mid_box_Rotten_Tomatoes": 80,
+          "upper_box_Rotten_Tomatoes": 84,
+          "upper_whisker_Rotten_Tomatoes": 90
+        },
+        {
+          "Genre": "Biography",
+          "lower_box_Rotten_Tomatoes": 77,
+          "lower_whisker_Rotten_Tomatoes": 77,
+          "mid_box_Rotten_Tomatoes": 77,
+          "upper_box_Rotten_Tomatoes": 77,
+          "upper_whisker_Rotten_Tomatoes": 77
+        },
+        {
+          "Genre": "Crime",
+          "lower_box_Rotten_Tomatoes": 76.5,
+          "lower_whisker_Rotten_Tomatoes": 76,
+          "mid_box_Rotten_Tomatoes": 79,
+          "upper_box_Rotten_Tomatoes": 81.5,
+          "upper_whisker_Rotten_Tomatoes": 82
+        }
+      ]
+    },
+    {
+      "name": "data_0_y_domain_Genre_0",
+      "values": [
+        {"Genre": "Action & Adventure"},
+        {"Genre": "Animation"},
+        {"Genre": "Comedy"},
+        {"Genre": "Drama"},
+        {"Genre": "Biography"},
+        {"Genre": "Crime"}
+      ]
+    },
+    {
+      "name": "data_1_y_domain_Genre_1",
+      "values": [
+        {"Genre": "Action & Adventure"},
+        {"Genre": "Animation"},
+        {"Genre": "Comedy"},
+        {"Genre": "Drama"},
+        {"Genre": "Biography"},
+        {"Genre": "Crime"}
+      ]
+    },
+    {
+      "name": "data_2_y_domain_Genre_2",
+      "values": [
+        {"Genre": "Action & Adventure"},
+        {"Genre": "Animation"},
+        {"Genre": "Comedy"},
+        {"Genre": "Drama"},
+        {"Genre": "Biography"},
+        {"Genre": "Crime"}
+      ]
+    },
+    {
+      "name": "data_3_y_domain_Genre_3",
+      "values": [
+        {"Genre": "Action & Adventure"},
+        {"Genre": "Animation"},
+        {"Genre": "Comedy"},
+        {"Genre": "Drama"},
+        {"Genre": "Biography"},
+        {"Genre": "Crime"}
+      ]
+    },
+    {
+      "name": "data_2_color_domain_Genre",
+      "values": [
+        {"Genre": "Action & Adventure"},
+        {"Genre": "Animation"},
+        {"Genre": "Comedy"},
+        {"Genre": "Drama"},
+        {"Genre": "Biography"},
+        {"Genre": "Crime"}
+      ]
+    }
+  ],
+  "marks": [
+    {
+      "type": "rule",
+      "name": "layer_0_marks",
+      "from": {"data": "data_0"},
+      "encode": {
+        "update": {
+          "stroke": {"value": "black"},
+          "x2": {"field": "lower_box_Rotten_Tomatoes", "scale": "x"},
+          "y": {"field": "Genre", "scale": "y", "band": 0.5},
+          "x": {"field": "lower_whisker_Rotten_Tomatoes", "scale": "x"},
+          "tooltip": {
+            "signal": "{\"Max of Rotten Tomato Rating above 75%\": format(datum[\"upper_whisker_Rotten_Tomatoes\"], \"\"), \"Q3 of Rotten Tomato Rating above 75%\": format(datum[\"upper_box_Rotten_Tomatoes\"], \"\"), \"Median of Rotten Tomato Rating above 75%\": format(datum[\"mid_box_Rotten_Tomatoes\"], \"\"), \"Q1 of Rotten Tomato Rating above 75%\": format(datum[\"lower_box_Rotten_Tomatoes\"], \"\"), \"Min of Rotten Tomato Rating above 75%\": format(datum[\"lower_whisker_Rotten_Tomatoes\"], \"\"), \"Genre\": isValid(datum[\"Genre\"]) ? datum[\"Genre\"] : \"\"+datum[\"Genre\"], \"Genre of Movie\": isValid(datum[\"Genre\"]) ? datum[\"Genre\"] : \"\"+datum[\"Genre\"]}"
+          }
+        }
+      },
+      "style": ["rule", "boxplot-rule"],
+      "aria": false
+    },
+    {
+      "type": "rule",
+      "name": "layer_1_marks",
+      "from": {"data": "data_1"},
+      "encode": {
+        "update": {
+          "tooltip": {
+            "signal": "{\"Max of Rotten Tomato Rating above 75%\": format(datum[\"upper_whisker_Rotten_Tomatoes\"], \"\"), \"Q3 of Rotten Tomato Rating above 75%\": format(datum[\"upper_box_Rotten_Tomatoes\"], \"\"), \"Median of Rotten Tomato Rating above 75%\": format(datum[\"mid_box_Rotten_Tomatoes\"], \"\"), \"Q1 of Rotten Tomato Rating above 75%\": format(datum[\"lower_box_Rotten_Tomatoes\"], \"\"), \"Min of Rotten Tomato Rating above 75%\": format(datum[\"lower_whisker_Rotten_Tomatoes\"], \"\"), \"Genre\": isValid(datum[\"Genre\"]) ? datum[\"Genre\"] : \"\"+datum[\"Genre\"], \"Genre of Movie\": isValid(datum[\"Genre\"]) ? datum[\"Genre\"] : \"\"+datum[\"Genre\"]}"
+          },
+          "x": {"field": "upper_box_Rotten_Tomatoes", "scale": "x"},
+          "y": {"field": "Genre", "scale": "y", "band": 0.5},
+          "x2": {"field": "upper_whisker_Rotten_Tomatoes", "scale": "x"},
+          "stroke": {"value": "black"}
+        }
+      },
+      "style": ["rule", "boxplot-rule"],
+      "aria": false
+    },
+    {
+      "type": "rect",
+      "name": "layer_2_marks",
+      "from": {"data": "data_2"},
+      "encode": {
+        "update": {
+          "x": {"field": "lower_box_Rotten_Tomatoes", "scale": "x"},
+          "height": {"value": 40},
+          "fill": {"field": "Genre", "scale": "color"},
+          "x2": {"field": "upper_box_Rotten_Tomatoes", "scale": "x"},
+          "yc": {"field": "Genre", "scale": "y", "band": 0.5},
+          "tooltip": {
+            "signal": "{\"Max of Rotten Tomato Rating above 75%\": format(datum[\"upper_whisker_Rotten_Tomatoes\"], \"\"), \"Q3 of Rotten Tomato Rating above 75%\": format(datum[\"upper_box_Rotten_Tomatoes\"], \"\"), \"Median of Rotten Tomato Rating above 75%\": format(datum[\"mid_box_Rotten_Tomatoes\"], \"\"), \"Q1 of Rotten Tomato Rating above 75%\": format(datum[\"lower_box_Rotten_Tomatoes\"], \"\"), \"Min of Rotten Tomato Rating above 75%\": format(datum[\"lower_whisker_Rotten_Tomatoes\"], \"\"), \"Genre\": isValid(datum[\"Genre\"]) ? datum[\"Genre\"] : \"\"+datum[\"Genre\"], \"Genre of Movie\": isValid(datum[\"Genre\"]) ? datum[\"Genre\"] : \"\"+datum[\"Genre\"]}"
+          }
+        }
+      },
+      "style": ["bar", "boxplot-box"]
+    },
+    {
+      "type": "rect",
+      "name": "layer_3_marks",
+      "from": {"data": "data_3"},
+      "encode": {
+        "update": {
+          "yc": {"field": "Genre", "scale": "y", "band": 0.5},
+          "height": {"value": 40},
+          "width": {"value": 1},
+          "tooltip": {
+            "signal": "{\"Max of Rotten Tomato Rating above 75%\": format(datum[\"upper_whisker_Rotten_Tomatoes\"], \"\"), \"Q3 of Rotten Tomato Rating above 75%\": format(datum[\"upper_box_Rotten_Tomatoes\"], \"\"), \"Median of Rotten Tomato Rating above 75%\": format(datum[\"mid_box_Rotten_Tomatoes\"], \"\"), \"Q1 of Rotten Tomato Rating above 75%\": format(datum[\"lower_box_Rotten_Tomatoes\"], \"\"), \"Min of Rotten Tomato Rating above 75%\": format(datum[\"lower_whisker_Rotten_Tomatoes\"], \"\"), \"Genre\": isValid(datum[\"Genre\"]) ? datum[\"Genre\"] : \"\"+datum[\"Genre\"], \"Genre of Movie\": isValid(datum[\"Genre\"]) ? datum[\"Genre\"] : \"\"+datum[\"Genre\"]}"
+          },
+          "xc": {"field": "mid_box_Rotten_Tomatoes", "scale": "x"},
+          "fill": {"value": "white"},
+          "opacity": {"value": 0.7}
+        }
+      },
+      "style": ["tick", "boxplot-median"],
+      "aria": false
+    }
+  ],
+  "scales": [
+    {
+      "name": "x",
+      "type": "linear",
+      "domain": [75, 95],
+      "range": [0, {"signal": "width"}],
+      "zero": false
+    },
+    {
+      "name": "y",
+      "type": "band",
+      "domain": {
+        "fields": [
+          {"data": "data_0_y_domain_Genre_0", "field": "Genre"},
+          {"data": "data_1_y_domain_Genre_1", "field": "Genre"},
+          {"data": "data_2_y_domain_Genre_2", "field": "Genre"},
+          {"data": "data_3_y_domain_Genre_3", "field": "Genre"}
+        ],
+        "sort": true
+      },
+      "range": [0, {"signal": "height"}],
+      "paddingOuter": 0,
+      "paddingInner": 0
+    },
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": {
+        "data": "data_2_color_domain_Genre",
+        "field": "Genre",
+        "sort": true
+      },
+      "range": {"scheme": "spectral"}
+    }
+  ],
+  "axes": [
+    {
+      "scale": "x",
+      "orient": "bottom",
+      "maxExtent": 0,
+      "gridScale": "y",
+      "grid": true,
+      "tickCount": {"signal": "ceil(width/40)"},
+      "labels": false,
+      "ticks": false,
+      "minExtent": 0,
+      "aria": false,
+      "zindex": 0,
+      "domain": false
+    },
+    {
+      "scale": "x",
+      "grid": false,
+      "zindex": 0,
+      "title": "Rotten Tomato Rating above 75%",
+      "labelFlush": true,
+      "orient": "bottom",
+      "labelOverlap": true,
+      "tickCount": {"signal": "ceil(width/40)"}
+    },
+    {
+      "scale": "y",
+      "orient": "left",
+      "title": "Genre of Movie",
+      "grid": false,
+      "zindex": 0
+    }
+  ],
+  "title": {
+    "text": "Movies Based on Genre with High Ratings",
+    "frame": "group"
+  },
+  "height": 400,
+  "padding": 5,
+  "width": 600,
+  "style": "cell",
+  "background": "white"
+}
