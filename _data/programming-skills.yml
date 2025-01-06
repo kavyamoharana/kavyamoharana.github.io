@@ -1,16 +1,16 @@
 - name: Python
-  percentage: 80
-  level: Intermediate
+  percentage: 85
+  level: Advanced
   color: success
 
 - name: C++
   percentage: 65
-  level: Proficient
+  level: Intermediate
   color: info
 
 - name: SQL
   percentage: 65
-  level: Proficient
+  level: Intermediate
   color: info
 
 - name: HTML/CSS
@@ -20,5 +20,5 @@
 
 - name: Java
   percentage: 45
-  level: Competent
+  level: Proficient
   color: secondary

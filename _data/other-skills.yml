@@ -1,5 +1,5 @@
 - name: Google & Microsoft Office Suites
-  percentage: 90
+  percentage: 95
   level: Expert
   color: success
 
@@ -9,6 +9,6 @@
   color: info
 
 - name: Figma Design
-  percentage: 63
+  percentage: 60
   level: Proficient
   color: secondary
