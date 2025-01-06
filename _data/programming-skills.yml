@@ -1,5 +1,5 @@
 - name: Python
-  percentage: 75
+  percentage: 80
   level: Intermediate
   color: success
 
@@ -9,6 +9,11 @@
   color: info
 
 - name: SQL
+  percentage: 65
+  level: Proficient
+  color: info
+
+- name: HTML/CSS
   percentage: 50
   level: Proficient
   color: secondary

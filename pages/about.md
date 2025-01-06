@@ -7,7 +7,7 @@ weight: 3
 
 # **About Me**
 <br>
-My name is **{{ site.author.name }}** and I am a third-year [Information Sciences + Data Science](https://ischool.illinois.edu/degrees-programs/undergraduate/bs-data-science) student at the University of Illinois Urbana-Champaign! With a data-oriented major and Computer Science minor, I am passionate about data analytics, software development, data visualization, and machine learning. 
+My name is **{{ site.author.name }}** and I am a fourth-year [Information Sciences + Data Science](https://ischool.illinois.edu/degrees-programs/undergraduate/bs-data-science) student at the University of Illinois Urbana-Champaign! With a data-oriented major and Computer Science minor, I am passionate about data analytics, software development, data visualization, and machine learning. 
 
 ## Coursework
 [Data Science](https://datascience.illinois.edu): Database Applications, Concepts of Machine Learning, Data Visualization
@@ -22,9 +22,9 @@ My name is **{{ site.author.name }}** and I am a third-year [Information Science
     - NLTK, PyTorch, TensorFlow, Hadoop framework
 
 [Information Science](https://ischool.illinois.edu/): Risk and Cybersecurity, Human-Computer Interaction (HCI), Research Design for IS
-- prototyping and app design with Figma, Balsamiq, Axure RP, and Adobe XD
-- cybersecurity fundamentals, frameworks, and regulations
-- research methods, writing, and design fundamentals
+- Prototyping and app design with Figma, Balsamiq, Axure RP, and Adobe XD
+- Cybersecurity fundamentals, frameworks, and regulations
+- Research methods, writing, and design fundamentals
 
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
