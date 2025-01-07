@@ -3,13 +3,13 @@
   level: Advanced
   color: success
 
-- name: C++
-  percentage: 65
+- name: SQL
+  percentage: 70
   level: Intermediate
   color: info
 
-- name: SQL
-  percentage: 65
+- name: C++
+  percentage: 67
   level: Intermediate
   color: info
 
