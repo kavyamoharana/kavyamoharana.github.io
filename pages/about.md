@@ -7,7 +7,7 @@ weight: 3
 
 # About Me
 ---
-I am a fourth-year [Information Sciences + Data Science](https://ischool.illinois.edu/degrees-programs/undergraduate/bs-data-science) student at the University of Illinois Urbana-Champaign. Pursuing a human-centered and data-driven major as well as a more technical Computer Science minor, I am passionate about Data Analytics and Visualization, Machine Learning, and Natural Language Processing! I am also a part of the Misinformation Detection on Tiktok Team under UIUC's [Center of Health Informatics](https://chi.healtheng.illinois.edu/projects/chime-in-illinois/), working on an AI-based social media analysis tool. 
+I am a fourth-year [Information Sciences + Data Science](https://ischool.illinois.edu/degrees-programs/undergraduate/bs-data-science) student at the University of Illinois Urbana-Champaign. Pursuing a data-driven yet human-centered major and technical Computer Science minor, I am passionate about Data Analytics and Visualization, Machine Learning, and Natural Language Processing! I am also a part of the Misinformation Detection on Tiktok Team under UIUC iSchool's [Center for Health Informatics](https://chi.healtheng.illinois.edu/projects/chime-in-illinois/), working on improving the functionality of an AI-based social media analysis tool. 
 
 ## Coursework and Skills
 #### Data Science:
