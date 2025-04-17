@@ -24,6 +24,7 @@ I am a fourth-year [Information Sciences + Data Science](https://ischool.illinoi
     - GeoPandas for Geospatial data and maps
     - Matplotlib, Seaborn
     - {% include elements/button.html link="https://kavyamoharana.github.io/projects/finalproject" text="Project -- Analyzing Urbana Arrests Data" style="light" size="sm" %}
+    - {% include elements/button.html link="https://kavyamoharana.github.io/projects/hw-geopandas" text="Project -- Analyzing California Transportation Infrastructure" style="light" size="sm" %}
 
 #### Computer Science:
 >
