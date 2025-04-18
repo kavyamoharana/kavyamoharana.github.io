@@ -1,8 +1,8 @@
 ---
-name: Project - Analyzing Global Temperature Trends Over Time
+name: Analyzing Global Temperature Trends Over Time
 tools: [Python, Scikit-Learn, Pandas]
 image: assets/pngs/327-cover.png
-description: ML project which uses Python's scikit-learn library for linear regression modeling and clustering analysis on climate change trends
+description: Machine Learning project which uses Python's scikit-learn library for linear regression modeling and clustering analysis on climate change trends
 custom_js:
   - vega.min
   - vega-lite.min

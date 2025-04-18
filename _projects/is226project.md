@@ -1,5 +1,5 @@
 ---
-name: Project - Designing a TV Show Tracking App
+name: Designing a TV Show Tracking App
 tools: [Figma, Balsamiq]
 image: assets/pngs/226-cover.png
 description: UI/UX project which uses Figma for design and prototyping of a TV show tracking app 

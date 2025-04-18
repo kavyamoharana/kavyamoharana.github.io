@@ -1,5 +1,5 @@
 ---
-name: Project - Designing an IMDb Database for Movies
+name: Designing an IMDb Database for Movies
 tools: [SQL, SQLite]
 image: assets/pngs/206-cover.png
 description: Project which uses SQLite for designing a database for Movie reviews and ratings 
