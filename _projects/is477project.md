@@ -1,7 +1,7 @@
 ---
 name: Analyzing Trends in Electric Vehicle Usage
 tools: [Python, Pandas, Zenodo]
-image: assets/pngs/campustown-3.png
+image: assets/jpegs/477-project-cover.jpg
 description: Data Curation project using Python and other tools for creating a reproducible research package, end-to-end workflow execution, and metadata
 custom_js:
   - vega.min
