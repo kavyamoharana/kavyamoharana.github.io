@@ -13,18 +13,18 @@ I am a fourth-year [Information Sciences + Data Science](https://ischool.illinoi
 #### Data Science:
 >
 - [Database Concepts and Applications](https://ischool.illinois.edu/degrees-programs/courses/is206) -- Fundamental SQL and SQLite, Relational Databases, Entity-Relationship modeling
-    - {% include elements/button.html link="https://kavyamoharana.github.io/projects/is206project" text="Project -- Movie Ratings Database" style="light" size="sm" %}
+    - {% include elements/button.html link="https://kavyamoharana.github.io/projects/9-is206project" text="Project -- Movie Ratings Database" style="light" size="sm" %}
 - [Concepts of Machine Learning](https://ischool.illinois.edu/degrees-programs/courses/is327) & [Modeling and Learning in DS](https://siebelschool.illinois.edu/academics/courses/cs307) -- 
     - Python ML fundamentals, Supervised and Unsupervised Learning, Classification and Regression
     - Linear/Logistic Regression, Decision Tree, Random Forest, KNN, SVM, etc.
     - Reinforcement Learning, Deep Learning, Neural Networks
-    - {% include elements/button.html link="https://kavyamoharana.github.io/projects/is327project" text="Project -- Analyzing Global Temperature Trends" style="light" size="sm" %}
+    - {% include elements/button.html link="https://kavyamoharana.github.io/projects/4-is327project" text="Project -- Analyzing Global Temperature Trends" style="light" size="sm" %}
 - [Data Visualization](https://ischool.illinois.edu/degrees-programs/courses/is445) -- Interactive Visualization in Python 
     - IPyWidgets, Vega-Altair
     - GeoPandas for Geospatial data and maps
     - Matplotlib, Seaborn
-    - {% include elements/button.html link="https://kavyamoharana.github.io/projects/finalproject" text="Project -- Analyzing Urbana Arrests Data" style="light" size="sm" %}
-    - {% include elements/button.html link="https://kavyamoharana.github.io/projects/hw-geopandas" text="Project -- Analyzing California Transportation Infrastructure" style="light" size="sm" %}
+    - {% include elements/button.html link="https://kavyamoharana.github.io/projects/2-finalproject" text="Project -- Analyzing Urbana Arrests Data" style="light" size="sm" %}
+    - {% include elements/button.html link="https://kavyamoharana.github.io/projects/5-hw-geopandas" text="Project -- Analyzing California Transportation Infrastructure" style="light" size="sm" %}
 
 #### Computer Science:
 >
@@ -34,11 +34,12 @@ I am a fourth-year [Information Sciences + Data Science](https://ischool.illinoi
     - Natural Language Processing, Web Search, Recommender Systems, LLMs
     - Text Mining and Retrieval
     - NLTK, PyTorch, TensorFlow, Hadoop framework
-    - {% include elements/button.html link="https://kavyamoharana.github.io/projects/cs410project" text="Project -- UIUC Yelp Restaurant Reviews Analysis" style="light" size="sm" %}
+    - {% include elements/button.html link="https://kavyamoharana.github.io/projects/1-cs410project" text="Project -- UIUC Yelp Restaurant Reviews Analysis" style="light" size="sm" %}
 - [Database Systems](https://siebelschool.illinois.edu/academics/courses/cs411):
     - MySQL, Query Execution and Optimization, Storage and Indexing
     - MongoDB, Document-oriented database systems
     - Neo4j, Graph database systems
+    - {% include elements/button.html link="https://kavyamoharana.github.io/projects/9-cs411project" text="Project -- UIUC Class of the Day Game" style="light" size="sm" %}
 
 #### Information Science:
 >

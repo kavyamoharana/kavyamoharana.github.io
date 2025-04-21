@@ -3,12 +3,17 @@
   level: Expert
   color: success
 
+- name: Google Looker & Microsoft Power BI
+  percentage: 70
+  level: Intermediate
+  color: info
+
 - name: Canva Design
   percentage: 70
   level: Intermediate
   color: info
 
 - name: Figma Design
-  percentage: 60
+  percentage: 50
   level: Proficient
   color: secondary
