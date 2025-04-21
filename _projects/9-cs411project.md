@@ -26,6 +26,14 @@ custom_js:
 <a href="https://www.uml.org/" target="_blank" rel="noreferrer"> <img src="https://www.fortux.com/img/uml_logo.svg" alt="uml" width="65" height="65"/>
 <a href="https://www.uml.org/" target="_blank" rel="noreferrer"> <img src="https://static-00.iconduck.com/assets.00/google-cloud-icon-2048x1646-7admxejz.png" alt="gcp" width="55" height="55"/>
 
+<div class="left">
+  {% include elements/button.html link="https://github.com/kavyamoharana/kavyamoharana.github.io/blob/main/assets/pdfs/411-ProjectReport.pdf" text="View Full Report" %}
+</div>
+
+<br>
+<br>
+
+
 #### Project Summary and Application Description
 
 Each day, a random UIUC class will be selected as the ‘Class of the Day’. Users will be able to guess different courses from the university until they get it right. After each incorrect guess, the app will reveal which parts of the guess were right or wrong, such as department or course number. Once the user has successfully guessed the course, a summary of the class will be displayed so that users can learn more about the wide variety of offerings on campus. Users who create an account will be able to see statistics on their guesses, like their average number of guesses or most guessed class. Account holders might also be able to save their favorite courses or track their guessing streaks to encourage long-term engagement.
@@ -116,6 +124,7 @@ CREATE TABLE Guess(
 ```
 
 ##### Queries
+1. Finding the most commonly guessed departments on a given day
 ```sql
 SELECT Departments.DepartmentId, COUNT(GuessId) AS TimesGuessed
 FROM Departments 
@@ -125,7 +134,34 @@ WHERE Guess.CurrentDate = '2024-08-21'
 GROUP BY Departments.DepartmentId
 ORDER BY TimesGuessed DESC;
 ```
+Output:
+```sql
++--------------+---------------+
+| DepartmentId | TimesGuessed |
++--------------+---------------+
+| MCB          | 6             |
+| HK           | 2             |
+| ANTH         | 2             |
+| EPSY         | 1             |
+| GRK          | 1             |
+| NPRE         | 1             |
+| MUS          | 1             |
+| CHEM         | 1             |
+| ME           | 1             |
+| ENGL         | 1             |
+| MATH         | 1             |
+| PHYS         | 1             |
+| CPSC         | 1             |
+| BADM         | 1             |
+| LAT          | 1             |
+| LAS          | 1             |
+| ACE          | 1             |
+| SOC          | 1             |
++--------------+---------------+
+18 rows in set (0.03 sec)
+```
 
+2. Finding the users who guessed correctly on a given date
 ```sql
 SELECT User.UserId, User.Email, Courses.Name AS CorrectCourseName
 FROM Guess
@@ -135,7 +171,21 @@ FROM Guess
 WHERE Guess.CourseId = DailyClass.CorrectCourseId 
 AND Guess.CurrentDate = "2023-11-14";
 ```
+Output:
+```sql
++-----------+-----------------------------+------------------------------+
+| UserId    | Email                       | CorrectCourseName            |
++-----------+-----------------------------+------------------------------+
+| michele56 | nicolecarr@example.net      | Advanced Modern Hebrew I     |
+| djones    | martincarr@example.com      | Advanced Modern Hebrew I     |
+| brooksbeth| mgonzalez@example.com       | Advanced Modern Hebrew I     |
+| swalsh    | michaeljimenez@example.com  | Advanced Modern Hebrew I     |
+| mallory86 | kmurphy@example.org         | Advanced Modern Hebrew I     |
++-----------+-----------------------------+------------------------------+
+5 rows in set (0.01 sec)
+```
 
+3. Top 15 most frequently guessed courses overall
 ```sql
 SELECT Courses.CourseId, Courses.Name AS Course, Departments.Name AS Department, COUNT(Guess.GuessId) AS FrequentGuess
 FROM Courses 
@@ -145,8 +195,29 @@ GROUP BY Courses.CourseId, Courses.Name
 ORDER BY FrequentGuess DESC
 LIMIT 15;
 ```
-<!-- ##### Outputs
-![image tooltip here](/assets/pngs/411-sql-1.png)
+Output:
+```
++---------+-------------------------------------------------------------+-----------------------------------------------+----------------+
+| CourseId| Course                                                      | Department                                    | FrequentGuess  |
++---------+-------------------------------------------------------------+-----------------------------------------------+----------------+
+| 78066   | Organizational Communication and Community Impact           | Communication                                 | 31             |
+| 29891   | Ruminant Nutrition                                          | Animal Sciences                               | 26             |
+| 75881   | Psychology of Prejudice and Discrimination                  | Psychology                                    | 24             |
+| 66151   | Graphic Design Inquiry                                      | Art and Design                                | 20             |
+| 77550   | Economic Development and Migration                          | Economics                                     | 20             |
+| 29951   | Senior Design Project Lab                                   | Electrical and Computer Engineering           | 19             |
+| 62996   | Video Reporting & Storytelling                              | Journalism                                    | 19             |
+| 73742   | Point of Care Ultrasound                                    | Clinical Sciences and Engineering             | 19             |
+| 54570   | Tax Research                                                | Accountancy                                   | 19             |
+| 69955   | Professional SBC Capstone Project                           | Strategic Brand Communication                 | 19             |
+| 30163   | Senior Thesis and Honors                                    | Comparative and World Literature              | 19             |
+| 78358   | Multidisciplinary Innovation Studio                         | Human-Centered Design and Design Thinking     | 18             |
+| 58770   | Advanced Topics in Science and Technology Journalism        | Journalism                                    | 18             |
+| 55433   | DGS Study Abroad                                            | General Studies                               | 18             |
+| 65088   | BFA Thesis Production                                       | Dance                                         | 18             |
++---------+-------------------------------------------------------------+-----------------------------------------------+----------------+
+15 rows in set (0.04 sec)
+```
 
-![image tooltip here](/assets/pngs/411-sql-2.png) -->
+
 
