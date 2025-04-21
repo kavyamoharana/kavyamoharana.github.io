@@ -53,7 +53,8 @@ via Professor [Wade](https://waf.cs.illinois.edu/) Fagen-Ulmschneider, contains 
 - individual variables for each possible **letter grade**
 
 #### Entities and UML Diagram
-![image tooltip here](assets/pngs/411-uml.png)
+
+![image tooltip here](/assets/pngs/411-uml.png)
 
 #### Database Implementation
 ```sql
@@ -144,3 +145,8 @@ GROUP BY Courses.CourseId, Courses.Name
 ORDER BY FrequentGuess DESC
 LIMIT 15;
 ```
+<!-- ##### Outputs
+![image tooltip here](/assets/pngs/411-sql-1.png)
+
+![image tooltip here](/assets/pngs/411-sql-2.png) -->
+
