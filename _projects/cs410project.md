@@ -11,12 +11,17 @@ custom_js:
 ---
 
 ## The Heart of CampusTown: Analyzing Green Street’s Most Popular Restaurants
-*Final project for [CS 410](https://cs.illinois.edu/academics/courses/cs410): Text Information Systems at UIUC*<br />
-Group Members: Pranav Chandra, Kavya Moharana, Sriya Mikkilineni, Aryan Vaswani
+
+<p style="font-size: 16px; margin: 0;">
+  <em>
+  Spring 2024 Final project for <a href="https://cs.illinois.edu/academics/courses/cs410">CS 410</a>: Text Information Systems at UIUC
+  </em>
+</p>
+<p style="font-size: 14px; margin-top: 0;">Group Members: Pranav Chandra, Kavya Moharana, Sriya Mikkilineni, Aryan Vaswani</p>
 
 ---
 
-###### *Languages and Tools Used*
+###### *Languages, Libraries, and Tools*
 <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
 <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://miro.medium.com/v2/resize:fit:592/1*YM2HXc7f4v02pZBEO8h-qw.png" alt="NLTK" width="40" height="40"/>
 <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/>
