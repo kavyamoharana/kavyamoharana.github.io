@@ -128,17 +128,6 @@ Having grown up in San Jose, the county seat of Santa Clara and largest city in 
 <br>
 Overlaying the high quality bus and rail routes over underpriviledged or low-income areas of Santa Clara County gives us various insights for access to transportation in the subregion. While this dataset doesn't provide information for every single form of transportation, it is still apparent that there are areas (LIC/DAC or not) of the cities that are not connected by major bus or rail. This is particularly evident for parts of Milpitas in the North as well as Sunnyvale, Mountain View, and Palo Alto in the Southwest. Transportation infrastructure is a highly debated issue in the state, especially given the history of California's "car-centric culture". Going forward, it would also be valuable to cross-reference this information with data on actual usage of the high quality transportation stops.
 
-<style>
-  .left {
-    display: inline-block;
-    margin-right: 10px; /* Adjust the margin as needed for spacing */
-  }
-</style>
 
-<div class="left">
-  {% include elements/button.html link="https://github.com/kavyamoharana/kavyamoharana.github.io/blob/main/python_notebooks/CATransporation-GIS.ipynb" text="The Analysis (Jupyter Notebook)" %}
-</div>
-
-<div class="left">
-  {% include elements/button.html link="https://github.com/kavyamoharana/kavyamoharana.github.io/blob/main/python_notebooks/IS445-Assignment6.ipynb" text="Original Assignment (Jupyter Notebook)" %}
-</div>
+{% include elements/button.html link="https://github.com/kavyamoharana/kavyamoharana.github.io/blob/main/python_notebooks/CATransporation-GIS.ipynb" text="Jupyter Notebook Analysis" size="sm" %}
+{% include elements/button.html link="https://github.com/kavyamoharana/kavyamoharana.github.io/blob/main/python_notebooks/IS445-Assignment6.ipynb" text="Original Assignment" size="sm" %}

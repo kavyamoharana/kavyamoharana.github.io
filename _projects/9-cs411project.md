@@ -13,7 +13,7 @@ custom_js:
 
 <p style="font-size: 16px; margin: 0;">
   <em>
-  Fall 2024 Final project for <a href="https://alawini.web.illinois.edu/teaching/database-systems/">CS 411</a> at UIUC
+  Fall 2024 Final Project for <a href="https://alawini.web.illinois.edu/teaching/database-systems/">CS 411</a> at UIUC
   </em>
 </p>
 <p style="font-size: 14px; margin-top: 0;">Group Members: James Mallek, Kavya Moharana, Sruthi Kode, Samidha Sampat</p>
@@ -26,13 +26,8 @@ custom_js:
 <a href="https://www.uml.org/" target="_blank" rel="noreferrer"> <img src="https://www.fortux.com/img/uml_logo.svg" alt="uml" width="65" height="65"/>
 <a href="https://www.uml.org/" target="_blank" rel="noreferrer"> <img src="https://static-00.iconduck.com/assets.00/google-cloud-icon-2048x1646-7admxejz.png" alt="gcp" width="55" height="55"/>
 
-<div class="left">
-  {% include elements/button.html link="https://github.com/kavyamoharana/kavyamoharana.github.io/blob/main/assets/pdfs/411-ProjectReport.pdf" text="View Full Report" %}
-</div>
-
-<br>
-<br>
-
+{% include elements/button.html link="https://github.com/kavyamoharana/kavyamoharana.github.io/blob/main/assets/pdfs/411-ProjectReport.pdf" text="View Full Report" size="sm" %}
+{% include elements/button.html link="https://github.com/cs411-alawini/fa24-cs411-team116-KSS.git" text="Project GitHub Repository" size="sm" %}
 
 #### Project Summary and Application Description
 
@@ -60,11 +55,20 @@ via Professor [Wade](https://waf.cs.illinois.edu/) Fagen-Ulmschneider, contains 
 - **`Number of Students [int]`**
 - individual variables for each possible **letter grade**
 
+<br>
+
 #### Entities and UML Diagram
 
 ![image tooltip here](/assets/pngs/411-uml.png)
 
 #### Database Implementation
+Original connection/instance on GCP console:
+<div style="display: flex; justify-content: center; gap: 5px;">
+  <img src="/assets/jpegs/gcp-2.jpg" alt="gcp-1" width="500"/>
+  <img src="/assets/jpegs/gcp-1.jpg" alt="gcp-1" width="500"/>
+</div>
+
+##### DDL commands
 ```sql
 CREATE TABLE Departments(
   DepartmentId VARCHAR(10),
@@ -219,5 +223,29 @@ Output:
 15 rows in set (0.04 sec)
 ```
 
+##### Indexing Analysis
 
+```sql
+/* Example for Query 1 */
+
+EXPLAIN ANALYZE SELECT Departments.DepartmentId, COUNT(GuessId) AS TimesGuessed
+FROM Departments
+JOIN Courses ON Departments.DepartmentId = Courses.DepartmentId
+JOIN Guess ON Guess.CourseId = Courses.CourseId
+WHERE Guess.CurrentDate = '2024-08-21'
+GROUP BY Departments.DepartmentId
+ORDER BY TimesGuessed DESC;
+
+CREATE INDEX Course_Id ON Guess(CourseId);
+CREATE INDEX Dept_Id ON Courses(DepartmentId);
+CREATE INDEX Current_Date ON Guess(CurrentDate);
+```
+We did not notice a difference in our results or cost when indexing for the four queries. There are likely several reasons why the change in indexing did not bring a better effect on our queries’ performances. Most likely, the indexing was redundant due to MySQL’s automatic indexing. Our dataset also might have low-selectivity where scanning or filtering would be faster than accessing the index. This means variables like CurrentDate may have had many repeated values, leading to limited performance gains. Additionally, more complex queries such as these (with nested joins) can render indexing to be ineffective. Overall, for an index to improve query performance it should match the query structure and be used on high-selectivity columns. Creating queries that use different attributes could avoid the automatic indexing issue, however this would not improve overall performance.
+
+#### Advanced Database Programs
+Our application contains a **trigger** that updates a user’s favorite course (most guessed class) as it changes. The most guessed course can be seen by users in their information page which also displays other interesting user details and is where users can decide to change their email or delete their account. Without the trigger, we would have to recalculate the most guessed class every time it was checked. 
+
+The application also has a **stored procedure** which is called for every guess. It takes a department, number, user ID, and the current date to create a new record in the guess table as well as return information about the course guessed and the correct class. This allows the backend to wrap this information in a JSON format for the frontend to display to users. The user sees the department, number, name, number of credits, and Gen Ed of the guessed course. They also see whether they were right, wrong, too high, or too low for these attributes. This means they will be more informed for their next guess.
+
+Advanced database programs such as the trigger complement our application by improving performance and scalability by minimizing computation. The stored procedure also improves consistency and efficiency within the database logic. 
 

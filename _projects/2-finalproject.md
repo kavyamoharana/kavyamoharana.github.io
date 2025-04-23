@@ -12,8 +12,13 @@ custom_js:
 
 
 ## Inside Urbana's Arrests Data: A Visual Narrative
-Authors: Kavya Moharana, Sanjana Pai, Ridah Shaikh, Shreshika Bommana
 
+<p style="font-size: 16px; margin: 0;">
+  <em>
+  Fall 2023 Final Project for <a href="https://uiuc-ischool-dataviz.github.io/is445_bcubcg_fall2024/syllabus">IS 445</a>: Data Visualization at UIUC
+  </em>
+</p>
+<p style="font-size: 14px; margin-top: 0;">Group Members: Kavya Moharana, Sanjana Pai, Ridah Shaikh, Shreshika Bommana</p>
 ---
 
 <!-- ### 'City of Urbana Police Arrests' Dataset:
@@ -36,26 +41,20 @@ Direct [CSV link](https://data.illinois.gov/dataset/1d18ecc0-3c7e-4507-b8cc-7a5e
   }
 </style>
 
-<div class="left">
-  {% include elements/button.html link="https://data.illinois.gov/dataset/1d18ecc0-3c7e-4507-b8cc-7a5e30359d44/resource/ca1dceb3-01f8-4a56-935b-7e3035ff60a4/download/police-arrests-upload_20191226.csv" text="The Dataset" %}
-</div>
-<div class="left">
-  {% include elements/button.html link="https://github.com/jnaiman/online_cv_public/blob/main/python_notebooks/test_generate_plots.ipynb" text="The Analysis (Jupyter Notebook)" %}
-</div>
-<br>
+{% include elements/button.html link="https://data.illinois.gov/dataset/1d18ecc0-3c7e-4507-b8cc-7a5e30359d44/resource/ca1dceb3-01f8-4a56-935b-7e3035ff60a4/download/police-arrests-upload_20191226.csv" text="The Dataset" size="sm" %}
+{% include elements/button.html link="https://github.com/jnaiman/online_cv_public/blob/main/python_notebooks/test_generate_plots.ipynb" text="The Analysis (Jupyter Notebook)" size="sm" %}
 
-<br>
-<br>
 
 <style>
   .image-caption {
-    font-size: 14px; /* Adjust the font size as needed */
+    font-size: 13px; /* Adjust the font size as needed */
+    text-align: center;
   }
 </style>
 
 ![image tooltip here](/assets/pngs/contextviz1.png)
 
-<div class="image-caption">
+<div class="image-caption" >
   Source: Urbana, Illinois Profile. <a href="https://www.city-data.com/city/Urbana-Illinois.html" target="_blank">city-data.com/city/Urbana-Illinois.html</a>. Accessed 1 Dec. 2023.
 </div>
 

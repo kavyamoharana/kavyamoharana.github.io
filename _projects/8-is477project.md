@@ -39,6 +39,9 @@ custom_js:
   </a>
 </p>
 
+{% include elements/button.html link="https://github.com/kavyamoharana/kavyamoharana.github.io/blob/main/assets/pdfs/477-ProjectReport-Final.pdf" text="Read the Full Project Report" style="secondary" size="sm" %}
+{% include elements/button.html link="https://github.com/kavyamoharana/kavyamoharana.github.io/blob/main/python_notebooks/IS477-Project-Analysis.ipynb" text="The Analysis (Jupyter Notebook)" style="secondary" size="sm" %}
+
 <!-- [Archival Record](https://sandbox.zenodo.org/records/141771) [![DOI](https://sandbox.zenodo.org/badge/DOI/10.5072/zenodo.141771.svg)](https://handle.stage.datacite.org/10.5072/zenodo.141771) -->
 
 ### Summary
@@ -128,16 +131,6 @@ The dataset contains **12654 observations**, where each row represents electric 
 
 <span style="font-size: 14px;">In summary, the growth rate of electric vehicle (EV) registrations in Washington State has shown a clear upward trend from 1999 to 2023, with a slight decline in 2023 and 2024. Battery Electric Vehicles (BEVs) significantly outnumber Plug-in Hybrid Electric Vehicles (PHEVs) in registrations, with BEVs consistently showing higher growth rates. Regional analysis revealed that areas with high population density, such as King, Snohomish, and Pierce counties, have the largest EV registration counts. Pierce, Thurston, and Spokane counties also have the highest BEV growth advantage. This indicates that BEVs are growing faster in these counties compared to PHEVs, highlighting upward regional trends in EV adoption.</span>
 
-<div style="display: flex; gap: 10px;">
-    <div>
-        {% include elements/button.html link="https://github.com/kavyamoharana/kavyamoharana.github.io/blob/main/assets/pdfs/477-ProjectReport-Final.pdf" text="Read the Full Project Report" %}
-    </div>
-    <div class="left">
-        {% include elements/button.html link="https://github.com/kavyamoharana/kavyamoharana.github.io/blob/main/python_notebooks/IS477-Project-Analysis.ipynb" text="The Analysis (Jupyter Notebook)" %}
-    </div>
-</div>
-
-<br>
 
 ### Analysis
 

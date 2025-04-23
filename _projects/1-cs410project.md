@@ -37,16 +37,9 @@ custom_js:
   }
 </style>
 
-<div class="left">
-  {% include elements/button.html link="https://github.com/kavyamoharana/kavyamoharana.github.io/blob/main/assets/pdfs/410-Report.docx.pdf" text="View Full Report" %}
-</div>
-<div class="left">
-  {% include elements/button.html link="https://github.com/kavyamoharana/kavyamoharana.github.io/blob/main/python_notebooks/CS410-Project.ipynb" text="The Analysis (Jupyter Notebook)" %}
-</div>
-<br>
+{% include elements/button.html link="https://github.com/kavyamoharana/kavyamoharana.github.io/blob/main/assets/pdfs/410-Report.docx.pdf" text="View Full Report" size="sm" %}
+{% include elements/button.html link="https://github.com/kavyamoharana/kavyamoharana.github.io/blob/main/python_notebooks/CS410-Project.ipynb" text="The Analysis (Jupyter Notebook)" size="sm" %}
 
-<br>
-<br>
 
 #### Abstract
 Green Street’s wide variety of restaurants and cafes is an integral part of student life at the University of Illinois at Urbana-Champaign. Known as the “Heart of Campustown”, these establishments provide an important cultural and social hub for students, faculty, and residents. We intend to conduct sentiment analysis of the Yelp reviews for multiple major restaurants on this historical street. We will analyze online reviews over time periods to determine how students and food enthusiasts perceive these restaurants. Through this evaluation, we can see how the reception of these popular food spots has changed over the past decade.

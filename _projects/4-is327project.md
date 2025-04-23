@@ -22,11 +22,8 @@ custom_js:
 <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/>
 <a href="https://altair-viz.github.io/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Vega-Lite_Logo.svg/1920px-Vega-Lite_Logo.svg.png" alt="vega-lite" width="40" height="40"/>
 
-<div class="left">
-  {% include elements/button.html link="https://github.com/kavyamoharana/kavyamoharana.github.io/blob/main/python_notebooks/IS327-Project.ipynb" text="The Analysis (Jupyter Notebook)" %}
-</div>
-<br>
-<br>
+{% include elements/button.html link="https://github.com/kavyamoharana/kavyamoharana.github.io/blob/main/python_notebooks/IS327-Project.ipynb" text="The Analysis (Jupyter Notebook)" size="sm" %}
+
 
 #### Purpose and Problem Description
 The Climate Crisis is one of the most critical and urgent issues of our time. For most of history there has been a general lack in well-funded, proper climate change related research. Machine Learning approaches to global warming problems can provide more nuanced insights into climate patterns, complexities of global temperature trends, and help predict future climate scenarios.
