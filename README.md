@@ -1,13 +1,13 @@
 <h2 align="center">Hi 👋, I'm Kavya Moharana</h2>
-<h4 align="center">a dedicated 4th year Information Science + Data Science student at the University of Illinois Urbana-Champaign!</h4>
-
-- 🌱 I’m currently learning about **text mining and cybersecurity through my Computer Science and Data Science courses**
+<h4 align="center">a recent graduate of Information Science + Data Science from the University of Illinois Urbana-Champaign!</h4>
 
 - 👨‍💻 All of my projects are available at [https://kavyamoharana.github.io/projects/](https://kavyamoharana.github.io/projects/)
 
-- 📫 How to reach me **kavyam3@illinois.edu**
+- 📫 How to reach me **kavyaamoharana@gmail.com**
 
 - 📄 Know about my experiences [https://kavyamoharana.github.io/about/](https://kavyamoharana.github.io/about/)
+
+- 🌱 former student researcher for [UIUC Center For Health Informatics](https://chi.ischool.illinois.edu/)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
