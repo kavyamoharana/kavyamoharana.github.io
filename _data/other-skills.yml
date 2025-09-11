@@ -4,12 +4,17 @@
   color: success
 
 - name: Google Looker & Microsoft Power BI
-  percentage: 70
+  percentage: 75
   level: Intermediate
   color: info
 
+- name: Tableau
+  percentage: 60
+  level: Intermediate
+  color: secondary
+
 - name: Canva Design
-  percentage: 70
+  percentage: 75
   level: Intermediate
   color: info
 
