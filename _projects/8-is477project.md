@@ -13,10 +13,10 @@ custom_js:
 ## Analyzing Trends in Electric Vehicle Usage: US and Global Perspectives
 <p style="font-size: 16px; margin: 0;">
   <em>
-  Fall 2024 Final project for <a href="https://ischool.illinois.edu/degrees-programs/courses/is477">IS 477</a>: Data Management, Curation, and Reproducibility at UIUC
+    Final Project for <a href="https://ischool.illinois.edu/degrees-programs/courses/is477">IS 477</a>: Data Management, Curation, and Reproducibility at UIUC
   </em>
 </p>
-<p style="font-size: 14px; margin-top: 0;">Group Members: Kavya Moharana, Mahnur Khalid, Aisha Ziad</p>
+<p style="font-size: 14px; margin-top: 0;">By Kavya Moharana, Mahnur Khalid, Aisha Ziad</p>
 
 ---
 

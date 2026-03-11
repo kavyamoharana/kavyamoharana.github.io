@@ -14,10 +14,10 @@ custom_js:
 
 <p style="font-size: 16px; margin: 0;">
   <em>
-  Spring 2024 Final project for <a href="https://cs.illinois.edu/academics/courses/cs410">CS 410</a>: Text Information Systems at UIUC
+  Final Project for <a href="https://cs.illinois.edu/academics/courses/cs410">CS 410</a>: Text Information Systems at UIUC
   </em>
 </p>
-<p style="font-size: 14px; margin-top: 0;">Group Members: Pranav Chandra, Kavya Moharana, Sriya Mikkilineni, Aryan Vaswani</p>
+<p style="font-size: 14px; margin-top: 0;">By Kavya Moharana, Pranav Chandra, Sriya Mikkilineni, Aryan Vaswani</p>
 
 ---
 

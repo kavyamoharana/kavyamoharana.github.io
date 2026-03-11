@@ -13,21 +13,21 @@ custom_js:
 
 <p style="font-size: 16px; margin: 0;">
   <em>
-  Fall 2024 Final Project for <a href="https://alawini.web.illinois.edu/teaching/database-systems/">CS 411</a> at UIUC
+  Final Project for <a href="https://alawini.web.illinois.edu/teaching/database-systems/">CS 411</a> at UIUC
   </em>
 </p>
-<p style="font-size: 14px; margin-top: 0;">Group Members: James Mallek, Kavya Moharana, Sruthi Kode, Samidha Sampat</p>
+<p style="font-size: 14px; margin-top: 0;">By Kavya Moharana, James Mallek, Sruthi Kode, Samidha Sampat</p>
 
 ---
 
-<p style="font-size: 14px; margin: 0;">Languages, Libraries, and Tools Used</p>
+<!-- <p style="font-size: 14px; margin: 0;">Languages, Libraries, and Tools Used</p>
 >
 <a href="https://dev.mysql.com/doc/" target="_blank" rel="noreferrer"> <img src="https://static-00.iconduck.com/assets.00/database-mysql-icon-1849x2048-81vgyimd.png" alt="MySQL" width="50" height="50"/>
 <a href="https://www.uml.org/" target="_blank" rel="noreferrer"> <img src="https://www.fortux.com/img/uml_logo.svg" alt="uml" width="65" height="65"/>
-<a href="https://www.uml.org/" target="_blank" rel="noreferrer"> <img src="https://static-00.iconduck.com/assets.00/google-cloud-icon-2048x1646-7admxejz.png" alt="gcp" width="55" height="55"/>
+<a href="https://www.uml.org/" target="_blank" rel="noreferrer"> <img src="https://static-00.iconduck.com/assets.00/google-cloud-icon-2048x1646-7admxejz.png" alt="gcp" width="55" height="55"/> -->
 
-{% include elements/button.html link="https://github.com/kavyamoharana/kavyamoharana.github.io/blob/main/assets/pdfs/411-ProjectReport.pdf" text="View Full Report" size="sm" %}
-{% include elements/button.html link="https://github.com/cs411-alawini/fa24-cs411-team116-KSS.git" text="Project GitHub Repository" size="sm" %}
+{% include elements/button.html link="https://github.com/kavyamoharana/kavyamoharana.github.io/blob/main/assets/pdfs/411-ProjectReport.pdf" text="Full Report" size="sm" %}
+{% include elements/button.html link="https://github.com/cs411-alawini/fa24-cs411-team116-KSS/tree/main/stage4-checkpoint2-code/fa24-cs411-team116-KSS%202" text="Project GitHub" size="sm" %}
 
 #### Project Summary and Application Description
 

@@ -12,7 +12,7 @@ custom_js:
 
 
 ## Assessing Climate Change and Global Temperature Trends Over Time
-*Final project for [IS 327](https://ischool.illinois.edu/degrees-programs/courses/is327): Concepts of Machine Learning at UIUC*
+*Final Project for [IS 327](https://ischool.illinois.edu/degrees-programs/courses/is327): Concepts of Machine Learning at UIUC*
 
 ---
 
