@@ -8,7 +8,7 @@
 title               : Kavya Moharana's Project Portfolio 
 description         : >-
                       Welcome!
-                      Learn More <a href="http://kavyamoharana.vercel.app">here</a>
+                      Learn More <a href="http://kavyamoharana.vercel.app"><strong>Here</strong></a>
 baseurl             : ""   # Change to empty quotes if you are hosting your site at <your-username>.github.io directly,
 #                                             otherwise will be hosted at <your-username>.github.io/{{base_url}}
 repository          :                     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects) -- for example, I would put "jnaiman" without the quotes after the ":" here
@@ -39,13 +39,13 @@ author:
   image             : /assets/jpegs/grad-lib.jpg
 #  behance           : your_username
 # dribbble          : your_username
-  email             : kavyam3@illinois.edu
+  email             : kavyaamoharana@gmail.com
 #  facebook          : your_username
   github            : kavyamoharana # JPN
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
-  linkedin          : kavya-moharana-9a379624b
+  linkedin          : kavyamoharana
 #  medium           : your_username
 # soundcloud        : your_username
 # spotify           : your_username
