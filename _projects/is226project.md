@@ -1,4 +1,4 @@
----
+<!-- ---
 name: Designing a TV Show Tracking App
 tools: [Figma, Balsamiq]
 image: assets/pngs/226-cover.png
@@ -37,4 +37,4 @@ Binged is a social cataloging or tracking app for TV shows which serves as a mor
 *with Figma*
 
 <img src="/assets/pngs/figmadesign-1.png" alt="image tooltip here" width="900"/>
-<img src="/assets/pngs/figmadesign-2.png" alt="image tooltip here" width="900"/>
+<img src="/assets/pngs/figmadesign-2.png" alt="image tooltip here" width="900"/> -->

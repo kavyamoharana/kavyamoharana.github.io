@@ -4,7 +4,7 @@
   color: success
 
 - name: SQL
-  percentage: 80
+  percentage: 78
   level: Intermediate
   color: info
 
@@ -14,9 +14,9 @@
   color: info
 
 - name: Java
-  percentage: 60
-  level: Proficient
-  color: secondary
+  percentage: 70
+  level: Intermediate
+  color: info
 
 - name: HTML/CSS
   percentage: 55

@@ -5,14 +5,13 @@ permalink: /about/
 weight: 3
 ---
 
-# About Me
----
-I'm a recent graduate of University of Illinois Urbana-Champaign with a B.S. in Information Sciences + Data Science and minor in Computer Science. Having completed an interdisciplinary degree, I am passionate about human-centered and meaningful applications of Data Science. Enthusiastic about all things Data Engineering, Analytics, Health Informatics, and Data Visualization!
+# About
 
-Currently building Python-driven Agentic AI solutions for <a href="https://tempodyn.com/" style="color: #a560e8; text-decoration: none;"> TempoDyn </a>, an emerging startup for assisting government form processing and legacy system tasks across Healthcare, Social Services, and Finance. 
+I'm a recent graduate of University of Illinois Urbana-Champaign with a B.S. in Information Sciences + Data Science and minor in Computer Science. Enthusiastic about all things Data Engineering, Analytics, Health Informatics, and Data Visualization!
 
-Previously, I was part of the UIUC <a href="https://chi.healtheng.illinois.edu/projects/chime-in-illinois/" style="color: #a560e8; text-decoration: none;"> Center for Health Informatics </a> AI for <a href="https://journal.paho.org/en/articles/anti-infodemic-virtual-center-americas" style="color: #a560e8; text-decoration: none;"> Infodemic Management </a> research team at the School of Information Sciences. During my senior year, I worked to improve the functionality of an AI web <a href= "https://misinformation-detection.streamlit.app/" style="color: #a560e8; text-decoration: none;"> tool ↗ </a> for detecting health-based misinformation across social media platforms such as TikTok, participating in WHO's efforts to combat "Infodemics".
+<!-- Currently building Python-driven Agentic AI solutions for <a href="https://tempodyn.com/" style="color: #a560e8; text-decoration: none;"> TempoDyn </a>, an emerging startup for assisting government form processing and legacy system tasks across Healthcare, Social Services, and Finance.  -->
 
+Previously, I've been part of the UIUC <a href="https://chi.healtheng.illinois.edu/projects/chime-in-illinois/" style="color: #a560e8; text-decoration: none;"> Center for Health Informatics </a> AI for <a href="https://journal.paho.org/en/articles/anti-infodemic-virtual-center-americas" style="color: #a560e8; text-decoration: none;"> Infodemic Management </a> research team at the School of Information Sciences:
 <blockquote style="border-left: 4px solid #a560e8; padding-left: 10px;">
 To research LLMs in Infodemic management:
 <ul>
@@ -59,17 +58,15 @@ To research LLMs in Infodemic management:
     <br>
     {% include elements/button.html link="https://kavyamoharana.github.io/projects/9-cs411project" text="Project -- UIUC Class of the Day Game" style="light" size="sm" %}
 
-<!-- #### Information Science:
+#### Information Science:
 >
 - [Human-Computer Interaction](https://ischool.illinois.edu/degrees-programs/courses/is226): Prototyping and app design with Figma, Balsamiq, Axure RP, Adobe XD
-    <br>
-    {% include elements/button.html link="https://kavyamoharana.github.io/projects/is226project" text="Project -- App Design" style="light" size="sm" %}
 - [Risk and Cybersecurity](https://ischool.illinois.edu/degrees-programs/courses/is234): Cybersecurity and Cyber Risk fundamentals, security frameworks, and government regulations
     - Attack Vectors and Attack Surfaces
     - Cyber Kill Chain
     - Data breaches
     - Network Security
-- Research Design for IS: Research methods, writing, and design fundamentals -->
+- Research Design for IS: Research methods, writing, and design fundamentals
 
 <br>
 ### Certifications
@@ -137,14 +134,13 @@ a:hover {
 
 </p>
 
-<span style="font-size:16px; font-weight:bold; margin-right:10px;">Frontend Design:</span>
+<!-- <span style="font-size:16px; font-weight:bold; margin-right:10px;">Frontend Design:</span>
 <p align="left">
 <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a>
 <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a>
 <a href="https://jekyllrb.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jekyllrb/jekyllrb-icon.svg" alt="jekyll" width="40" height="40"/> </a>
 <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a>
-</p>
-
+</p> -->
 
 
 
